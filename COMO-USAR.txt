@@ -130,8 +130,16 @@ Os dois formulários também abrem pelos botões no topo do dashboard.
 Para gerar QR code: cole o link em qualquer gerador de QR (ex.:
 qr-code-generator.com), imprima e cole na entrada das áreas.
 
-ATUALIZAÇÃO AUTOMÁTICA: um robô no GitHub roda a cada 30 minutos,
-baixa as respostas dos formulários, processa e republica o dashboard.
+NO DASHBOARD, os formulários abrem em ABAS no topo da página:
+   [ 📊 Painel ]  [ 📝 Nova Inspeção ]  [ 🔧 Tratar NC ]
+O técnico preenche sem sair do dashboard.
+
+ATUALIZAÇÃO AUTOMÁTICA:
+ - A cada envio de formulário o robô é disparado na hora e o
+   dashboard atualiza em ~1 minuto (precisa instalar o gatilho:
+   veja as instruções dentro do arquivo FORMS-GATILHO.gs).
+ - Como rede de segurança, o robô também roda sozinho a cada
+   10 minutos.
 NÃO precisa fazer nada. O rodar.bat continua servindo para os canais
 manuais (WhatsApp, ON SAFETY, base de manutenção).
 
