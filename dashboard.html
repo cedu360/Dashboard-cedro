@@ -207,6 +207,44 @@
   }
   @media print { .abas-topo, .form-frame { display: none !important; } .view { display: block !important; } }
 
+  /* Manual "Como usar" */
+  .manual { max-width: 1100px; margin: 0 auto; }
+  .manual-titulo { font-size: 22px; font-weight: 800; margin: 0 0 6px; }
+  .manual-intro { color: var(--text-secondary); font-size: 14px; margin: 0 0 18px; max-width: 760px; }
+  .manual-h3 {
+    font-size: 15px; font-weight: 800; margin: 30px 0 12px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .manual-p { color: var(--text-secondary); font-size: 13px; margin: 0 0 12px; }
+  .manual-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  .manual-card {
+    background: var(--bg-card); border: 1px solid var(--border-color);
+    border-radius: 12px; padding: 16px; box-shadow: var(--card-shadow);
+  }
+  .manual-card h4 { margin: 0 0 8px; font-size: 14px; font-weight: 700; }
+  .manual-card p { margin: 0 0 8px; font-size: 13px; color: var(--text-secondary); line-height: 1.55; }
+  .manual-card ul, .manual-lista { margin: 8px 0 0; padding-left: 18px; }
+  .manual-card li, .manual-lista li {
+    font-size: 13px; color: var(--text-secondary); margin-bottom: 7px; line-height: 1.55;
+  }
+  .manual-card b, .manual-lista b, .manual-p b, .manual-intro b { color: var(--text-primary); }
+  .manual-aviso { color: var(--warn) !important; font-weight: 600; font-size: 12px !important; margin-top: 10px !important; }
+  .manual-tabela { width: 100%; border-collapse: collapse; background: var(--bg-card);
+    border: 1px solid var(--border-color); border-radius: 12px; overflow: hidden; }
+  .manual-tabela td { padding: 14px 16px; border-bottom: 1px solid var(--border-color);
+    font-size: 13px; color: var(--text-secondary); vertical-align: middle; line-height: 1.55; }
+  .manual-tabela td:first-child { width: 210px; white-space: nowrap; }
+  .manual-tabela tr:last-child td { border-bottom: none; }
+  .manual-tabela b { color: var(--text-primary); }
+  .manual-box {
+    border-radius: 10px; padding: 14px 16px; font-size: 13px; line-height: 1.6;
+    color: var(--text-secondary); margin: 16px 0;
+  }
+  .manual-box b { color: var(--text-primary); }
+  .manual-box-dica { background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.25); border-left: 3px solid var(--bar); }
+  .manual-box-final { background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.25); border-left: 3px solid var(--good); margin-top: 28px; }
+  .ex-num { font-family: var(--font-mono); font-weight: 700; color: var(--bar); }
+
   /* KPI Cards */
   .kpis {
     display: grid;
@@ -1055,6 +1093,7 @@
   <button class="aba-btn active" data-view="view-painel">📊 Painel</button>
   <button class="aba-btn" data-view="view-inspecao">📝 Nova Inspeção</button>
   <button class="aba-btn" data-view="view-tratativa">🔧 Tratar NC</button>
+  <button class="aba-btn" data-view="view-ajuda">❓ Como usar</button>
 </nav>
 
 <div id="view-painel" class="view active">
@@ -1994,6 +2033,157 @@
     </div>
     <p class="form-dica">Informe o número da NC (ex.: NC-0042 — aparece na tabela do painel), o novo status e a evidência.</p>
     <iframe class="form-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSfqWWCDT32pHS0XguQ2mzF8052vrVDHVOTPNc_Aj7zRCdtzDg/viewform?embedded=true" loading="lazy" title="Formulário de Tratativa">Carregando…</iframe>
+  </div>
+</div>
+
+<div id="view-ajuda" class="view">
+  <div class="manual">
+    <h2 class="manual-titulo">❓ Como usar este sistema</h2>
+    <p class="manual-intro">
+      Este painel controla <b>a frequência das inspeções de segurança</b> em cada área da mina e
+      <b>o andamento das não conformidades (NC)</b> encontradas. Ele se alimenta sozinho do que os
+      técnicos preenchem no formulário — ninguém precisa digitar nada em planilha.
+    </p>
+
+    <div class="manual-box manual-box-dica">
+      <b>Em 1 minuto:</b> o técnico vai à área → preenche a aba <b>📝 Nova Inspeção</b> →
+      se achou problema, descreve; se não achou, responde "Não" (isso comprova a visita) →
+      o painel se atualiza sozinho em até 30 minutos.
+    </div>
+
+    <h3 class="manual-h3">1. Para os técnicos — o dia a dia</h3>
+    <div class="manual-grid">
+      <div class="manual-card">
+        <h4>📝 Aba "Nova Inspeção"</h4>
+        <p>É o formulário que substitui o caderno e o sistema antigo. Funciona no celular.
+        Preencha <b>toda vez que for a uma área</b>, mesmo que esteja tudo certo.</p>
+        <ul>
+          <li><b>Data, hora, responsáveis e local</b> — identificam a visita.</li>
+          <li><b>"Houve não conformidade?"</b> → <b>Não</b>: o formulário termina ali e a visita fica
+          registrada. <b>Sim</b>: abre os campos do problema.</li>
+          <li><b>Descrição</b> — escreva o que viu, onde exatamente e, se souber, a
+          <b>TAG do equipamento</b> (ex.: TC-01, BP-04). A TAG liga a NC ao equipamento e às compras.</li>
+          <li><b>Risco e gravidade</b> — o quanto é perigoso e o que poderia acontecer.</li>
+          <li><b>Responsável pela tratativa e prazo</b> — quem corrige e até quando.</li>
+          <li><b>Viu 3 problemas na mesma visita?</b> No fim, responda "Sim" em
+          "Registrar OUTRA não conformidade" e preencha a NC 2 e a NC 3. Tudo fica ligado à mesma inspeção.</li>
+        </ul>
+      </div>
+      <div class="manual-card">
+        <h4>🔧 Aba "Tratar NC"</h4>
+        <p>Serve para <b>mudar o status</b> de uma NC que já existe — sem criar outra.</p>
+        <ul>
+          <li>Informe o <b>número da NC</b> (ex.: <span class="ex-num">NC-0042</span>). Ele aparece na
+          primeira coluna da tabela do painel.</li>
+          <li>Escolha o novo status: <b>Em andamento</b> (já está sendo resolvido) ou
+          <b>Concluído</b> (resolvido e verificado).</li>
+          <li>Escreva na <b>observação</b> o que foi feito — isso vira a evidência da tratativa.</li>
+        </ul>
+        <p class="manual-aviso">Nunca abra uma NC nova para dizer que a antiga foi resolvida — use esta aba.</p>
+      </div>
+    </div>
+
+    <h3 class="manual-h3">2. As cores — o que cada uma quer dizer</h3>
+    <p class="manual-p">Valem para o mapa e para os cartões de área. A regra usa a janela de
+    <b>15 dias</b> (tempo máximo que uma área pode ficar sem receber visita).</p>
+    <table class="manual-tabela">
+      <tr>
+        <td><span class="pill pill-verde"><b>✓</b> Em dia</span></td>
+        <td>Área <b>inspecionada</b> dentro dos últimos 15 dias e <b>sem NC aberta</b>. Está tudo certo.</td>
+      </tr>
+      <tr>
+        <td><span class="pill pill-amarelo"><b>!</b> Pendências abertas</span></td>
+        <td>Foi inspecionada, mas <b>existe NC aberta ainda dentro do prazo</b>. Atenção, sem urgência.</td>
+      </tr>
+      <tr>
+        <td><span class="pill pill-vermelho"><b>✕</b> Sem inspeção / NC vencida</span></td>
+        <td><b>Alerta.</b> Ou a área está há mais de 15 dias sem visita, ou tem NC com
+        <b>prazo estourado</b>. Exige ação imediata.</td>
+      </tr>
+    </table>
+
+    <h3 class="manual-h3">3. Os números do topo (KPIs)</h3>
+    <div class="manual-grid">
+      <div class="manual-card"><h4>Sectores em dia</h4><p>Quantas áreas estão verdes, do total.
+      É o "termômetro" geral da operação: <b>7/17 significa que 10 áreas precisam de atenção</b>.</p></div>
+      <div class="manual-card"><h4>Inspeções (15d)</h4><p>Quantas visitas foram registradas
+      na janela atual. Mede se a equipe está indo a campo na frequência combinada.</p></div>
+      <div class="manual-card"><h4>NCs abertas</h4><p>Problemas encontrados que <b>ainda não foram
+      resolvidos</b> (status Aberta ou Em andamento).</p></div>
+      <div class="manual-card"><h4>NCs vencidas</h4><p>Das abertas, quantas <b>passaram do prazo</b>
+      de correção. Este é o número mais crítico do painel — é o que a gestão cobra primeiro.</p></div>
+      <div class="manual-card"><h4>Resolvidas (histórico)</h4><p>Total já encerrado desde o começo.
+      Mostra o trabalho entregue pela equipe.</p></div>
+      <div class="manual-card"><h4>Lead time médio de resolução</h4><p>Quantos dias, em média, uma NC
+      leva <b>do apontamento até o encerramento</b>, e o <b>% resolvido dentro do prazo</b>.
+      Quanto menor o tempo e maior o percentual, melhor.</p></div>
+    </div>
+
+    <h3 class="manual-h3">4. Os blocos do painel</h3>
+    <div class="manual-grid">
+      <div class="manual-card"><h4>🛰️ Mapa da mina</h4><p>Foto de satélite com as áreas pintadas
+      na cor do status. <b>Passe o mouse</b> para ver o resumo e <b>clique</b> para abrir o detalhe
+      da área. Áreas com contorno tracejado têm posição aproximada.</p></div>
+      <div class="manual-card"><h4>📂 Status dos sectores</h4><p>Um cartão por área com:
+      <b>última inspeção</b> (e há quantos dias), <b>NC abertas</b>, <b>vencidas</b> e
+      <b>total de visitas</b>. Clicar abre o painel lateral com tudo daquela área.</p></div>
+      <div class="manual-card"><h4>📊 NCs por sector</h4><p>Quantas NCs cada área já gerou no
+      histórico. Serve para achar as áreas que <b>mais repetem problema</b> — candidatas a uma
+      ação de fundo, não só remendo.</p></div>
+      <div class="manual-card"><h4>🏆 Ranking por técnico</h4><p>Visitas, NCs lançadas, resolvidas e
+      lead time de cada técnico. <b>Clique no nome</b> para ver todas as NCs dele e onde cada uma
+      está parada. Muitas visitas e poucas NCs pode indicar inspeção superficial.</p></div>
+      <div class="manual-card"><h4>⚙️ Radar de equipamentos</h4><p>Vem da base de manutenção.
+      Mostra por equipamento: <b>NCs abertas</b>, <b>peças em atenção</b> (desgastadas/meia-vida) e
+      <b>compras em andamento</b>. <b>Clique</b> para acender a área no mapa e ver o detalhe.</p></div>
+      <div class="manual-card"><h4>🚦 Painel de cobrança</h4><p>Para a gestão cobrar quem trava o
+      processo. Mostra <b>NCs abertas por equipe responsável</b> (com as vencidas e a mais antiga),
+      <b>com qual analista as compras estão paradas</b> e as <b>solicitações mais antigas</b>.</p></div>
+      <div class="manual-card"><h4>📋 Histórico de NCs abertas</h4><p>A lista completa do que está
+      pendente, com número, área, risco, responsável e prazo. Use a <b>busca</b> (aceita o número da NC)
+      e os filtros de risco, responsável e status.</p></div>
+    </div>
+
+    <h3 class="manual-h3">5. O painel lateral (ao clicar numa área)</h3>
+    <p class="manual-p">Abre uma janela na direita com quatro abas:</p>
+    <ul class="manual-lista">
+      <li><b>Não Conformidades</b> — todas da área, pendentes primeiro. Cada cartão mostra o número,
+      equipamento, risco, responsável, prazo, quem apontou e — quando existe — o
+      <b>alerta azul de compras</b>: o que a manutenção já pediu, com quem está e há quantos dias.
+      Se não houver pedido, aparece um <b>aviso âmbar</b> dizendo que o fluxo nem começou.</li>
+      <li><b>Histórico de Visitas</b> — a trilha de todas as inspeções, acompanhamentos e desvios
+      daquela área, com data, hora e técnico. É a prova de que a área foi visitada.</li>
+      <li><b>Equipamentos</b> — o que existe naquela área segundo a base de manutenção, com peças
+      em atenção e compras em aberto.</li>
+      <li><b>Fluxo</b> — as solicitações de compra em aberto do setor, da mais parada para a mais recente.</li>
+    </ul>
+
+    <h3 class="manual-h3">6. Perguntas frequentes</h3>
+    <div class="manual-grid">
+      <div class="manual-card"><h4>Fui na área e estava tudo certo. Preciso registrar?</h4>
+      <p><b>Sim, é essencial.</b> Sem o registro, o sistema entende que ninguém foi lá e a área
+      fica vermelha por falta de inspeção. Responda "Não" em "Houve não conformidade" — leva 30 segundos.</p></div>
+      <div class="manual-card"><h4>Preenchi o formulário e não apareceu no painel</h4>
+      <p>O painel atualiza sozinho a cada <b>30 minutos</b>. Espere e atualize a página
+      (no celular, puxe a tela para baixo).</p></div>
+      <div class="manual-card"><h4>Errei um dado no formulário</h4>
+      <p>Não dá para editar o envio. Registre a correção usando a aba <b>Tratar NC</b>
+      (com o número da NC) e escreva na observação o que estava errado.</p></div>
+      <div class="manual-card"><h4>Por que a área está vermelha se não tem NC?</h4>
+      <p>Porque está há mais de 15 dias sem nenhuma inspeção registrada. Vermelho aqui
+      significa "não sabemos como está" — que é um risco tão grande quanto um problema conhecido.</p></div>
+      <div class="manual-card"><h4>Quem resolve a NC?</h4>
+      <p>A equipe indicada em "Responsável pela tratativa" (manutenção, elétrica, civil...).
+      A segurança <b>aponta e cobra</b>; quem executa é a área responsável.</p></div>
+      <div class="manual-card"><h4>Posso ver isso no celular?</h4>
+      <p>Sim. É o mesmo link, funciona em qualquer celular ou computador, sem instalar nada.
+      Salve nos favoritos.</p></div>
+    </div>
+
+    <div class="manual-box manual-box-final">
+      <b>Regra de ouro:</b> o que não é registrado não existe para a auditoria. Registrar a visita
+      (mesmo sem problema) é o que protege a equipe de segurança e mantém o histórico da mina.
+    </div>
   </div>
 </div>
 

@@ -2,7 +2,7 @@ name: Atualizar dashboard
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # rede de segurança: a cada 10 minutos
+    - cron: "*/30 * * * *"   # rede de segurança: a cada 30 minutos
   workflow_dispatch:          # disparado pelo gatilho do Google Forms (envio) ou manualmente
   push:
     branches: [main]

@@ -1,0 +1,109 @@
+=====================================================================
+   INSPEÇÃO DE SEGURANÇA — CEDRO MINERAÇÃO
+   Guia rápido para os técnicos  ·  imprima e cole no mural
+=====================================================================
+
+O QUE MUDOU
+Acabou o caderno e o sistema complicado. Agora é um formulário no
+celular. Você preenche em campo, na hora, e o painel da gestão se
+atualiza sozinho.
+
+---------------------------------------------------------------------
+OS DOIS LINKS (salve nos favoritos do celular)
+---------------------------------------------------------------------
+PAINEL (vê tudo + os formulários nas abas do topo):
+   https://cedu360.github.io/Dashboard-cedro/
+
+FORMULÁRIO DE INSPEÇÃO (registrar visita e problema):
+   https://docs.google.com/forms/d/e/1FAIpQLSft8i-3lJft1GBgEtIkQfvM2kShFFUAY-EpLvTgyjGp4bAJJg/viewform
+
+FORMULÁRIO DE TRATATIVA (mudar status de uma NC pelo número):
+   https://docs.google.com/forms/d/e/1FAIpQLSfqWWCDT32pHS0XguQ2mzF8052vrVDHVOTPNc_Aj7zRCdtzDg/viewform
+
+---------------------------------------------------------------------
+REGRA Nº 1 — REGISTRE TODA VISITA, MESMO SEM PROBLEMA
+---------------------------------------------------------------------
+Foi à área e estava tudo certo?
+  > Preencha o formulário e responda "Não" em "Houve não
+    conformidade / desvio?". O formulário termina ali (30 segundos).
+
+POR QUE ISSO IMPORTA: sem esse registro o sistema entende que
+NINGUÉM foi na área e ela fica VERMELHA por falta de inspeção.
+O registro é a sua prova de que o trabalho foi feito.
+
+---------------------------------------------------------------------
+ACHOU UM PROBLEMA? PREENCHA ASSIM
+---------------------------------------------------------------------
+1. Responda "Sim" em "Houve não conformidade / desvio?"
+
+2. DESCRIÇÃO — o campo mais importante. Escreva:
+     - o que você viu
+     - onde exatamente
+     - a TAG do equipamento, se souber (ex.: TC-01, BP-04, PN-02)
+   Exemplo bom:
+     "Guarda de proteção da correia TC-01 solta no lado direito,
+      próximo ao acesso de pedestres. Risco de contato com peça
+      em movimento."
+   Exemplo ruim:
+     "Proteção com problema."
+
+3. RISCO (Baixo/Médio/Alto/Crítico) e GRAVIDADE (o que poderia
+   acontecer: Sem lesão / Leve / Grave / Fatal).
+
+4. AÇÃO IMEDIATA — o que você já fez na hora (isolou a área,
+   parou a atividade, sinalizou). Se não fez nada, deixe em branco.
+
+5. RESPONSÁVEL PELA TRATATIVA — a equipe que vai corrigir
+   (Manutenção mecânica, Elétrica, Civil, Facilities, Operação...).
+
+6. PRAZO — até quando precisa estar resolvido.
+
+VIU 3 PROBLEMAS NA MESMA VISITA?
+   No final, responda "Sim" em "Registrar OUTRA não conformidade
+   nesta mesma inspeção" e preencha a NC 2 (e depois a NC 3).
+   Não precisa preencher o formulário três vezes.
+
+---------------------------------------------------------------------
+JÁ RESOLVEU (OU ESTÁ RESOLVENDO) UMA NC?
+---------------------------------------------------------------------
+Use o FORMULÁRIO DE TRATATIVA — nunca abra uma NC nova para dizer
+que a antiga foi resolvida.
+
+   1. Pegue o NÚMERO da NC (ex.: NC-0042). Ele aparece na primeira
+      coluna da tabela do painel.
+   2. Escolha o novo status:
+        Em andamento = já está sendo resolvido
+        Concluído    = resolvido e verificado
+   3. Escreva na observação o que foi feito (vira a evidência).
+
+---------------------------------------------------------------------
+AS CORES DO PAINEL
+---------------------------------------------------------------------
+  VERDE     área inspecionada nos últimos 15 dias e sem NC aberta
+  AMARELO   tem NC aberta, mas ainda dentro do prazo
+  VERMELHO  ALERTA: mais de 15 dias sem inspeção
+            OU tem NC com prazo vencido
+
+---------------------------------------------------------------------
+DÚVIDAS RÁPIDAS
+---------------------------------------------------------------------
+Preenchi e não apareceu no painel?
+   O painel atualiza a cada 30 minutos. Atualize a página depois.
+
+Errei um dado no envio?
+   Não dá para editar. Use o formulário de Tratativa citando o
+   número da NC e explique na observação.
+
+Preciso instalar alguma coisa?
+   Não. Funciona no navegador do celular. Só salve os links.
+
+Quem conserta o problema que eu apontei?
+   A equipe indicada em "Responsável pela tratativa". A segurança
+   aponta e cobra; a execução é da área responsável.
+
+---------------------------------------------------------------------
+Explicação completa de cada gráfico e indicador: abra o painel e
+clique na aba "❓ Como usar".
+
+Dúvidas: Josiane Lima (Coordenadora) · Alberto (Gerente)
+=====================================================================
