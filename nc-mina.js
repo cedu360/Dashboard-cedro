@@ -22,12 +22,9 @@ const EMPRESA = {
   coordenadora: "Josiane Lima",
 };
 
-// Links dos formulários online — cole aqui quando criar (Google Forms).
-// Com o link preenchido, aparecem botões no topo do dashboard.
-const LINKS_FORMS = {
-  inspecao: "",   // link "Enviar" do Formulário de Inspeção
-  tratativa: "",  // link "Enviar" do Formulário de Tratativa de NC
-};
+// Links dos formulários online: ficam no config-forms.json (criados pelo
+// FORMS-CRIAR.gs no Google). Com link preenchido, aparecem botões no dashboard.
+// (carregado mais abaixo, depois de DIR ser definido)
 
 // Áreas oficiais (mesma lista do Formulário de Inspeção)
 const AREAS = [
@@ -92,6 +89,15 @@ const DIR_DATA = path.join(DIR, "data");
 const ARQ_NC = path.join(DIR_DATA, "nao_conformidades.csv");
 const ARQ_INSP = path.join(DIR_DATA, "inspecoes.csv");
 const ARQ_DASH = path.join(DIR, "dashboard.html");
+
+const LINKS_FORMS = (() => {
+  try {
+    const cf = JSON.parse(fs.readFileSync(path.join(DIR, "config-forms.json"), "utf8"));
+    return { inspecao: cf.inspecao_link || "", tratativa: cf.tratativa_link || "" };
+  } catch (e) {
+    return { inspecao: "", tratativa: "" };
+  }
+})();
 
 // ---------------------------------------------------------------- util
 const norm = (s) =>

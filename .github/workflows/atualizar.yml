@@ -33,14 +33,12 @@ jobs:
       - name: Instalar dependências
         run: pip install --quiet openpyxl
 
-      # As URLs vêm de Settings > Secrets and variables > Actions > Variables:
-      #   FORMS_URL      = link da planilha de respostas do Form de Inspeção (publicada como .xlsx)
-      #   TRATATIVA_URL  = link da planilha do Form de Tratativa (publicada como .xlsx)
+      # As URLs das planilhas de resposta vêm do config-forms.json
+      # (preenchido com os links gerados pelo FORMS-CRIAR.gs)
       - name: Baixar respostas dos formulários
-        env:
-          FORMS_URL: ${{ vars.FORMS_URL }}
-          TRATATIVA_URL: ${{ vars.TRATATIVA_URL }}
         run: |
+          FORMS_URL=$(node -p "try{require('./config-forms.json').inspecao_xlsx||''}catch(e){''}")
+          TRATATIVA_URL=$(node -p "try{require('./config-forms.json').tratativa_xlsx||''}catch(e){''}")
           mkdir -p forms exports data
           if [ -n "$FORMS_URL" ]; then
             curl -sL "$FORMS_URL" -o forms/respostas_online.xlsx && echo "respostas baixadas" || echo "aviso: falha ao baixar respostas"
