@@ -114,6 +114,32 @@ O dashboard também lê as planilhas ACOMPANHAMENTO DAS SOLICITAÇÕES
 - Planilhas de acompanhamento mudaram? Rode:
       python extrai-solicitacoes.py
 
+=====================================================================
+LINKS DO SISTEMA (JÁ NO AR)
+=====================================================================
+DASHBOARD (gestão):
+   https://cedu360.github.io/Dashboard-cedro/
+
+FORMULÁRIO DE INSPEÇÃO (mandar para os 11 técnicos):
+   https://docs.google.com/forms/d/e/1FAIpQLSft8i-3lJft1GBgEtIkQfvM2kShFFUAY-EpLvTgyjGp4bAJJg/viewform
+
+FORMULÁRIO DE TRATATIVA DE NC (mudar status pelo número):
+   https://docs.google.com/forms/d/e/1FAIpQLSfqWWCDT32pHS0XguQ2mzF8052vrVDHVOTPNc_Aj7zRCdtzDg/viewform
+
+Os dois formulários também abrem pelos botões no topo do dashboard.
+Para gerar QR code: cole o link em qualquer gerador de QR (ex.:
+qr-code-generator.com), imprima e cole na entrada das áreas.
+
+ATUALIZAÇÃO AUTOMÁTICA: um robô no GitHub roda a cada 30 minutos,
+baixa as respostas dos formulários, processa e republica o dashboard.
+NÃO precisa fazer nada. O rodar.bat continua servindo para os canais
+manuais (WhatsApp, ON SAFETY, base de manutenção).
+
+Editar os formulários (mudar perguntas, adicionar foto):
+   https://docs.google.com/forms/d/11m3kG7IXWcSauPeZC3jyTeumGc2Ynm6802PdyBuHGew/edit
+   https://docs.google.com/forms/d/1D0LMkkJRSDEUzKi0e4S3GHYmo0KkzOWp6hg37fzdGPk/edit
+=====================================================================
+
 FORMULÁRIO DE INSPEÇÃO (FORMS) — O CANAL OFICIAL
 ---------------------------------------------------------------------
 As perguntas prontas para montar o formulário estão no arquivo
