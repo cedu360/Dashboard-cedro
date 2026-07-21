@@ -93,9 +93,16 @@ const ARQ_DASH = path.join(DIR, "dashboard.html");
 const LINKS_FORMS = (() => {
   try {
     const cf = JSON.parse(fs.readFileSync(path.join(DIR, "config-forms.json"), "utf8"));
-    return { inspecao: cf.inspecao_link || "", tratativa: cf.tratativa_link || "" };
+    // versão "embedded" abre o formulário dentro da própria aba do dashboard
+    const embed = (u) => (u ? u.replace(/\?.*$/, "") + "?embedded=true" : "");
+    return {
+      inspecao: cf.inspecao_link || "",
+      tratativa: cf.tratativa_link || "",
+      inspecaoEmbed: embed(cf.inspecao_link),
+      tratativaEmbed: embed(cf.tratativa_link),
+    };
   } catch (e) {
-    return { inspecao: "", tratativa: "" };
+    return { inspecao: "", tratativa: "", inspecaoEmbed: "", tratativaEmbed: "" };
   }
 })();
 
@@ -998,6 +1005,44 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
   }
   .btn-form { text-decoration: none; font-weight: 700; }
 
+  /* Abas do topo: Painel / Nova Inspeção / Tratar NC */
+  .abas-topo {
+    display: flex;
+    gap: 6px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+  }
+  .aba-btn {
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--text-secondary);
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: -1px;
+  }
+  .aba-btn:hover { color: var(--text-primary); background: var(--bg-surface-hover); border-radius: 8px 8px 0 0; }
+  .aba-btn.active { color: var(--bar); border-bottom-color: var(--bar); }
+  .view { display: none; }
+  .view.active { display: block; }
+  .form-card { max-width: 900px; margin: 0 auto; }
+  .form-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .form-dica { color: var(--text-secondary); font-size: 13px; margin: 8px 0 14px; }
+  .form-frame {
+    width: 100%;
+    height: 78vh;
+    min-height: 560px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background: #fff;
+  }
+  @media print { .abas-topo, .form-frame { display: none !important; } .view { display: block !important; } }
+
   /* KPI Cards */
   .kpis {
     display: grid;
@@ -1835,14 +1880,20 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
     <p class="sub">Relatório executivo gerado em ${fmtData(hoje)} · Janela operacional de ${JANELA_DIAS} dias</p>
   </div>
   <div class="header-actions">
-    ${LINKS_FORMS.inspecao ? `<a class="btn-theme btn-form" href="${esc(LINKS_FORMS.inspecao)}" target="_blank" rel="noopener">📝 Nova Inspeção</a>` : ""}
-    ${LINKS_FORMS.tratativa ? `<a class="btn-theme btn-form" href="${esc(LINKS_FORMS.tratativa)}" target="_blank" rel="noopener">🔧 Tratar NC</a>` : ""}
     <button id="themeToggle" class="btn-theme">
       <span class="icon">🌓</span> Tema Claro / Escuro
     </button>
   </div>
 </header>
 
+${(LINKS_FORMS.inspecaoEmbed || LINKS_FORMS.tratativaEmbed) ? `
+<nav class="abas-topo">
+  <button class="aba-btn active" data-view="view-painel">📊 Painel</button>
+  ${LINKS_FORMS.inspecaoEmbed ? `<button class="aba-btn" data-view="view-inspecao">📝 Nova Inspeção</button>` : ""}
+  ${LINKS_FORMS.tratativaEmbed ? `<button class="aba-btn" data-view="view-tratativa">🔧 Tratar NC</button>` : ""}
+</nav>` : ""}
+
+<div id="view-painel" class="view active">
 <div class="kpis">
   <div class="kpi kpi-total" id="kpi-saude">
     <div class="v">${emDia}/${AREAS.length}</div>
@@ -1959,6 +2010,31 @@ ${gargalosHtml}
   Mina de Ferro - Gerenciamento de Não Conformidades & Segurança Operacional.<br>
   Legenda do Mapa: ✓ Em Dia (Inspecionada e sem pendências) · ! Com Pendências Abertas (dentro do prazo) · ✕ Alerta Máximo (Sem inspeção na janela ou com NC vencida).
 </p>
+</div><!-- /view-painel -->
+
+${LINKS_FORMS.inspecaoEmbed ? `
+<div id="view-inspecao" class="view">
+  <div class="card form-card">
+    <div class="form-head">
+      <h2 class="section-title" style="margin:0"><span>📝</span> Registrar Inspeção / Não Conformidade</h2>
+      <a class="btn-theme btn-form" href="${esc(LINKS_FORMS.inspecao)}" target="_blank" rel="noopener">Abrir em nova janela ↗</a>
+    </div>
+    <p class="form-dica">Preencha e envie. O dashboard se atualiza sozinho em poucos minutos — não precisa fazer mais nada.</p>
+    <iframe class="form-frame" src="${esc(LINKS_FORMS.inspecaoEmbed)}" loading="lazy" title="Formulário de Inspeção">Carregando…</iframe>
+  </div>
+</div>` : ""}
+
+${LINKS_FORMS.tratativaEmbed ? `
+<div id="view-tratativa" class="view">
+  <div class="card form-card">
+    <div class="form-head">
+      <h2 class="section-title" style="margin:0"><span>🔧</span> Tratar uma NC (mudar status)</h2>
+      <a class="btn-theme btn-form" href="${esc(LINKS_FORMS.tratativa)}" target="_blank" rel="noopener">Abrir em nova janela ↗</a>
+    </div>
+    <p class="form-dica">Informe o número da NC (ex.: NC-0042 — aparece na tabela do painel), o novo status e a evidência.</p>
+    <iframe class="form-frame" src="${esc(LINKS_FORMS.tratativaEmbed)}" loading="lazy" title="Formulário de Tratativa">Carregando…</iframe>
+  </div>
+</div>` : ""}
 
 <!-- Slide-out Details Drawer -->
 <div class="drawer-backdrop" id="drawerBackdrop"></div>
@@ -2084,6 +2160,17 @@ ${gargalosHtml}
   const drawerTimeline = document.getElementById('drawer-timeline');
   
   const mapTooltip = document.getElementById('mapTooltip');
+
+  // Abas do topo (Painel / Nova Inspeção / Tratar NC)
+  document.querySelectorAll('.aba-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.aba-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const alvo = btn.getAttribute('data-view');
+      document.querySelectorAll('.view').forEach(v => v.classList.toggle('active', v.id === alvo));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
 
   // Inicializacao do Tema
   if (localStorage.getItem('theme') === 'light') {
