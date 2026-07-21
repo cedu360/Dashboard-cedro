@@ -1,0 +1,72 @@
+name: Atualizar dashboard
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # a cada 30 minutos
+  workflow_dispatch:          # botão "Run workflow" manual
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Sao_Paulo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install --quiet openpyxl
+
+      # As URLs vêm de Settings > Secrets and variables > Actions > Variables:
+      #   FORMS_URL      = link da planilha de respostas do Form de Inspeção (publicada como .xlsx)
+      #   TRATATIVA_URL  = link da planilha do Form de Tratativa (publicada como .xlsx)
+      - name: Baixar respostas dos formulários
+        env:
+          FORMS_URL: ${{ vars.FORMS_URL }}
+          TRATATIVA_URL: ${{ vars.TRATATIVA_URL }}
+        run: |
+          mkdir -p forms exports data
+          if [ -n "$FORMS_URL" ]; then
+            curl -sL "$FORMS_URL" -o forms/respostas_online.xlsx && echo "respostas baixadas" || echo "aviso: falha ao baixar respostas"
+          else
+            echo "FORMS_URL nao configurada - usando so os dados ja salvos"
+          fi
+          if [ -n "$TRATATIVA_URL" ]; then
+            curl -sL "$TRATATIVA_URL" -o forms/tratativa_online.xlsx && echo "tratativas baixadas" || echo "aviso: falha ao baixar tratativas"
+          fi
+
+      - name: Converter respostas dos formulários
+        run: python extrai-forms.py || echo "aviso - extrai-forms falhou, seguindo com dados existentes"
+
+      - name: Processar e gerar dashboard
+        run: node nc-mina.js
+
+      - name: Publicar
+        run: |
+          cp dashboard.html index.html
+          git config user.name "robo-cedro"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nada mudou - nada a publicar"
+          else
+            git commit -m "atualização automática do dashboard"
+            git pull --rebase origin main || true
+            git push origin main
+          fi

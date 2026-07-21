@@ -1,0 +1,30 @@
+01/07/2026 07:12 - Mensagens e ligações são protegidas com a criptografia de ponta a ponta.
+05/07/2026 08:30 - Marcos Silva: Bom dia pessoal, começando a ronda
+05/07/2026 09:14 - Marcos Silva: #NC
+Área: Filtro Prensa
+Equipamento: Bomba de polpa 02
+Problema: Vazamento de polpa na gaxeta da bomba
+Risco: Médio
+Responsável: Manutenção
+Prazo: 10/07
+Foto: (arquivo anexado)
+05/07/2026 09:40 - Marcos Silva: <Mídia oculta>
+06/07/2026 10:05 - Ana Costa: #INSPECAO Área de Vivência - tudo ok, refeitório limpo e organizado
+08/07/2026 14:22 - João Pereira: #NC
+Área: Britagem 2
+Equipamento: Correia TC-01
+Problema: Guarda de proteção da correia danificada
+Risco: Alto
+Responsável: Manutenção mecânica
+Prazo: 22/07
+10/07/2026 08:50 - Marcos Silva: #NC britagem - poeira excessiva perto do britador primário, aspersor desligado
+10/07/2026 08:52 - Marcos Silva: Risco: Baixo
+12/07/2026 09:30 - Ana Costa: #INSPECAO Concentração - sem NC, área ok
+13/07/2026 11:15 - João Pereira: #INSPECAO Britagem - aspersor religado, tudo certo agora
+14/07/2026 16:40 - Ana Costa: #NC
+Área: Britagem 2
+Problema: Extintor com carga vencida próximo ao painel elétrico
+Risco: Alto
+Responsável: Segurança
+Prazo: 25/07
+15/07/2026 07:55 - Marcos Silva: bom dia, alguém vai na britagem 3 essa semana?

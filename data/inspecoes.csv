@@ -1,0 +1,501 @@
+﻿Numero;Data;Hora;Tecnico;Area;Tipo
+INS-0500;16/07/2026;09:50;Tiago Santos;Concentração (Planta 3 + GX600);NC
+INS-0497;15/07/2026;09:15;Anderson Magalhães;Britagem 1;NC
+INS-0498;15/07/2026;13:40;Josiane Lima;Restaurante;NC
+INS-0499;15/07/2026;17:00;Josiane Lima;Restaurante;Acompanhamento
+INS-0495;14/07/2026;07:50;Daniele Coutinho;Filtragem;Rotina
+INS-0496;14/07/2026;10:45;Juscelino Santos;Restaurante;Rotina
+INS-0493;13/07/2026;08:30;Daniele Coutinho;Filtragem;Rotina
+INS-0494;13/07/2026;09:35;Fabiana Mello;Concentração (Planta 3 + GX600);NC
+INS-0491;12/07/2026;09:40;Wagner Rocha;Britagem 1A;Rotina
+INS-0492;12/07/2026;14:15;Phelippe Cerqueira;Filtragem;Acompanhamento
+INS-0489;11/07/2026;09:05;Fabiana Mello;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0490;11/07/2026;10:20;Tiago Santos;Concentração (Planta 3 + GX600);Rotina
+INS-0486;10/07/2026;08:50;Fabiana Mello;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0487;10/07/2026;14:40;Anderson Magalhães;Britagem 1;Acompanhamento
+INS-0488;10/07/2026;15:05;Flavia Tanner;Britagem 1;Rotina
+INS-0484;09/07/2026;07:45;Alberto Inácio;Área de Lavra;Rotina
+INS-0485;09/07/2026;09:05;Phelippe Cerqueira;Filtragem;NC
+INS-0481;08/07/2026;09:25;Anderson Magalhães;Britagem 1;NC
+INS-0482;08/07/2026;09:55;Josiane Lima;Restaurante;Acompanhamento
+INS-0483;08/07/2026;10:30;Wagner Rocha;Portaria;Rotina
+INS-0480;07/07/2026;09:15;Flavia Tanner;Centro Administrativo;Rotina
+INS-0479;06/07/2026;11:30;Lucas Conrado;Britagem 1A;Acompanhamento
+INS-0477;05/07/2026;08:10;Juscelino Santos;Britagem 1;Rotina
+INS-0478;05/07/2026;11:00;Daniele Coutinho;Balança;Rotina
+INS-0475;04/07/2026;11:10;Josiane Lima;Restaurante;NC
+INS-0476;04/07/2026;17:28;Lucas Conrado;Britagem 1;Acompanhamento
+INS-0473;03/07/2026;10:15;Lucas Conrado;Britagem 1A;NC
+INS-0474;03/07/2026;14:20;Lucas Conrado;PEC;Rotina
+INS-0472;02/07/2026;08:45;Fabiana Mello;Concentração (Planta 3 + GX600);NC
+INS-0452;30/06/2026;10:34;Fabiana Mello;Centro Administrativo;Acompanhamento
+INS-0453;30/06/2026;12:57;Flavia Tanner;Concentração (Planta 3 + GX600);Rotina
+INS-0454;30/06/2026;16:19;Daniele Coutinho;Britagem 1;Rotina
+INS-0455;30/06/2026;16:19;Daniele Coutinho;Britagem 1A;Rotina
+INS-0456;30/06/2026;16:19;Daniele Coutinho;Concentração (Planta 3 + GX600);Rotina
+INS-0457;30/06/2026;16:19;Daniele Coutinho;Filtragem;Rotina
+INS-0458;30/06/2026;16:19;Daniele Coutinho;Planta 4;Rotina
+INS-0459;30/06/2026;16:19;Daniele Coutinho;PEC;Rotina
+INS-0460;30/06/2026;16:19;Daniele Coutinho;Área de Lavra;Rotina
+INS-0461;30/06/2026;16:19;Daniele Coutinho;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0462;30/06/2026;16:19;Daniele Coutinho;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0463;30/06/2026;16:19;Daniele Coutinho;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0464;30/06/2026;16:19;Daniele Coutinho;Pátio Balança;Rotina
+INS-0465;30/06/2026;16:19;Daniele Coutinho;Balança;Rotina
+INS-0466;30/06/2026;16:19;Daniele Coutinho;Oficina AJPM;Rotina
+INS-0467;30/06/2026;16:19;Daniele Coutinho;Oficina MPC;Rotina
+INS-0468;30/06/2026;16:19;Daniele Coutinho;Restaurante;Rotina
+INS-0469;30/06/2026;16:19;Daniele Coutinho;Centro Administrativo;Rotina
+INS-0470;30/06/2026;16:19;Daniele Coutinho;Portaria;Rotina
+INS-0471;30/06/2026;17:22;Anderson Magalhães;Planta 4;Rotina
+INS-0450;28/06/2026;10:50;Juscelino Santos;Planta 4;Acompanhamento
+INS-0451;28/06/2026;16:32;Flavia Tanner;Área de Lavra;Rotina
+INS-0447;27/06/2026;09:49;Alberto Inácio;Britagem 1A;Rotina
+INS-0448;27/06/2026;09:52;Tiago Santos;PEC;Rotina
+INS-0449;27/06/2026;11:57;Flavia Tanner;Oficina AJPM;Rotina
+INS-0443;25/06/2026;09:11;Juscelino Santos;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0444;25/06/2026;09:52;Lucas Conrado;Concentração (Planta 3 + GX600);Rotina
+INS-0445;25/06/2026;12:11;Flavia Tanner;Oficina MPC;Rotina
+INS-0446;25/06/2026;13:20;Juscelino Santos;Planta 4;NC
+INS-0442;24/06/2026;10:49;Anderson Magalhães;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0441;23/06/2026;08:05;Josiane Lima;Britagem 1A;Acompanhamento
+INS-0440;22/06/2026;11:44;Tiago Santos;Britagem 1A;NC
+INS-0439;21/06/2026;17:20;Tiago Santos;Britagem 1;Acompanhamento
+INS-0434;20/06/2026;07:15;Alberto Inácio;Área de Lavra;Rotina
+INS-0435;20/06/2026;11:52;Josiane Lima;Área de Lavra;Acompanhamento
+INS-0436;20/06/2026;13:28;Alberto Inácio;Planta 4;Acompanhamento
+INS-0437;20/06/2026;14:59;Josiane Lima;Britagem 1;NC
+INS-0438;20/06/2026;16:28;Anderson Magalhães;Área de Lavra;Acompanhamento
+INS-0432;19/06/2026;07:08;Alberto Inácio;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0433;19/06/2026;17:33;Josiane Lima;Banheiro/Vestiário Cedro ADM;Acompanhamento
+INS-0431;18/06/2026;11:13;Lucas Conrado;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0428;17/06/2026;08:06;Daniele Coutinho;Área de Lavra;Acompanhamento
+INS-0429;17/06/2026;12:32;Phelippe Cerqueira;Concentração (Planta 3 + GX600);NC
+INS-0430;17/06/2026;15:26;Alberto Inácio;Balança;Rotina
+INS-0423;16/06/2026;08:06;Juscelino Santos;Centro Administrativo;NC
+INS-0424;16/06/2026;08:48;Fabiana Mello;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0425;16/06/2026;09:09;Daniele Coutinho;Área de Lavra;NC
+INS-0426;16/06/2026;13:46;Josiane Lima;Filtragem;Rotina
+INS-0427;16/06/2026;16:38;Tiago Santos;Oficina MPC;Acompanhamento
+INS-0422;15/06/2026;15:46;Josiane Lima;Banheiro/Vestiário Cedro Operacional;Acompanhamento
+INS-0418;14/06/2026;07:51;Tiago Santos;Área de Lavra;NC
+INS-0419;14/06/2026;12:01;Flavia Tanner;Concentração (Planta 3 + GX600);NC
+INS-0420;14/06/2026;12:51;Tiago Santos;Área de Lavra;Rotina
+INS-0421;14/06/2026;17:02;Tiago Santos;Área de Lavra;NC
+INS-0416;12/06/2026;10:11;Alberto Inácio;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0417;12/06/2026;10:38;Alberto Inácio;Planta 4;NC
+INS-0413;10/06/2026;14:37;Anderson Magalhães;Britagem 1;Acompanhamento
+INS-0414;10/06/2026;15:33;Wagner Rocha;Filtragem;Rotina
+INS-0415;10/06/2026;17:05;Fabiana Mello;Restaurante;Rotina
+INS-0410;09/06/2026;10:36;Wagner Rocha;Oficina MPC;NC
+INS-0411;09/06/2026;13:19;Alberto Inácio;Concentração (Planta 3 + GX600);Rotina
+INS-0412;09/06/2026;17:00;Flavia Tanner;Banheiro/Vestiário Cedro ADM;Acompanhamento
+INS-0407;08/06/2026;07:13;Phelippe Cerqueira;Filtragem;Acompanhamento
+INS-0408;08/06/2026;13:12;Josiane Lima;Britagem 1A;Acompanhamento
+INS-0409;08/06/2026;15:01;Phelippe Cerqueira;Britagem 1A;Acompanhamento
+INS-0404;07/06/2026;10:08;Tiago Santos;Banheiro/Vestiário Cedro Operacional;NC
+INS-0405;07/06/2026;14:13;Juscelino Santos;Britagem 1;Rotina
+INS-0406;07/06/2026;15:59;Alberto Inácio;Banheiro/Vestiário Cedro ADM;NC
+INS-0402;06/06/2026;17:08;Daniele Coutinho;Britagem 1A;NC
+INS-0403;06/06/2026;17:22;Daniele Coutinho;Britagem 1;Rotina
+INS-0401;05/06/2026;11:09;Alberto Inácio;Britagem 1A;Rotina
+INS-0399;04/06/2026;10:59;Flavia Tanner;Britagem 1;NC
+INS-0400;04/06/2026;16:40;Josiane Lima;Portaria;Rotina
+INS-0395;02/06/2026;08:58;Juscelino Santos;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0396;02/06/2026;09:36;Wagner Rocha;Planta 4;Rotina
+INS-0397;02/06/2026;12:18;Daniele Coutinho;Filtragem;NC
+INS-0398;02/06/2026;14:46;Juscelino Santos;Centro Administrativo;Rotina
+INS-0393;01/06/2026;13:33;Fabiana Mello;Britagem 1A;Rotina
+INS-0394;01/06/2026;17:41;Phelippe Cerqueira;Pátio Balança;Rotina
+INS-0375;31/05/2026;07:05;Fabiana Mello;Britagem 1;Rotina
+INS-0376;31/05/2026;16:05;Juscelino Santos;Britagem 1;Rotina
+INS-0377;31/05/2026;16:05;Juscelino Santos;Britagem 1A;Rotina
+INS-0378;31/05/2026;16:05;Juscelino Santos;Concentração (Planta 3 + GX600);Rotina
+INS-0379;31/05/2026;16:05;Juscelino Santos;Filtragem;Rotina
+INS-0380;31/05/2026;16:05;Juscelino Santos;Planta 4;Rotina
+INS-0381;31/05/2026;16:05;Juscelino Santos;PEC;Rotina
+INS-0382;31/05/2026;16:05;Juscelino Santos;Área de Lavra;Rotina
+INS-0383;31/05/2026;16:05;Juscelino Santos;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0384;31/05/2026;16:05;Juscelino Santos;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0385;31/05/2026;16:05;Juscelino Santos;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0386;31/05/2026;16:05;Juscelino Santos;Pátio Balança;Rotina
+INS-0387;31/05/2026;16:05;Juscelino Santos;Balança;Rotina
+INS-0388;31/05/2026;16:05;Juscelino Santos;Oficina AJPM;Rotina
+INS-0389;31/05/2026;16:05;Juscelino Santos;Oficina MPC;Rotina
+INS-0390;31/05/2026;16:05;Juscelino Santos;Restaurante;Rotina
+INS-0391;31/05/2026;16:05;Juscelino Santos;Centro Administrativo;Rotina
+INS-0392;31/05/2026;16:05;Juscelino Santos;Portaria;Rotina
+INS-0373;28/05/2026;13:09;Wagner Rocha;Área de Lavra;Rotina
+INS-0374;28/05/2026;15:29;Tiago Santos;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0372;27/05/2026;08:59;Alberto Inácio;Britagem 1A;Rotina
+INS-0370;25/05/2026;10:29;Tiago Santos;Portaria;Acompanhamento
+INS-0371;25/05/2026;17:36;Alberto Inácio;Área de Lavra;Rotina
+INS-0367;24/05/2026;08:10;Lucas Conrado;Planta 4;Rotina
+INS-0368;24/05/2026;13:46;Phelippe Cerqueira;Britagem 1;Acompanhamento
+INS-0369;24/05/2026;14:02;Fabiana Mello;Pátio Balança;Rotina
+INS-0365;23/05/2026;09:49;Fabiana Mello;Pátio Balança;Acompanhamento
+INS-0366;23/05/2026;15:32;Juscelino Santos;Área de Lavra;Acompanhamento
+INS-0362;22/05/2026;07:27;Flavia Tanner;Britagem 1A;Acompanhamento
+INS-0363;22/05/2026;10:18;Alberto Inácio;Britagem 1;Rotina
+INS-0364;22/05/2026;13:05;Juscelino Santos;Oficina MPC;Acompanhamento
+INS-0361;21/05/2026;16:31;Wagner Rocha;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0359;20/05/2026;13:19;Anderson Magalhães;Planta 4;Rotina
+INS-0360;20/05/2026;14:43;Lucas Conrado;Filtragem;Rotina
+INS-0356;19/05/2026;09:52;Tiago Santos;Filtragem;Acompanhamento
+INS-0357;19/05/2026;10:28;Daniele Coutinho;Britagem 1;Acompanhamento
+INS-0358;19/05/2026;15:08;Lucas Conrado;Planta 4;Acompanhamento
+INS-0354;18/05/2026;09:15;Josiane Lima;Concentração (Planta 3 + GX600);Rotina
+INS-0355;18/05/2026;09:43;Phelippe Cerqueira;Portaria;Acompanhamento
+INS-0352;17/05/2026;13:36;Daniele Coutinho;Britagem 1;NC
+INS-0353;17/05/2026;13:39;Anderson Magalhães;Planta 4;NC
+INS-0351;16/05/2026;13:02;Tiago Santos;Portaria;NC
+INS-0350;15/05/2026;12:20;Juscelino Santos;Área de Lavra;Acompanhamento
+INS-0349;14/05/2026;14:21;Daniele Coutinho;Britagem 1A;Acompanhamento
+INS-0341;13/05/2026;07:29;Fabiana Mello;Área de Lavra;Rotina
+INS-0342;13/05/2026;08:53;Fabiana Mello;Restaurante;Rotina
+INS-0343;13/05/2026;10:40;Lucas Conrado;Centro Administrativo;Rotina
+INS-0344;13/05/2026;10:45;Phelippe Cerqueira;Britagem 1A;Acompanhamento
+INS-0345;13/05/2026;12:33;Wagner Rocha;Britagem 1A;Acompanhamento
+INS-0346;13/05/2026;13:15;Daniele Coutinho;Oficina MPC;Rotina
+INS-0347;13/05/2026;14:40;Wagner Rocha;Oficina MPC;NC
+INS-0348;13/05/2026;17:26;Lucas Conrado;Área de Lavra;NC
+INS-0338;12/05/2026;08:53;Fabiana Mello;Filtragem;NC
+INS-0339;12/05/2026;14:41;Josiane Lima;Concentração (Planta 3 + GX600);Rotina
+INS-0340;12/05/2026;15:36;Anderson Magalhães;Britagem 1A;NC
+INS-0337;11/05/2026;16:11;Alberto Inácio;Restaurante;Acompanhamento
+INS-0334;10/05/2026;15:10;Daniele Coutinho;Britagem 1;Rotina
+INS-0335;10/05/2026;15:13;Fabiana Mello;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0336;10/05/2026;17:53;Wagner Rocha;Britagem 1A;Acompanhamento
+INS-0332;09/05/2026;08:39;Lucas Conrado;Britagem 1A;NC
+INS-0333;09/05/2026;12:23;Wagner Rocha;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0330;08/05/2026;08:23;Alberto Inácio;Pátio Balança;NC
+INS-0331;08/05/2026;10:48;Fabiana Mello;Filtragem;Rotina
+INS-0328;07/05/2026;16:51;Anderson Magalhães;Britagem 1A;Rotina
+INS-0329;07/05/2026;17:24;Lucas Conrado;PEC;Rotina
+INS-0327;06/05/2026;17:43;Wagner Rocha;Britagem 1A;NC
+INS-0326;05/05/2026;16:26;Phelippe Cerqueira;Filtragem;Rotina
+INS-0322;04/05/2026;09:26;Phelippe Cerqueira;Portaria;Rotina
+INS-0323;04/05/2026;12:05;Tiago Santos;Planta 4;Rotina
+INS-0324;04/05/2026;13:56;Anderson Magalhães;Concentração (Planta 3 + GX600);NC
+INS-0325;04/05/2026;15:52;Wagner Rocha;Balança;Acompanhamento
+INS-0320;03/05/2026;09:47;Josiane Lima;Oficina AJPM;Rotina
+INS-0321;03/05/2026;16:52;Alberto Inácio;Restaurante;NC
+INS-0317;02/05/2026;08:55;Flavia Tanner;Concentração (Planta 3 + GX600);Rotina
+INS-0318;02/05/2026;16:15;Phelippe Cerqueira;Balança;NC
+INS-0319;02/05/2026;17:10;Daniele Coutinho;Balança;Rotina
+INS-0316;01/05/2026;14:11;Phelippe Cerqueira;Planta 4;Acompanhamento
+INS-0297;30/04/2026;10:30;Flavia Tanner;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0298;30/04/2026;16:07;Flavia Tanner;Britagem 1;Rotina
+INS-0299;30/04/2026;16:07;Flavia Tanner;Britagem 1A;Rotina
+INS-0300;30/04/2026;16:07;Flavia Tanner;Concentração (Planta 3 + GX600);Rotina
+INS-0301;30/04/2026;16:07;Flavia Tanner;Filtragem;Rotina
+INS-0302;30/04/2026;16:07;Flavia Tanner;Planta 4;Rotina
+INS-0303;30/04/2026;16:07;Flavia Tanner;PEC;Rotina
+INS-0304;30/04/2026;16:07;Flavia Tanner;Área de Lavra;Rotina
+INS-0305;30/04/2026;16:07;Flavia Tanner;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0306;30/04/2026;16:07;Flavia Tanner;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0307;30/04/2026;16:07;Flavia Tanner;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0308;30/04/2026;16:07;Flavia Tanner;Pátio Balança;Rotina
+INS-0309;30/04/2026;16:07;Flavia Tanner;Balança;Rotina
+INS-0310;30/04/2026;16:07;Flavia Tanner;Oficina AJPM;Rotina
+INS-0311;30/04/2026;16:07;Flavia Tanner;Oficina MPC;Rotina
+INS-0312;30/04/2026;16:07;Flavia Tanner;Restaurante;Rotina
+INS-0313;30/04/2026;16:07;Flavia Tanner;Centro Administrativo;Rotina
+INS-0314;30/04/2026;16:07;Flavia Tanner;Portaria;Rotina
+INS-0315;30/04/2026;17:43;Tiago Santos;Britagem 1;Rotina
+INS-0295;29/04/2026;15:52;Lucas Conrado;Banheiro/Vestiário Cedro Contratadas;Acompanhamento
+INS-0296;29/04/2026;17:34;Tiago Santos;Balança;Rotina
+INS-0294;28/04/2026;10:07;Flavia Tanner;Centro Administrativo;Rotina
+INS-0291;27/04/2026;08:37;Tiago Santos;Concentração (Planta 3 + GX600);Rotina
+INS-0292;27/04/2026;10:36;Juscelino Santos;Área de Lavra;Rotina
+INS-0293;27/04/2026;14:56;Josiane Lima;Restaurante;Acompanhamento
+INS-0290;26/04/2026;12:13;Phelippe Cerqueira;Centro Administrativo;Acompanhamento
+INS-0289;25/04/2026;11:56;Juscelino Santos;Banheiro/Vestiário Cedro Operacional;Acompanhamento
+INS-0287;24/04/2026;10:14;Anderson Magalhães;Planta 4;Rotina
+INS-0288;24/04/2026;15:48;Wagner Rocha;Britagem 1;Acompanhamento
+INS-0286;23/04/2026;17:52;Anderson Magalhães;Área de Lavra;Rotina
+INS-0284;22/04/2026;09:43;Lucas Conrado;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0285;22/04/2026;12:53;Anderson Magalhães;Britagem 1A;Acompanhamento
+INS-0281;21/04/2026;07:10;Alberto Inácio;Restaurante;NC
+INS-0282;21/04/2026;14:55;Tiago Santos;Planta 4;NC
+INS-0283;21/04/2026;17:11;Wagner Rocha;Filtragem;Rotina
+INS-0279;20/04/2026;07:53;Daniele Coutinho;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0280;20/04/2026;15:44;Alberto Inácio;Banheiro/Vestiário Cedro Contratadas;Acompanhamento
+INS-0276;19/04/2026;07:30;Juscelino Santos;Britagem 1;Rotina
+INS-0277;19/04/2026;08:34;Fabiana Mello;Britagem 1A;Acompanhamento
+INS-0278;19/04/2026;16:41;Tiago Santos;Britagem 1A;Acompanhamento
+INS-0275;18/04/2026;08:05;Anderson Magalhães;Banheiro/Vestiário Cedro Contratadas;NC
+INS-0274;17/04/2026;10:53;Juscelino Santos;Britagem 1A;NC
+INS-0273;16/04/2026;09:22;Alberto Inácio;Filtragem;Acompanhamento
+INS-0269;15/04/2026;07:59;Daniele Coutinho;PEC;Acompanhamento
+INS-0270;15/04/2026;11:04;Josiane Lima;Banheiro/Vestiário Cedro ADM;Acompanhamento
+INS-0271;15/04/2026;14:12;Fabiana Mello;Banheiro/Vestiário Cedro Operacional;Acompanhamento
+INS-0272;15/04/2026;16:56;Tiago Santos;Britagem 1A;Acompanhamento
+INS-0265;14/04/2026;10:30;Anderson Magalhães;Britagem 1;NC
+INS-0266;14/04/2026;16:39;Anderson Magalhães;Planta 4;Rotina
+INS-0267;14/04/2026;17:56;Daniele Coutinho;Banheiro/Vestiário Cedro Operacional;NC
+INS-0268;14/04/2026;17:56;Juscelino Santos;Centro Administrativo;Acompanhamento
+INS-0261;13/04/2026;09:18;Alberto Inácio;Centro Administrativo;NC
+INS-0262;13/04/2026;10:39;Josiane Lima;Filtragem;NC
+INS-0263;13/04/2026;16:37;Josiane Lima;Filtragem;Rotina
+INS-0264;13/04/2026;17:09;Tiago Santos;Britagem 1A;NC
+INS-0259;12/04/2026;13:02;Tiago Santos;Britagem 1A;Rotina
+INS-0260;12/04/2026;15:34;Josiane Lima;Planta 4;Acompanhamento
+INS-0257;11/04/2026;14:28;Tiago Santos;Concentração (Planta 3 + GX600);NC
+INS-0258;11/04/2026;15:57;Daniele Coutinho;PEC;NC
+INS-0254;10/04/2026;11:29;Alberto Inácio;Concentração (Planta 3 + GX600);Rotina
+INS-0255;10/04/2026;15:17;Anderson Magalhães;Área de Lavra;Acompanhamento
+INS-0256;10/04/2026;17:32;Alberto Inácio;Oficina MPC;Rotina
+INS-0252;09/04/2026;07:04;Alberto Inácio;PEC;Rotina
+INS-0253;09/04/2026;11:20;Anderson Magalhães;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0251;08/04/2026;07:11;Phelippe Cerqueira;Concentração (Planta 3 + GX600);Rotina
+INS-0246;07/04/2026;07:16;Lucas Conrado;Filtragem;Rotina
+INS-0247;07/04/2026;09:40;Flavia Tanner;Britagem 1A;Rotina
+INS-0248;07/04/2026;10:19;Tiago Santos;Portaria;Rotina
+INS-0249;07/04/2026;10:36;Flavia Tanner;Área de Lavra;Acompanhamento
+INS-0250;07/04/2026;16:31;Wagner Rocha;Portaria;Acompanhamento
+INS-0242;06/04/2026;07:08;Phelippe Cerqueira;Britagem 1A;Rotina
+INS-0243;06/04/2026;15:33;Lucas Conrado;Pátio Balança;Rotina
+INS-0244;06/04/2026;17:15;Fabiana Mello;Portaria;Acompanhamento
+INS-0245;06/04/2026;17:19;Josiane Lima;Concentração (Planta 3 + GX600);NC
+INS-0238;05/04/2026;09:49;Daniele Coutinho;Planta 4;NC
+INS-0239;05/04/2026;11:07;Daniele Coutinho;Portaria;NC
+INS-0240;05/04/2026;13:05;Alberto Inácio;Oficina AJPM;Rotina
+INS-0241;05/04/2026;15:33;Phelippe Cerqueira;Área de Lavra;Acompanhamento
+INS-0234;04/04/2026;10:17;Phelippe Cerqueira;Restaurante;Rotina
+INS-0235;04/04/2026;11:24;Flavia Tanner;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0236;04/04/2026;15:06;Lucas Conrado;Banheiro/Vestiário Cedro ADM;NC
+INS-0237;04/04/2026;16:51;Anderson Magalhães;Área de Lavra;Acompanhamento
+INS-0233;03/04/2026;10:10;Wagner Rocha;Área de Lavra;NC
+INS-0232;02/04/2026;09:06;Phelippe Cerqueira;Área de Lavra;NC
+INS-0213;31/03/2026;10:17;Fabiana Mello;Balança;Rotina
+INS-0214;31/03/2026;13:52;Tiago Santos;Britagem 1;Acompanhamento
+INS-0215;31/03/2026;16:32;Wagner Rocha;Britagem 1;Rotina
+INS-0216;31/03/2026;16:32;Wagner Rocha;Britagem 1A;Rotina
+INS-0217;31/03/2026;16:32;Wagner Rocha;Concentração (Planta 3 + GX600);Rotina
+INS-0218;31/03/2026;16:32;Wagner Rocha;Filtragem;Rotina
+INS-0219;31/03/2026;16:32;Wagner Rocha;Planta 4;Rotina
+INS-0220;31/03/2026;16:32;Wagner Rocha;PEC;Rotina
+INS-0221;31/03/2026;16:32;Wagner Rocha;Área de Lavra;Rotina
+INS-0222;31/03/2026;16:32;Wagner Rocha;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0223;31/03/2026;16:32;Wagner Rocha;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0224;31/03/2026;16:32;Wagner Rocha;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0225;31/03/2026;16:32;Wagner Rocha;Pátio Balança;Rotina
+INS-0226;31/03/2026;16:32;Wagner Rocha;Balança;Rotina
+INS-0227;31/03/2026;16:32;Wagner Rocha;Oficina AJPM;Rotina
+INS-0228;31/03/2026;16:32;Wagner Rocha;Oficina MPC;Rotina
+INS-0229;31/03/2026;16:32;Wagner Rocha;Restaurante;Rotina
+INS-0230;31/03/2026;16:32;Wagner Rocha;Centro Administrativo;Rotina
+INS-0231;31/03/2026;16:32;Wagner Rocha;Portaria;Rotina
+INS-0211;30/03/2026;10:57;Flavia Tanner;Concentração (Planta 3 + GX600);Rotina
+INS-0212;30/03/2026;11:00;Flavia Tanner;Britagem 1A;Rotina
+INS-0210;29/03/2026;10:57;Flavia Tanner;Filtragem;Acompanhamento
+INS-0206;28/03/2026;07:16;Phelippe Cerqueira;Concentração (Planta 3 + GX600);Rotina
+INS-0207;28/03/2026;09:13;Phelippe Cerqueira;Oficina AJPM;Rotina
+INS-0208;28/03/2026;10:38;Wagner Rocha;Britagem 1;Rotina
+INS-0209;28/03/2026;16:14;Wagner Rocha;Britagem 1A;Acompanhamento
+INS-0204;27/03/2026;14:35;Fabiana Mello;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0205;27/03/2026;14:52;Alberto Inácio;Filtragem;Rotina
+INS-0202;26/03/2026;09:02;Anderson Magalhães;Concentração (Planta 3 + GX600);Rotina
+INS-0203;26/03/2026;11:51;Josiane Lima;Área de Lavra;Acompanhamento
+INS-0199;25/03/2026;09:48;Juscelino Santos;Centro Administrativo;Acompanhamento
+INS-0200;25/03/2026;16:24;Anderson Magalhães;Banheiro/Vestiário Cedro Contratadas;Acompanhamento
+INS-0201;25/03/2026;16:47;Anderson Magalhães;Centro Administrativo;Acompanhamento
+INS-0196;24/03/2026;07:57;Josiane Lima;Britagem 1A;Acompanhamento
+INS-0197;24/03/2026;08:31;Juscelino Santos;Restaurante;Rotina
+INS-0198;24/03/2026;13:41;Wagner Rocha;Britagem 1A;Acompanhamento
+INS-0195;23/03/2026;12:50;Josiane Lima;Centro Administrativo;NC
+INS-0192;22/03/2026;16:54;Anderson Magalhães;Britagem 1A;NC
+INS-0193;22/03/2026;17:02;Josiane Lima;Britagem 1;Acompanhamento
+INS-0194;22/03/2026;17:13;Daniele Coutinho;Britagem 1;Acompanhamento
+INS-0191;21/03/2026;17:52;Josiane Lima;Área de Lavra;NC
+INS-0187;20/03/2026;09:06;Josiane Lima;Britagem 1;NC
+INS-0188;20/03/2026;09:07;Wagner Rocha;Banheiro/Vestiário Cedro Contratadas;NC
+INS-0189;20/03/2026;12:15;Josiane Lima;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0190;20/03/2026;15:37;Alberto Inácio;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0184;19/03/2026;09:29;Wagner Rocha;Filtragem;NC
+INS-0185;19/03/2026;09:41;Daniele Coutinho;Britagem 1A;NC
+INS-0186;19/03/2026;10:29;Fabiana Mello;Oficina AJPM;Acompanhamento
+INS-0183;18/03/2026;17:43;Flavia Tanner;Britagem 1;Acompanhamento
+INS-0181;17/03/2026;12:31;Josiane Lima;Britagem 1;NC
+INS-0182;17/03/2026;17:34;Tiago Santos;Pátio Balança;Rotina
+INS-0179;16/03/2026;10:46;Fabiana Mello;Planta 4;Acompanhamento
+INS-0180;16/03/2026;15:57;Wagner Rocha;Portaria;Rotina
+INS-0177;15/03/2026;07:47;Tiago Santos;Centro Administrativo;Rotina
+INS-0178;15/03/2026;10:04;Juscelino Santos;Concentração (Planta 3 + GX600);NC
+INS-0174;14/03/2026;14:32;Juscelino Santos;Britagem 1;Rotina
+INS-0175;14/03/2026;15:10;Lucas Conrado;Oficina AJPM;NC
+INS-0176;14/03/2026;17:25;Daniele Coutinho;Filtragem;Acompanhamento
+INS-0172;13/03/2026;10:45;Daniele Coutinho;Britagem 1;NC
+INS-0173;13/03/2026;17:17;Lucas Conrado;Área de Lavra;Rotina
+INS-0171;12/03/2026;09:13;Josiane Lima;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0168;10/03/2026;12:39;Daniele Coutinho;Filtragem;NC
+INS-0169;10/03/2026;15:13;Lucas Conrado;Concentração (Planta 3 + GX600);NC
+INS-0170;10/03/2026;17:28;Flavia Tanner;Área de Lavra;Acompanhamento
+INS-0167;08/03/2026;13:27;Flavia Tanner;Planta 4;NC
+INS-0165;07/03/2026;11:16;Anderson Magalhães;Planta 4;Rotina
+INS-0166;07/03/2026;16:05;Phelippe Cerqueira;Britagem 1;Rotina
+INS-0163;06/03/2026;14:10;Daniele Coutinho;Área de Lavra;NC
+INS-0164;06/03/2026;14:21;Fabiana Mello;Área de Lavra;Rotina
+INS-0162;05/03/2026;15:37;Juscelino Santos;Oficina MPC;Rotina
+INS-0160;03/03/2026;11:43;Josiane Lima;Filtragem;Rotina
+INS-0161;03/03/2026;17:49;Wagner Rocha;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0157;02/03/2026;07:23;Lucas Conrado;Britagem 1A;Rotina
+INS-0158;02/03/2026;08:15;Flavia Tanner;Planta 4;Rotina
+INS-0159;02/03/2026;11:15;Fabiana Mello;PEC;Rotina
+INS-0139;28/02/2026;14:59;Phelippe Cerqueira;Planta 4;Rotina
+INS-0140;28/02/2026;16:24;Fabiana Mello;Britagem 1;Rotina
+INS-0141;28/02/2026;16:24;Fabiana Mello;Britagem 1A;Rotina
+INS-0142;28/02/2026;16:24;Fabiana Mello;Concentração (Planta 3 + GX600);Rotina
+INS-0143;28/02/2026;16:24;Fabiana Mello;Filtragem;Rotina
+INS-0144;28/02/2026;16:24;Fabiana Mello;Planta 4;Rotina
+INS-0145;28/02/2026;16:24;Fabiana Mello;PEC;Rotina
+INS-0146;28/02/2026;16:24;Fabiana Mello;Área de Lavra;Rotina
+INS-0147;28/02/2026;16:24;Fabiana Mello;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0148;28/02/2026;16:24;Fabiana Mello;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0149;28/02/2026;16:24;Fabiana Mello;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0150;28/02/2026;16:24;Fabiana Mello;Pátio Balança;Rotina
+INS-0151;28/02/2026;16:24;Fabiana Mello;Balança;Rotina
+INS-0152;28/02/2026;16:24;Fabiana Mello;Oficina AJPM;Rotina
+INS-0153;28/02/2026;16:24;Fabiana Mello;Oficina MPC;Rotina
+INS-0154;28/02/2026;16:24;Fabiana Mello;Restaurante;Rotina
+INS-0155;28/02/2026;16:24;Fabiana Mello;Centro Administrativo;Rotina
+INS-0156;28/02/2026;16:24;Fabiana Mello;Portaria;Rotina
+INS-0137;25/02/2026;11:09;Daniele Coutinho;Centro Administrativo;Acompanhamento
+INS-0138;25/02/2026;15:25;Flavia Tanner;Britagem 1A;Rotina
+INS-0136;24/02/2026;08:58;Juscelino Santos;Concentração (Planta 3 + GX600);Rotina
+INS-0135;23/02/2026;13:28;Anderson Magalhães;Centro Administrativo;Rotina
+INS-0131;22/02/2026;07:54;Fabiana Mello;Filtragem;Rotina
+INS-0132;22/02/2026;12:53;Lucas Conrado;Oficina MPC;Acompanhamento
+INS-0133;22/02/2026;13:37;Anderson Magalhães;Área de Lavra;Acompanhamento
+INS-0134;22/02/2026;14:36;Phelippe Cerqueira;Centro Administrativo;Acompanhamento
+INS-0128;20/02/2026;08:46;Phelippe Cerqueira;Britagem 1;Rotina
+INS-0129;20/02/2026;09:08;Flavia Tanner;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0130;20/02/2026;16:51;Juscelino Santos;Centro Administrativo;NC
+INS-0123;18/02/2026;10:56;Juscelino Santos;Oficina MPC;Rotina
+INS-0124;18/02/2026;11:50;Juscelino Santos;Área de Lavra;Rotina
+INS-0125;18/02/2026;12:30;Alberto Inácio;Concentração (Planta 3 + GX600);Rotina
+INS-0126;18/02/2026;13:39;Lucas Conrado;Restaurante;Rotina
+INS-0127;18/02/2026;13:56;Anderson Magalhães;Filtragem;Acompanhamento
+INS-0120;17/02/2026;07:39;Phelippe Cerqueira;Balança;Rotina
+INS-0121;17/02/2026;16:15;Wagner Rocha;Área de Lavra;Rotina
+INS-0122;17/02/2026;17:25;Juscelino Santos;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0117;16/02/2026;07:35;Alberto Inácio;Filtragem;Rotina
+INS-0118;16/02/2026;11:28;Alberto Inácio;Filtragem;NC
+INS-0119;16/02/2026;12:40;Josiane Lima;Planta 4;Rotina
+INS-0113;15/02/2026;08:32;Josiane Lima;Portaria;Rotina
+INS-0114;15/02/2026;09:43;Alberto Inácio;Britagem 1;Rotina
+INS-0115;15/02/2026;09:47;Daniele Coutinho;Britagem 1A;Rotina
+INS-0116;15/02/2026;15:26;Lucas Conrado;Área de Lavra;Acompanhamento
+INS-0111;14/02/2026;07:51;Tiago Santos;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0112;14/02/2026;17:10;Daniele Coutinho;Área de Lavra;NC
+INS-0107;12/02/2026;08:42;Josiane Lima;Restaurante;Acompanhamento
+INS-0108;12/02/2026;11:10;Lucas Conrado;Oficina MPC;NC
+INS-0109;12/02/2026;16:34;Josiane Lima;PEC;Rotina
+INS-0110;12/02/2026;17:10;Alberto Inácio;Área de Lavra;NC
+INS-0106;11/02/2026;16:27;Tiago Santos;Planta 4;Acompanhamento
+INS-0103;10/02/2026;13:12;Flavia Tanner;Britagem 1A;Acompanhamento
+INS-0104;10/02/2026;15:26;Alberto Inácio;Concentração (Planta 3 + GX600);NC
+INS-0105;10/02/2026;16:41;Phelippe Cerqueira;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0101;09/02/2026;09:09;Phelippe Cerqueira;Pátio Balança;Rotina
+INS-0102;09/02/2026;09:56;Alberto Inácio;Oficina AJPM;Rotina
+INS-0098;08/02/2026;10:37;Anderson Magalhães;Filtragem;Acompanhamento
+INS-0099;08/02/2026;13:50;Anderson Magalhães;Britagem 1;Acompanhamento
+INS-0100;08/02/2026;14:16;Alberto Inácio;Restaurante;Acompanhamento
+INS-0096;07/02/2026;10:11;Anderson Magalhães;Área de Lavra;Acompanhamento
+INS-0097;07/02/2026;14:22;Anderson Magalhães;Restaurante;NC
+INS-0095;06/02/2026;11:38;Flavia Tanner;Planta 4;Acompanhamento
+INS-0092;05/02/2026;07:20;Anderson Magalhães;Britagem 1;NC
+INS-0093;05/02/2026;15:15;Tiago Santos;Britagem 1A;Acompanhamento
+INS-0094;05/02/2026;17:10;Josiane Lima;Britagem 1A;Rotina
+INS-0090;04/02/2026;12:52;Flavia Tanner;Planta 4;Acompanhamento
+INS-0091;04/02/2026;16:05;Phelippe Cerqueira;Concentração (Planta 3 + GX600);Rotina
+INS-0088;03/02/2026;14:03;Lucas Conrado;Planta 4;NC
+INS-0089;03/02/2026;15:14;Tiago Santos;Britagem 1A;NC
+INS-0084;02/02/2026;14:10;Fabiana Mello;Filtragem;Acompanhamento
+INS-0085;02/02/2026;15:09;Phelippe Cerqueira;Planta 4;NC
+INS-0086;02/02/2026;15:38;Lucas Conrado;Área de Lavra;Acompanhamento
+INS-0087;02/02/2026;16:27;Flavia Tanner;Planta 4;Acompanhamento
+INS-0079;01/02/2026;08:44;Alisson Castro;Concentração (Planta 3 + GX600);NC
+INS-0082;01/02/2026;15:51;Alisson Castro;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0080;01/02/2026;11:34;Alberto Inácio;Filtragem;NC
+INS-0081;01/02/2026;13:17;Phelippe Cerqueira;Britagem 1A;NC
+INS-0083;01/02/2026;17:00;Daniele Coutinho;Área de Lavra;NC
+INS-0061;31/01/2026;13:05;Flavia Tanner;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0062;31/01/2026;16:28;Tiago Santos;Britagem 1;Rotina
+INS-0063;31/01/2026;16:28;Tiago Santos;Britagem 1A;Rotina
+INS-0064;31/01/2026;16:28;Tiago Santos;Concentração (Planta 3 + GX600);Rotina
+INS-0065;31/01/2026;16:28;Tiago Santos;Filtragem;Rotina
+INS-0066;31/01/2026;16:28;Tiago Santos;Planta 4;Rotina
+INS-0067;31/01/2026;16:28;Tiago Santos;PEC;Rotina
+INS-0068;31/01/2026;16:28;Tiago Santos;Área de Lavra;Rotina
+INS-0069;31/01/2026;16:28;Tiago Santos;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0070;31/01/2026;16:28;Tiago Santos;Banheiro/Vestiário Cedro Operacional;Rotina
+INS-0071;31/01/2026;16:28;Tiago Santos;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0072;31/01/2026;16:28;Tiago Santos;Pátio Balança;Rotina
+INS-0073;31/01/2026;16:28;Tiago Santos;Balança;Rotina
+INS-0074;31/01/2026;16:28;Tiago Santos;Oficina AJPM;Rotina
+INS-0075;31/01/2026;16:28;Tiago Santos;Oficina MPC;Rotina
+INS-0076;31/01/2026;16:28;Tiago Santos;Restaurante;Rotina
+INS-0077;31/01/2026;16:28;Tiago Santos;Centro Administrativo;Rotina
+INS-0078;31/01/2026;16:28;Tiago Santos;Portaria;Rotina
+INS-0056;30/01/2026;09:38;Flavia Tanner;Britagem 1;Acompanhamento
+INS-0057;30/01/2026;13:21;Fabiana Mello;Área de Lavra;Acompanhamento
+INS-0058;30/01/2026;13:54;Juscelino Santos;Portaria;Rotina
+INS-0059;30/01/2026;14:05;Fabiana Mello;Centro Administrativo;Acompanhamento
+INS-0060;30/01/2026;14:59;Lucas Conrado;Concentração (Planta 3 + GX600);Rotina
+INS-0053;29/01/2026;09:39;Alberto Inácio;PEC;Acompanhamento
+INS-0054;29/01/2026;17:09;Juscelino Santos;Filtragem;Acompanhamento
+INS-0055;29/01/2026;17:29;Wagner Rocha;Área de Lavra;Rotina
+INS-0051;27/01/2026;10:42;Wagner Rocha;Britagem 1A;Acompanhamento
+INS-0052;27/01/2026;11:36;Alberto Inácio;Centro Administrativo;Rotina
+INS-0047;26/01/2026;07:05;Phelippe Cerqueira;Área de Lavra;Acompanhamento
+INS-0048;26/01/2026;07:15;Fabiana Mello;Pátio Balança;Rotina
+INS-0049;26/01/2026;07:16;Flavia Tanner;Britagem 1;Acompanhamento
+INS-0050;26/01/2026;15:32;Josiane Lima;Oficina AJPM;Rotina
+INS-0043;25/01/2026;08:28;Phelippe Cerqueira;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0044;25/01/2026;12:50;Wagner Rocha;Oficina MPC;Rotina
+INS-0045;25/01/2026;17:26;Juscelino Santos;Concentração (Planta 3 + GX600);Rotina
+INS-0046;25/01/2026;17:41;Flavia Tanner;Balança;Rotina
+INS-0039;24/01/2026;12:36;Josiane Lima;Planta 4;Rotina
+INS-0040;24/01/2026;13:12;Fabiana Mello;Planta 4;Acompanhamento
+INS-0041;24/01/2026;13:48;Daniele Coutinho;Banheiro/Vestiário Cedro Contratadas;Rotina
+INS-0042;24/01/2026;16:23;Wagner Rocha;Oficina AJPM;Acompanhamento
+INS-0035;23/01/2026;10:12;Juscelino Santos;Concentração (Planta 3 + GX600);Acompanhamento
+INS-0036;23/01/2026;12:04;Wagner Rocha;Restaurante;Rotina
+INS-0037;23/01/2026;12:12;Tiago Santos;Pátio Balança;Acompanhamento
+INS-0038;23/01/2026;13:51;Tiago Santos;Britagem 1;Rotina
+INS-0029;22/01/2026;07:28;Josiane Lima;Britagem 1;NC
+INS-0030;22/01/2026;10:01;Phelippe Cerqueira;Filtragem;Acompanhamento
+INS-0031;22/01/2026;11:09;Flavia Tanner;Planta 4;NC
+INS-0032;22/01/2026;13:19;Phelippe Cerqueira;Área de Lavra;NC
+INS-0033;22/01/2026;14:18;Juscelino Santos;Planta 4;Acompanhamento
+INS-0034;22/01/2026;15:44;Wagner Rocha;Oficina MPC;Acompanhamento
+INS-0023;21/01/2026;07:42;Tiago Santos;Filtragem;NC
+INS-0024;21/01/2026;10:19;Juscelino Santos;Planta 4;NC
+INS-0025;21/01/2026;11:34;Juscelino Santos;PEC;NC
+INS-0026;21/01/2026;12:05;Lucas Conrado;Banheiro/Vestiário Cedro ADM;Acompanhamento
+INS-0027;21/01/2026;14:23;Wagner Rocha;Planta 4;Rotina
+INS-0028;21/01/2026;17:48;Flavia Tanner;Área de Lavra;NC
+INS-0019;20/01/2026;08:56;Wagner Rocha;Banheiro/Vestiário Cedro ADM;Acompanhamento
+INS-0020;20/01/2026;10:43;Lucas Conrado;Concentração (Planta 3 + GX600);Rotina
+INS-0021;20/01/2026;11:02;Josiane Lima;Britagem 1;Acompanhamento
+INS-0022;20/01/2026;14:08;Daniele Coutinho;PEC;Rotina
+INS-0012;19/01/2026;08:07;Daniele Coutinho;Centro Administrativo;NC
+INS-0013;19/01/2026;08:50;Anderson Magalhães;Britagem 1;NC
+INS-0014;19/01/2026;10:57;Daniele Coutinho;Oficina MPC;NC
+INS-0015;19/01/2026;13:38;Alberto Inácio;Banheiro/Vestiário Cedro ADM;NC
+INS-0016;19/01/2026;14:13;Fabiana Mello;Concentração (Planta 3 + GX600);NC
+INS-0017;19/01/2026;15:18;Alberto Inácio;Britagem 1;Rotina
+INS-0018;19/01/2026;16:54;Josiane Lima;Filtragem;Rotina
+INS-0006;18/01/2026;07:04;Alberto Inácio;Área de Lavra;Rotina
+INS-0007;18/01/2026;07:23;Phelippe Cerqueira;Pátio Balança;NC
+INS-0008;18/01/2026;08:41;Juscelino Santos;Concentração (Planta 3 + GX600);NC
+INS-0009;18/01/2026;10:18;Alberto Inácio;Banheiro/Vestiário Cedro ADM;Rotina
+INS-0010;18/01/2026;16:40;Alberto Inácio;Britagem 1;Rotina
+INS-0011;18/01/2026;17:45;Phelippe Cerqueira;Oficina AJPM;NC
+INS-0003;17/01/2026;10:17;Fabiana Mello;Britagem 1A;Rotina
+INS-0004;17/01/2026;14:55;Phelippe Cerqueira;Britagem 1A;Rotina
+INS-0005;17/01/2026;17:08;Anderson Magalhães;Britagem 1A;Rotina
+INS-0001;16/01/2026;13:53;Alberto Inácio;Britagem 1A;NC
+INS-0002;16/01/2026;16:22;Flavia Tanner;Filtragem;Rotina

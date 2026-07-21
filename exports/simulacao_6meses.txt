@@ -1,0 +1,1781 @@
+16/01/2026 07:00 - Mensagens e ligações são protegidas com a criptografia de ponta a ponta.
+16/01/2026 13:53 - Alberto Inácio: #NC
+Área: Britagem 1A
+Equipamento: Plataforma
+Não Conformidade: Piso com acúmulo de minério na plataforma
+Classificação: Média
+Responsável: Operação
+Prazo: 24/01
+Foto: (arquivo anexado)
+16/01/2026 16:22 - Flavia Tanner: #INSPECAO Filtragem - tudo certo, sem desvios
+17/01/2026 10:17 - Fabiana Mello: #INSPECAO Britagem 1A - tudo certo, sem desvios
+17/01/2026 14:55 - Phelippe Cerqueira: #INSPECAO Britagem 1A - sem NC, área ok
+17/01/2026 17:08 - Anderson Magalhães: #INSPECAO Britagem 1A - sem NC, área ok
+18/01/2026 07:04 - Alberto Inácio: #INSPECAO Área de Lavra - tudo certo, sem desvios
+18/01/2026 07:23 - Phelippe Cerqueira: #NC
+Área: Pátio Balança
+Equipamento: Pátio
+Não Conformidade: Acúmulo de material obstruindo a via
+Classificação: Média
+Responsável: Operação
+Prazo: 23/01
+Foto: (arquivo anexado)
+18/01/2026 08:41 - Juscelino Santos: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Escada de acesso
+Não Conformidade: Corrimão solto na escada de acesso
+Classificação: Média
+Responsável: Civil
+Prazo: 27/01
+Foto: (arquivo anexado)
+18/01/2026 10:18 - Alberto Inácio: #INSPECAO Banheiro/Vestiário Cedro ADM - sem NC, área ok
+18/01/2026 16:40 - Alberto Inácio: #INSPECAO Britagem 1 - sem NC, área ok
+18/01/2026 17:45 - Phelippe Cerqueira: #NC
+Área: Oficina AJPM
+Equipamento: Oficina
+Não Conformidade: Extintor obstruído por materiais
+Classificação: Alta
+Responsável: Segurança
+Prazo: 26/01
+Foto: (arquivo anexado)
+19/01/2026 08:07 - Daniele Coutinho: #NC
+Área: Centro Administrativo
+Equipamento: Sala de reunião
+Não Conformidade: Ar-condicionado pingando sobre tomada
+Classificação: Alta
+Responsável: Facilities
+Prazo: 28/01
+Foto: (arquivo anexado)
+19/01/2026 08:50 - Anderson Magalhães: #NC
+Área: Britagem 1
+Equipamento: Britador primário
+Não Conformidade: Poeira excessiva sem aspersão no britador primário
+Classificação: Média
+Responsável: Operação
+Prazo: 28/01
+Foto: (arquivo anexado)
+19/01/2026 10:57 - Daniele Coutinho: #NC
+Área: Oficina MPC
+Equipamento: Bancada
+Não Conformidade: Esmerilhadeira sem proteção do disco
+Classificação: Alta
+Responsável: Segurança
+Prazo: 24/01
+Foto: (arquivo anexado)
+19/01/2026 13:38 - Alberto Inácio: #NC
+Área: Banheiro/Vestiário Cedro ADM
+Equipamento: Banheiro ADM
+Não Conformidade: Piso do banheiro com infiltração
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 23/01
+Foto: (arquivo anexado)
+19/01/2026 14:13 - Fabiana Mello: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Painel PN-C4
+Não Conformidade: Painel elétrico aberto sem bloqueio
+Classificação: Crítica
+Responsável: Elétrica
+Prazo: 23/01
+Foto: (arquivo anexado)
+19/01/2026 15:18 - Alberto Inácio: #INSPECAO Britagem 1 - tudo certo, sem desvios
+19/01/2026 16:54 - Josiane Lima: #INSPECAO Filtragem - sem NC, área ok
+20/01/2026 08:56 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro ADM
+NC: Piso do banheiro com infiltração
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+20/01/2026 10:43 - Lucas Conrado: #INSPECAO Concentração (Planta 3 + GX600) - área ok, sem pendências novas
+20/01/2026 11:02 - Josiane Lima: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Poeira excessiva sem aspersão no britador primário
+Status: Em andamento
+Observação: Aguardando peça de reposição.
+20/01/2026 14:08 - Daniele Coutinho: #INSPECAO PEC - tudo ok
+21/01/2026 07:42 - Tiago Santos: #NC
+Área: Filtragem
+Equipamento: Unidade hidráulica
+Não Conformidade: Vazamento de óleo hidráulico na unidade
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 26/01
+Foto: (arquivo anexado)
+21/01/2026 10:19 - Juscelino Santos: #NC
+Área: Planta 4
+Equipamento: Passarela
+Não Conformidade: Guarda-corpo ausente em trecho da passarela
+Classificação: Crítica
+Responsável: Manutenção
+Prazo: 25/01
+Foto: (arquivo anexado)
+21/01/2026 11:34 - Juscelino Santos: #NC
+Área: PEC
+Equipamento: Pátio de estocagem
+Não Conformidade: Pilha de material com talude instável
+Classificação: Alta
+Responsável: Operação
+Prazo: 30/01
+Foto: (arquivo anexado)
+21/01/2026 12:05 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro ADM
+NC: Piso do banheiro com infiltração
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+21/01/2026 14:23 - Wagner Rocha: #INSPECAO Planta 4 - sem NC, área ok
+21/01/2026 17:48 - Flavia Tanner: #NC
+Área: Área de Lavra
+Equipamento: Frente de lavra
+Não Conformidade: Banco da lavra com trinca visível
+Classificação: Crítica
+Responsável: Operação
+Prazo: 30/01
+Foto: (arquivo anexado)
+22/01/2026 07:28 - Josiane Lima: #NC
+Área: Britagem 1
+Equipamento: Correia TC-01
+Não Conformidade: Guarda de proteção lateral da correia danificada
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 25/01
+Foto: (arquivo anexado)
+22/01/2026 10:01 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Vazamento de óleo hidráulico na unidade
+Status: Em andamento
+Observação: Aguardando peça de reposição.
+22/01/2026 11:09 - Flavia Tanner: #NC
+Área: Planta 4
+Equipamento: Plataforma
+Não Conformidade: Falta de rodapé de proteção na plataforma
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 29/01
+Foto: (arquivo anexado)
+22/01/2026 13:19 - Phelippe Cerqueira: #NC
+Área: Área de Lavra
+Equipamento: Acesso à cava
+Não Conformidade: Acesso sem leira de proteção na borda
+Classificação: Alta
+Responsável: Operação
+Prazo: 26/01
+Foto: (arquivo anexado)
+22/01/2026 14:18 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Guarda-corpo ausente em trecho da passarela
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+22/01/2026 15:44 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Oficina MPC
+NC: Esmerilhadeira sem proteção do disco
+Status: Concluído
+Observação: Substituição realizada.
+23/01/2026 10:12 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Painel elétrico aberto sem bloqueio
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+23/01/2026 12:04 - Wagner Rocha: #INSPECAO Restaurante - tudo certo, sem desvios
+23/01/2026 12:12 - Tiago Santos: #ACOMPANHAMENTO
+Área: Pátio Balança
+NC: Acúmulo de material obstruindo a via
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+23/01/2026 13:51 - Tiago Santos: #INSPECAO Britagem 1 - área ok, sem pendências novas
+24/01/2026 12:36 - Josiane Lima: #INSPECAO Planta 4 - tudo ok
+24/01/2026 13:12 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Guarda-corpo ausente em trecho da passarela
+Status: Concluído
+Observação: Substituição realizada.
+24/01/2026 13:48 - Daniele Coutinho: #INSPECAO Banheiro/Vestiário Cedro Contratadas - tudo ok
+24/01/2026 16:23 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Oficina AJPM
+NC: Extintor obstruído por materiais
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+25/01/2026 08:28 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Corrimão solto na escada de acesso
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+25/01/2026 12:50 - Wagner Rocha: #INSPECAO Oficina MPC - tudo certo, sem desvios
+25/01/2026 17:26 - Juscelino Santos: #INSPECAO Concentração (Planta 3 + GX600) - tudo certo, sem desvios
+25/01/2026 17:41 - Flavia Tanner: #INSPECAO Balança - sem NC, área ok
+26/01/2026 07:05 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Acesso sem leira de proteção na borda
+Status: Concluído
+Observação: Substituição realizada.
+26/01/2026 07:15 - Fabiana Mello: #INSPECAO Pátio Balança - tudo certo, sem desvios
+26/01/2026 07:16 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Guarda de proteção lateral da correia danificada
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+26/01/2026 15:32 - Josiane Lima: #INSPECAO Oficina AJPM - tudo certo, sem desvios
+27/01/2026 10:42 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Piso com acúmulo de minério na plataforma
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+27/01/2026 11:36 - Alberto Inácio: #INSPECAO Centro Administrativo - tudo ok
+29/01/2026 09:39 - Alberto Inácio: #ACOMPANHAMENTO
+Área: PEC
+NC: Pilha de material com talude instável
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+29/01/2026 17:09 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Vazamento de óleo hidráulico na unidade
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+29/01/2026 17:29 - Wagner Rocha: #INSPECAO Área de Lavra - tudo certo, sem desvios
+30/01/2026 09:38 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Poeira excessiva sem aspersão no britador primário
+Status: Concluído
+Observação: Substituição realizada.
+30/01/2026 13:21 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Banco da lavra com trinca visível
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+30/01/2026 13:54 - Juscelino Santos: #INSPECAO Portaria - tudo ok
+30/01/2026 14:05 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Ar-condicionado pingando sobre tomada
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+30/01/2026 14:59 - Lucas Conrado: #INSPECAO Concentração (Planta 3 + GX600) - tudo certo, sem desvios
+31/01/2026 13:05 - Flavia Tanner: #INSPECAO Banheiro/Vestiário Cedro Operacional - tudo certo, sem desvios
+31/01/2026 16:28 - Tiago Santos: #INSPEÇÃO GERAL
+Área: Britagem 1
+Status: Inspecionada
+Área: Britagem 1A
+Status: Inspecionada
+Área: Concentração (Planta 3 + GX600)
+Status: Inspecionada
+Área: Filtragem
+Status: Inspecionada
+Área: Planta 4
+Status: Inspecionada
+Área: PEC
+Status: Inspecionada
+Área: Área de Lavra
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro ADM
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Operacional
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Contratadas
+Status: Inspecionada
+Área: Pátio Balança
+Status: Inspecionada
+Área: Balança
+Status: Inspecionada
+Área: Oficina AJPM
+Status: Inspecionada
+Área: Oficina MPC
+Status: Inspecionada
+Área: Restaurante
+Status: Inspecionada
+Área: Centro Administrativo
+Status: Inspecionada
+Área: Portaria
+Status: Inspecionada
+01/02/2026 11:34 - Alberto Inácio: #NC
+Área: Filtragem
+Equipamento: Bomba de polpa 02
+Não Conformidade: Vazamento de polpa na gaxeta da bomba
+Classificação: Média
+Responsável: Manutenção
+Prazo: 09/02
+Foto: (arquivo anexado)
+01/02/2026 13:17 - Phelippe Cerqueira: #NC
+Área: Britagem 1A
+Equipamento: Escada
+Não Conformidade: Guarda-corpo com corrosão na escada de acesso
+Classificação: Alta
+Responsável: Civil
+Prazo: 06/02
+Foto: (arquivo anexado)
+01/02/2026 17:00 - Daniele Coutinho: #NC
+Área: Área de Lavra
+Equipamento: Praça de carregamento
+Não Conformidade: Drenagem obstruída acumulando água na praça
+Classificação: Média
+Responsável: Civil
+Prazo: 08/02
+Foto: (arquivo anexado)
+02/02/2026 14:10 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Vazamento de polpa na gaxeta da bomba
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+02/02/2026 15:09 - Phelippe Cerqueira: #NC
+Área: Planta 4
+Equipamento: Peneira PN-3
+Não Conformidade: Parafusos frouxos na estrutura da peneira
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 12/02
+Foto: (arquivo anexado)
+02/02/2026 15:38 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Drenagem obstruída acumulando água na praça
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+02/02/2026 16:27 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Falta de rodapé de proteção na plataforma
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+03/02/2026 14:03 - Lucas Conrado: #NC
+Área: Planta 4
+Equipamento: Acesso principal
+Não Conformidade: Iluminação insuficiente no acesso noturno
+Classificação: Média
+Responsável: Elétrica
+Prazo: 07/02
+Foto: (arquivo anexado)
+03/02/2026 15:14 - Tiago Santos: #NC
+Área: Britagem 1A
+Equipamento: Correia TC-05
+Não Conformidade: Cabo elétrico exposto próximo à correia
+Classificação: Alta
+Responsável: Elétrica
+Prazo: 11/02
+Foto: (arquivo anexado)
+04/02/2026 12:52 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Parafusos frouxos na estrutura da peneira
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+04/02/2026 16:05 - Phelippe Cerqueira: #INSPECAO Concentração (Planta 3 + GX600) - tudo ok
+05/02/2026 07:20 - Anderson Magalhães: #NC
+Área: Britagem 1
+Equipamento: Escada de acesso
+Não Conformidade: Degrau da escada fixa deformado
+Classificação: Média
+Responsável: Manutenção
+Prazo: 09/02
+Foto: (arquivo anexado)
+05/02/2026 15:15 - Tiago Santos: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Guarda-corpo com corrosão na escada de acesso
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+05/02/2026 17:10 - Josiane Lima: #INSPECAO Britagem 1A - tudo certo, sem desvios
+06/02/2026 11:38 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Iluminação insuficiente no acesso noturno
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+07/02/2026 10:11 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Drenagem obstruída acumulando água na praça
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+07/02/2026 14:22 - Anderson Magalhães: #NC
+Área: Restaurante
+Equipamento: Extintor R-02
+Não Conformidade: Extintor com carga vencida no refeitório
+Classificação: Alta
+Responsável: Segurança
+Prazo: 10/02
+Foto: (arquivo anexado)
+08/02/2026 10:37 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Vazamento de polpa na gaxeta da bomba
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+08/02/2026 13:50 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Degrau da escada fixa deformado
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+08/02/2026 14:16 - Alberto Inácio: #ACOMPANHAMENTO
+Área: Restaurante
+NC: Extintor com carga vencida no refeitório
+Status: Em andamento
+Observação: Aguardando peça de reposição.
+09/02/2026 09:09 - Phelippe Cerqueira: #INSPECAO Pátio Balança - tudo certo, sem desvios
+09/02/2026 09:56 - Alberto Inácio: #INSPECAO Oficina AJPM - sem NC, área ok
+10/02/2026 13:12 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Cabo elétrico exposto próximo à correia
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+10/02/2026 15:26 - Alberto Inácio: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Ponte Rolante
+Não Conformidade: Operador sem checklist diário da ponte rolante
+Classificação: Média
+Responsável: Operação
+Prazo: 15/02
+Foto: (arquivo anexado)
+10/02/2026 16:41 - Phelippe Cerqueira: #INSPECAO Banheiro/Vestiário Cedro Contratadas - tudo certo, sem desvios
+11/02/2026 16:27 - Tiago Santos: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Parafusos frouxos na estrutura da peneira
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+12/02/2026 08:42 - Josiane Lima: #ACOMPANHAMENTO
+Área: Restaurante
+NC: Extintor com carga vencida no refeitório
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+12/02/2026 11:10 - Lucas Conrado: #NC
+Área: Oficina MPC
+Equipamento: Oficina
+Não Conformidade: Óleo no piso sem contenção
+Classificação: Média
+Responsável: Operação
+Prazo: 22/02
+Foto: (arquivo anexado)
+12/02/2026 16:34 - Josiane Lima: #INSPECAO PEC - sem NC, área ok
+12/02/2026 17:10 - Alberto Inácio: #NC
+Área: Área de Lavra
+Equipamento: Frota
+Não Conformidade: Caminhão estacionado sem calço nas rodas
+Classificação: Média
+Responsável: Operação
+Prazo: 15/02
+Foto: (arquivo anexado)
+14/02/2026 07:51 - Tiago Santos: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Operador sem checklist diário da ponte rolante
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+14/02/2026 17:10 - Daniele Coutinho: #NC
+Área: Área de Lavra
+Equipamento: Vias da mina
+Não Conformidade: Placa de velocidade máxima caída
+Classificação: Baixa
+Responsável: Segurança
+Prazo: 22/02
+Foto: (arquivo anexado)
+15/02/2026 08:32 - Josiane Lima: #INSPECAO Portaria - área ok, sem pendências novas
+15/02/2026 09:43 - Alberto Inácio: #INSPECAO Britagem 1 - tudo certo, sem desvios
+15/02/2026 09:47 - Daniele Coutinho: #INSPECAO Britagem 1A - tudo ok
+15/02/2026 15:26 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Caminhão estacionado sem calço nas rodas
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+16/02/2026 07:35 - Alberto Inácio: #INSPECAO Filtragem - tudo certo, sem desvios
+16/02/2026 11:28 - Alberto Inácio: #NC
+Área: Filtragem
+Equipamento: Filtro FP-1
+Não Conformidade: Mangueira hidráulica desgastada
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 19/02
+Foto: (arquivo anexado)
+16/02/2026 12:40 - Josiane Lima: #INSPECAO Planta 4 - área ok, sem pendências novas
+17/02/2026 07:39 - Phelippe Cerqueira: #INSPECAO Balança - sem NC, área ok
+17/02/2026 16:15 - Wagner Rocha: #INSPECAO Área de Lavra - sem NC, área ok
+17/02/2026 17:25 - Juscelino Santos: #INSPECAO Banheiro/Vestiário Cedro Operacional - tudo certo, sem desvios
+18/02/2026 10:56 - Juscelino Santos: #INSPECAO Oficina MPC - tudo certo, sem desvios
+18/02/2026 11:50 - Juscelino Santos: #INSPECAO Área de Lavra - sem NC, área ok
+18/02/2026 12:30 - Alberto Inácio: #INSPECAO Concentração (Planta 3 + GX600) - tudo certo, sem desvios
+18/02/2026 13:39 - Lucas Conrado: #INSPECAO Restaurante - tudo ok
+18/02/2026 13:56 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Mangueira hidráulica desgastada
+Status: Concluído
+Observação: Substituição realizada.
+20/02/2026 08:46 - Phelippe Cerqueira: #INSPECAO Britagem 1 - tudo ok
+20/02/2026 09:08 - Flavia Tanner: #INSPECAO Banheiro/Vestiário Cedro ADM - sem NC, área ok
+20/02/2026 16:51 - Juscelino Santos: #NC
+Área: Centro Administrativo
+Equipamento: Corredor
+Não Conformidade: Rota de fuga obstruída por arquivos
+Classificação: Média
+Responsável: Segurança
+Prazo: 26/02
+Foto: (arquivo anexado)
+22/02/2026 07:54 - Fabiana Mello: #INSPECAO Filtragem - área ok, sem pendências novas
+22/02/2026 12:53 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Oficina MPC
+NC: Óleo no piso sem contenção
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+22/02/2026 13:37 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Placa de velocidade máxima caída
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+22/02/2026 14:36 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Rota de fuga obstruída por arquivos
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+23/02/2026 13:28 - Anderson Magalhães: #INSPECAO Centro Administrativo - tudo ok
+24/02/2026 08:58 - Juscelino Santos: #INSPECAO Concentração (Planta 3 + GX600) - tudo ok
+25/02/2026 11:09 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Rota de fuga obstruída por arquivos
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+25/02/2026 15:25 - Flavia Tanner: #INSPECAO Britagem 1A - sem NC, área ok
+28/02/2026 14:59 - Phelippe Cerqueira: #INSPECAO Planta 4 - área ok, sem pendências novas
+28/02/2026 16:24 - Fabiana Mello: #INSPEÇÃO GERAL
+Área: Britagem 1
+Status: Inspecionada
+Área: Britagem 1A
+Status: Inspecionada
+Área: Concentração (Planta 3 + GX600)
+Status: Inspecionada
+Área: Filtragem
+Status: Inspecionada
+Área: Planta 4
+Status: Inspecionada
+Área: PEC
+Status: Inspecionada
+Área: Área de Lavra
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro ADM
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Operacional
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Contratadas
+Status: Inspecionada
+Área: Pátio Balança
+Status: Inspecionada
+Área: Balança
+Status: Inspecionada
+Área: Oficina AJPM
+Status: Inspecionada
+Área: Oficina MPC
+Status: Inspecionada
+Área: Restaurante
+Status: Inspecionada
+Área: Centro Administrativo
+Status: Inspecionada
+Área: Portaria
+Status: Inspecionada
+02/03/2026 07:23 - Lucas Conrado: #INSPECAO Britagem 1A - sem NC, área ok
+02/03/2026 08:15 - Flavia Tanner: #INSPECAO Planta 4 - tudo ok
+02/03/2026 11:15 - Fabiana Mello: #INSPECAO PEC - área ok, sem pendências novas
+03/03/2026 11:43 - Josiane Lima: #INSPECAO Filtragem - tudo certo, sem desvios
+03/03/2026 17:49 - Wagner Rocha: #INSPECAO Banheiro/Vestiário Cedro Contratadas - tudo certo, sem desvios
+05/03/2026 15:37 - Juscelino Santos: #INSPECAO Oficina MPC - tudo ok
+06/03/2026 14:10 - Daniele Coutinho: #NC
+Área: Área de Lavra
+Equipamento: Acesso à cava
+Não Conformidade: Acesso sem leira de proteção na borda
+Classificação: Alta
+Responsável: Operação
+Prazo: 10/03
+Foto: (arquivo anexado)
+06/03/2026 14:21 - Fabiana Mello: #INSPECAO Área de Lavra - área ok, sem pendências novas
+07/03/2026 11:16 - Anderson Magalhães: #INSPECAO Planta 4 - tudo certo, sem desvios
+07/03/2026 16:05 - Phelippe Cerqueira: #INSPECAO Britagem 1 - sem NC, área ok
+08/03/2026 13:27 - Flavia Tanner: #NC
+Área: Planta 4
+Equipamento: Transportador TR-31
+Não Conformidade: Vibração anormal no mancal do transportador
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 16/03
+Foto: (arquivo anexado)
+10/03/2026 12:39 - Daniele Coutinho: #NC
+Área: Filtragem
+Equipamento: Filtro FP-2
+Não Conformidade: Placa do filtro trincada
+Classificação: Média
+Responsável: Manutenção mecânica
+Prazo: 14/03
+Foto: (arquivo anexado)
+10/03/2026 15:13 - Lucas Conrado: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Tanque TQ-2
+Não Conformidade: Agitador com ruído anormal
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 13/03
+Foto: (arquivo anexado)
+10/03/2026 17:28 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Acesso sem leira de proteção na borda
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+12/03/2026 09:13 - Josiane Lima: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Agitador com ruído anormal
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+13/03/2026 10:45 - Daniele Coutinho: #NC
+Área: Britagem 1
+Equipamento: Túnel de retomada
+Não Conformidade: Iluminação queimada no túnel de retomada
+Classificação: Média
+Responsável: Elétrica
+Prazo: 19/03
+Foto: (arquivo anexado)
+13/03/2026 17:17 - Lucas Conrado: #INSPECAO Área de Lavra - sem NC, área ok
+14/03/2026 14:32 - Juscelino Santos: #INSPECAO Britagem 1 - sem NC, área ok
+14/03/2026 15:10 - Lucas Conrado: #NC
+Área: Oficina AJPM
+Equipamento: Área de solda
+Não Conformidade: Cilindros de gás sem corrente de fixação
+Classificação: Alta
+Responsável: Segurança
+Prazo: 20/03
+Foto: (arquivo anexado)
+14/03/2026 17:25 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Placa do filtro trincada
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+15/03/2026 07:47 - Tiago Santos: #INSPECAO Centro Administrativo - tudo certo, sem desvios
+15/03/2026 10:04 - Juscelino Santos: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Bomba de polpa 03
+Não Conformidade: Vazamento de polpa na junta da bomba
+Classificação: Média
+Responsável: Manutenção
+Prazo: 22/03
+Foto: (arquivo anexado)
+16/03/2026 10:46 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Vibração anormal no mancal do transportador
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+16/03/2026 15:57 - Wagner Rocha: #INSPECAO Portaria - área ok, sem pendências novas
+17/03/2026 12:31 - Josiane Lima: #NC
+Área: Britagem 1
+Equipamento: Correia TC-02
+Não Conformidade: Sensor de emergência da correia sem teste registrado
+Classificação: Alta
+Responsável: Elétrica
+Prazo: 24/03
+Foto: (arquivo anexado)
+17/03/2026 17:34 - Tiago Santos: #INSPECAO Pátio Balança - tudo ok
+18/03/2026 17:43 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Iluminação queimada no túnel de retomada
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+19/03/2026 09:29 - Wagner Rocha: #NC
+Área: Filtragem
+Equipamento: Esteira de torta
+Não Conformidade: Proteção da esteira de descarga removida
+Classificação: Crítica
+Responsável: Manutenção mecânica
+Prazo: 24/03
+Foto: (arquivo anexado)
+19/03/2026 09:41 - Daniele Coutinho: #NC
+Área: Britagem 1A
+Equipamento: Correia TC-05
+Não Conformidade: Rolete travado gerando atrito na correia
+Classificação: Média
+Responsável: Manutenção mecânica
+Prazo: 29/03
+Foto: (arquivo anexado)
+19/03/2026 10:29 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Oficina AJPM
+NC: Cilindros de gás sem corrente de fixação
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+20/03/2026 09:06 - Josiane Lima: #NC
+Área: Britagem 1
+Equipamento: Painel local
+Não Conformidade: Botoeira de emergência sem sinalização
+Classificação: Alta
+Responsável: Segurança
+Prazo: 26/03
+Foto: (arquivo anexado)
+20/03/2026 09:07 - Wagner Rocha: #NC
+Área: Banheiro/Vestiário Cedro Contratadas
+Equipamento: Banheiro contratadas
+Não Conformidade: Vaso sanitário quebrado
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 26/03
+Foto: (arquivo anexado)
+20/03/2026 12:15 - Josiane Lima: #INSPECAO Banheiro/Vestiário Cedro ADM - sem NC, área ok
+20/03/2026 15:37 - Alberto Inácio: #INSPECAO Banheiro/Vestiário Cedro Operacional - área ok, sem pendências novas
+21/03/2026 17:52 - Josiane Lima: #NC
+Área: Área de Lavra
+Equipamento: Frente de lavra
+Não Conformidade: Banco da lavra com trinca visível
+Classificação: Crítica
+Responsável: Operação
+Prazo: 28/03
+Foto: (arquivo anexado)
+22/03/2026 16:54 - Anderson Magalhães: #NC
+Área: Britagem 1A
+Equipamento: Lava-olhos
+Não Conformidade: Chuveiro lava-olhos obstruído
+Classificação: Alta
+Responsável: Facilities
+Prazo: 26/03
+Foto: (arquivo anexado)
+22/03/2026 17:02 - Josiane Lima: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Botoeira de emergência sem sinalização
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+22/03/2026 17:13 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Sensor de emergência da correia sem teste registrado
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+23/03/2026 12:50 - Josiane Lima: #NC
+Área: Centro Administrativo
+Equipamento: Sala de reunião
+Não Conformidade: Ar-condicionado pingando sobre tomada
+Classificação: Alta
+Responsável: Facilities
+Prazo: 27/03
+Foto: (arquivo anexado)
+24/03/2026 07:57 - Josiane Lima: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Chuveiro lava-olhos obstruído
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+24/03/2026 08:31 - Juscelino Santos: #INSPECAO Restaurante - tudo ok
+24/03/2026 13:41 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Chuveiro lava-olhos obstruído
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+25/03/2026 09:48 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Ar-condicionado pingando sobre tomada
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+25/03/2026 16:24 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro Contratadas
+NC: Vaso sanitário quebrado
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+25/03/2026 16:47 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Ar-condicionado pingando sobre tomada
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+26/03/2026 09:02 - Anderson Magalhães: #INSPECAO Concentração (Planta 3 + GX600) - área ok, sem pendências novas
+26/03/2026 11:51 - Josiane Lima: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Banco da lavra com trinca visível
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+27/03/2026 14:35 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Vazamento de polpa na junta da bomba
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+27/03/2026 14:52 - Alberto Inácio: #INSPECAO Filtragem - área ok, sem pendências novas
+28/03/2026 07:16 - Phelippe Cerqueira: #INSPECAO Concentração (Planta 3 + GX600) - tudo certo, sem desvios
+28/03/2026 09:13 - Phelippe Cerqueira: #INSPECAO Oficina AJPM - tudo certo, sem desvios
+28/03/2026 10:38 - Wagner Rocha: #INSPECAO Britagem 1 - tudo ok
+28/03/2026 16:14 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Rolete travado gerando atrito na correia
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+29/03/2026 10:57 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Proteção da esteira de descarga removida
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+30/03/2026 10:57 - Flavia Tanner: #INSPECAO Concentração (Planta 3 + GX600) - tudo ok
+30/03/2026 11:00 - Flavia Tanner: #INSPECAO Britagem 1A - tudo ok
+31/03/2026 10:17 - Fabiana Mello: #INSPECAO Balança - tudo ok
+31/03/2026 13:52 - Tiago Santos: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Botoeira de emergência sem sinalização
+Status: Concluído
+Observação: Substituição realizada.
+31/03/2026 16:32 - Wagner Rocha: #INSPEÇÃO GERAL
+Área: Britagem 1
+Status: Inspecionada
+Área: Britagem 1A
+Status: Inspecionada
+Área: Concentração (Planta 3 + GX600)
+Status: Inspecionada
+Área: Filtragem
+Status: Inspecionada
+Área: Planta 4
+Status: Inspecionada
+Área: PEC
+Status: Inspecionada
+Área: Área de Lavra
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro ADM
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Operacional
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Contratadas
+Status: Inspecionada
+Área: Pátio Balança
+Status: Inspecionada
+Área: Balança
+Status: Inspecionada
+Área: Oficina AJPM
+Status: Inspecionada
+Área: Oficina MPC
+Status: Inspecionada
+Área: Restaurante
+Status: Inspecionada
+Área: Centro Administrativo
+Status: Inspecionada
+Área: Portaria
+Status: Inspecionada
+02/04/2026 09:06 - Phelippe Cerqueira: #NC
+Área: Área de Lavra
+Equipamento: Frota
+Não Conformidade: Caminhão estacionado sem calço nas rodas
+Classificação: Média
+Responsável: Operação
+Prazo: 08/04
+Foto: (arquivo anexado)
+03/04/2026 10:10 - Wagner Rocha: #NC
+Área: Área de Lavra
+Equipamento: Vias da mina
+Não Conformidade: Placa de velocidade máxima caída
+Classificação: Baixa
+Responsável: Segurança
+Prazo: 09/04
+Foto: (arquivo anexado)
+04/04/2026 10:17 - Phelippe Cerqueira: #INSPECAO Restaurante - tudo ok
+04/04/2026 11:24 - Flavia Tanner: #INSPECAO Banheiro/Vestiário Cedro Operacional - tudo certo, sem desvios
+04/04/2026 15:06 - Lucas Conrado: #NC
+Área: Banheiro/Vestiário Cedro ADM
+Equipamento: Vestiário ADM
+Não Conformidade: Luminária queimada no vestiário
+Classificação: Baixa
+Responsável: Elétrica
+Prazo: 10/04
+Foto: (arquivo anexado)
+04/04/2026 16:51 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Caminhão estacionado sem calço nas rodas
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+05/04/2026 09:49 - Daniele Coutinho: #NC
+Área: Planta 4
+Equipamento: Portão 3
+Não Conformidade: Placa de advertência caída no portão
+Classificação: Baixa
+Responsável: Segurança
+Prazo: 12/04
+Foto: (arquivo anexado)
+05/04/2026 11:07 - Daniele Coutinho: #NC
+Área: Portaria
+Equipamento: Cancela
+Não Conformidade: Cancela sem sinalização refletiva
+Classificação: Média
+Responsável: Segurança
+Prazo: 09/04
+Foto: (arquivo anexado)
+05/04/2026 13:05 - Alberto Inácio: #INSPECAO Oficina AJPM - tudo ok
+05/04/2026 15:33 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Placa de velocidade máxima caída
+Status: Em andamento
+Observação: Aguardando peça de reposição.
+06/04/2026 07:08 - Phelippe Cerqueira: #INSPECAO Britagem 1A - área ok, sem pendências novas
+06/04/2026 15:33 - Lucas Conrado: #INSPECAO Pátio Balança - tudo ok
+06/04/2026 17:15 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Portaria
+NC: Cancela sem sinalização refletiva
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+06/04/2026 17:19 - Josiane Lima: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Células de flotação
+Não Conformidade: Piso escorregadio por transbordo de célula
+Classificação: Média
+Responsável: Operação
+Prazo: 10/04
+Foto: (arquivo anexado)
+07/04/2026 07:16 - Lucas Conrado: #INSPECAO Filtragem - área ok, sem pendências novas
+07/04/2026 09:40 - Flavia Tanner: #INSPECAO Britagem 1A - sem NC, área ok
+07/04/2026 10:19 - Tiago Santos: #INSPECAO Portaria - área ok, sem pendências novas
+07/04/2026 10:36 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Caminhão estacionado sem calço nas rodas
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+07/04/2026 16:31 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Portaria
+NC: Cancela sem sinalização refletiva
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+08/04/2026 07:11 - Phelippe Cerqueira: #INSPECAO Concentração (Planta 3 + GX600) - área ok, sem pendências novas
+09/04/2026 07:04 - Alberto Inácio: #INSPECAO PEC - sem NC, área ok
+09/04/2026 11:20 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Piso escorregadio por transbordo de célula
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+10/04/2026 11:29 - Alberto Inácio: #INSPECAO Concentração (Planta 3 + GX600) - tudo ok
+10/04/2026 15:17 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Placa de velocidade máxima caída
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+10/04/2026 17:32 - Alberto Inácio: #INSPECAO Oficina MPC - sem NC, área ok
+11/04/2026 14:28 - Tiago Santos: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Linha de ar
+Não Conformidade: Válvula de segurança sem etiqueta de calibração
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 21/04
+Foto: (arquivo anexado)
+11/04/2026 15:57 - Daniele Coutinho: #NC
+Área: PEC
+Equipamento: Vias internas
+Não Conformidade: Sinalização de tráfego de máquinas apagada
+Classificação: Média
+Responsável: Segurança
+Prazo: 17/04
+Foto: (arquivo anexado)
+12/04/2026 13:02 - Tiago Santos: #INSPECAO Britagem 1A - tudo certo, sem desvios
+12/04/2026 15:34 - Josiane Lima: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Placa de advertência caída no portão
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+13/04/2026 09:18 - Alberto Inácio: #NC
+Área: Centro Administrativo
+Equipamento: Corredor
+Não Conformidade: Rota de fuga obstruída por arquivos
+Classificação: Média
+Responsável: Segurança
+Prazo: 21/04
+Foto: (arquivo anexado)
+13/04/2026 10:39 - Josiane Lima: #NC
+Área: Filtragem
+Equipamento: Painel FP
+Não Conformidade: Botão de parada de emergência sem identificação
+Classificação: Alta
+Responsável: Segurança
+Prazo: 18/04
+Foto: (arquivo anexado)
+13/04/2026 16:37 - Josiane Lima: #INSPECAO Filtragem - tudo ok
+13/04/2026 17:09 - Tiago Santos: #NC
+Área: Britagem 1A
+Equipamento: Motor M-201
+Não Conformidade: Proteção do acoplamento do motor solta
+Classificação: Crítica
+Responsável: Manutenção mecânica
+Prazo: 22/04
+Foto: (arquivo anexado)
+14/04/2026 10:30 - Anderson Magalhães: #NC
+Área: Britagem 1
+Equipamento: Plataforma
+Não Conformidade: Piso metálico solto na plataforma de inspeção
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 24/04
+Foto: (arquivo anexado)
+14/04/2026 16:39 - Anderson Magalhães: #INSPECAO Planta 4 - tudo certo, sem desvios
+14/04/2026 17:56 - Daniele Coutinho: #NC
+Área: Banheiro/Vestiário Cedro Operacional
+Equipamento: Vestiário operacional
+Não Conformidade: Chuveiro sem água quente
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 20/04
+Foto: (arquivo anexado)
+14/04/2026 17:56 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Rota de fuga obstruída por arquivos
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+15/04/2026 07:59 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: PEC
+NC: Sinalização de tráfego de máquinas apagada
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+15/04/2026 11:04 - Josiane Lima: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro ADM
+NC: Luminária queimada no vestiário
+Status: Concluído
+Observação: Substituição realizada.
+15/04/2026 14:12 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro Operacional
+NC: Chuveiro sem água quente
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+15/04/2026 16:56 - Tiago Santos: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Proteção do acoplamento do motor solta
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+16/04/2026 09:22 - Alberto Inácio: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Botão de parada de emergência sem identificação
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+17/04/2026 10:53 - Juscelino Santos: #NC
+Área: Britagem 1A
+Equipamento: Galeria
+Não Conformidade: Sinalização de rota de fuga apagada
+Classificação: Média
+Responsável: Segurança
+Prazo: 21/04
+Foto: (arquivo anexado)
+18/04/2026 08:05 - Anderson Magalhães: #NC
+Área: Banheiro/Vestiário Cedro Contratadas
+Equipamento: Banheiro contratadas
+Não Conformidade: Porta sem trinco
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 25/04
+Foto: (arquivo anexado)
+19/04/2026 07:30 - Juscelino Santos: #INSPECAO Britagem 1 - área ok, sem pendências novas
+19/04/2026 08:34 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Sinalização de rota de fuga apagada
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+19/04/2026 16:41 - Tiago Santos: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Sinalização de rota de fuga apagada
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+20/04/2026 07:53 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Válvula de segurança sem etiqueta de calibração
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+20/04/2026 15:44 - Alberto Inácio: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro Contratadas
+NC: Porta sem trinco
+Status: Em andamento
+Observação: Aguardando peça de reposição.
+21/04/2026 07:10 - Alberto Inácio: #NC
+Área: Restaurante
+Equipamento: Refeitório
+Não Conformidade: Piso quebrado na entrada do refeitório
+Classificação: Média
+Responsável: Civil
+Prazo: 27/04
+Foto: (arquivo anexado)
+21/04/2026 14:55 - Tiago Santos: #NC
+Área: Planta 4
+Equipamento: Passarela
+Não Conformidade: Guarda-corpo ausente em trecho da passarela
+Classificação: Crítica
+Responsável: Manutenção
+Prazo: 30/04
+Foto: (arquivo anexado)
+21/04/2026 17:11 - Wagner Rocha: #INSPECAO Filtragem - tudo certo, sem desvios
+22/04/2026 09:43 - Lucas Conrado: #INSPECAO Banheiro/Vestiário Cedro ADM - tudo ok
+22/04/2026 12:53 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Proteção do acoplamento do motor solta
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+23/04/2026 17:52 - Anderson Magalhães: #INSPECAO Área de Lavra - tudo certo, sem desvios
+24/04/2026 10:14 - Anderson Magalhães: #INSPECAO Planta 4 - sem NC, área ok
+24/04/2026 15:48 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Piso metálico solto na plataforma de inspeção
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+25/04/2026 11:56 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro Operacional
+NC: Chuveiro sem água quente
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+26/04/2026 12:13 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Rota de fuga obstruída por arquivos
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+27/04/2026 08:37 - Tiago Santos: #INSPECAO Concentração (Planta 3 + GX600) - tudo ok
+27/04/2026 10:36 - Juscelino Santos: #INSPECAO Área de Lavra - sem NC, área ok
+27/04/2026 14:56 - Josiane Lima: #ACOMPANHAMENTO
+Área: Restaurante
+NC: Piso quebrado na entrada do refeitório
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+28/04/2026 10:07 - Flavia Tanner: #INSPECAO Centro Administrativo - área ok, sem pendências novas
+29/04/2026 15:52 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro Contratadas
+NC: Porta sem trinco
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+29/04/2026 17:34 - Tiago Santos: #INSPECAO Balança - tudo ok
+30/04/2026 10:30 - Flavia Tanner: #INSPECAO Banheiro/Vestiário Cedro Contratadas - sem NC, área ok
+30/04/2026 16:07 - Flavia Tanner: #INSPEÇÃO GERAL
+Área: Britagem 1
+Status: Inspecionada
+Área: Britagem 1A
+Status: Inspecionada
+Área: Concentração (Planta 3 + GX600)
+Status: Inspecionada
+Área: Filtragem
+Status: Inspecionada
+Área: Planta 4
+Status: Inspecionada
+Área: PEC
+Status: Inspecionada
+Área: Área de Lavra
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro ADM
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Operacional
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Contratadas
+Status: Inspecionada
+Área: Pátio Balança
+Status: Inspecionada
+Área: Balança
+Status: Inspecionada
+Área: Oficina AJPM
+Status: Inspecionada
+Área: Oficina MPC
+Status: Inspecionada
+Área: Restaurante
+Status: Inspecionada
+Área: Centro Administrativo
+Status: Inspecionada
+Área: Portaria
+Status: Inspecionada
+30/04/2026 17:43 - Tiago Santos: #INSPECAO Britagem 1 - área ok, sem pendências novas
+01/05/2026 14:11 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Guarda-corpo ausente em trecho da passarela
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+02/05/2026 08:55 - Flavia Tanner: #INSPECAO Concentração (Planta 3 + GX600) - tudo ok
+02/05/2026 16:15 - Phelippe Cerqueira: #NC
+Área: Balança
+Equipamento: Balança rodoviária
+Não Conformidade: Balança sem selo de aferição visível
+Classificação: Média
+Responsável: Manutenção
+Prazo: 05/05
+Foto: (arquivo anexado)
+02/05/2026 17:10 - Daniele Coutinho: #INSPECAO Balança - tudo ok
+03/05/2026 09:47 - Josiane Lima: #INSPECAO Oficina AJPM - tudo certo, sem desvios
+03/05/2026 16:52 - Alberto Inácio: #NC
+Área: Restaurante
+Equipamento: Refeitório
+Não Conformidade: Telha solta na cobertura
+Classificação: Média
+Responsável: Civil
+Prazo: 13/05
+Foto: (arquivo anexado)
+04/05/2026 09:26 - Phelippe Cerqueira: #INSPECAO Portaria - sem NC, área ok
+04/05/2026 12:05 - Tiago Santos: #INSPECAO Planta 4 - área ok, sem pendências novas
+04/05/2026 13:56 - Anderson Magalhães: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Sala de controle
+Não Conformidade: Luminária de emergência inoperante
+Classificação: Média
+Responsável: Elétrica
+Prazo: 07/05
+Foto: (arquivo anexado)
+04/05/2026 15:52 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Balança
+NC: Balança sem selo de aferição visível
+Status: Concluído
+Observação: Substituição realizada.
+05/05/2026 16:26 - Phelippe Cerqueira: #INSPECAO Filtragem - área ok, sem pendências novas
+06/05/2026 17:43 - Wagner Rocha: #NC
+Área: Britagem 1A
+Equipamento: Plataforma
+Não Conformidade: Piso com acúmulo de minério na plataforma
+Classificação: Média
+Responsável: Operação
+Prazo: 15/05
+Foto: (arquivo anexado)
+07/05/2026 16:51 - Anderson Magalhães: #INSPECAO Britagem 1A - área ok, sem pendências novas
+07/05/2026 17:24 - Lucas Conrado: #INSPECAO PEC - sem NC, área ok
+08/05/2026 08:23 - Alberto Inácio: #NC
+Área: Pátio Balança
+Equipamento: Pátio
+Não Conformidade: Falta de faixa de pedestre na travessia
+Classificação: Média
+Responsável: Segurança
+Prazo: 18/05
+Foto: (arquivo anexado)
+08/05/2026 10:48 - Fabiana Mello: #INSPECAO Filtragem - tudo certo, sem desvios
+09/05/2026 08:39 - Lucas Conrado: #NC
+Área: Britagem 1A
+Equipamento: Painel PN-2B
+Não Conformidade: Painel elétrico com porta emperrada
+Classificação: Média
+Responsável: Elétrica
+Prazo: 14/05
+Foto: (arquivo anexado)
+09/05/2026 12:23 - Wagner Rocha: #INSPECAO Banheiro/Vestiário Cedro Contratadas - tudo ok
+10/05/2026 15:10 - Daniele Coutinho: #INSPECAO Britagem 1 - área ok, sem pendências novas
+10/05/2026 15:13 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Luminária de emergência inoperante
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+10/05/2026 17:53 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Painel elétrico com porta emperrada
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+11/05/2026 16:11 - Alberto Inácio: #ACOMPANHAMENTO
+Área: Restaurante
+NC: Telha solta na cobertura
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+12/05/2026 08:53 - Fabiana Mello: #NC
+Área: Filtragem
+Equipamento: Bomba hidráulica
+Não Conformidade: Poça de óleo sem contenção sob a bomba
+Classificação: Média
+Responsável: Operação
+Prazo: 21/05
+Foto: (arquivo anexado)
+12/05/2026 14:41 - Josiane Lima: #INSPECAO Concentração (Planta 3 + GX600) - sem NC, área ok
+12/05/2026 15:36 - Anderson Magalhães: #NC
+Área: Britagem 1A
+Equipamento: Correia TC-05
+Não Conformidade: Cabo elétrico exposto próximo à correia
+Classificação: Alta
+Responsável: Elétrica
+Prazo: 20/05
+Foto: (arquivo anexado)
+13/05/2026 07:29 - Fabiana Mello: #INSPECAO Área de Lavra - sem NC, área ok
+13/05/2026 08:53 - Fabiana Mello: #INSPECAO Restaurante - tudo certo, sem desvios
+13/05/2026 10:40 - Lucas Conrado: #INSPECAO Centro Administrativo - tudo ok
+13/05/2026 10:45 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Painel elétrico com porta emperrada
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+13/05/2026 12:33 - Wagner Rocha: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Piso com acúmulo de minério na plataforma
+Status: Concluído
+Observação: Substituição realizada.
+13/05/2026 13:15 - Daniele Coutinho: #INSPECAO Oficina MPC - tudo certo, sem desvios
+13/05/2026 14:40 - Wagner Rocha: #NC
+Área: Oficina MPC
+Equipamento: Bancada
+Não Conformidade: Esmerilhadeira sem proteção do disco
+Classificação: Alta
+Responsável: Segurança
+Prazo: 21/05
+Foto: (arquivo anexado)
+13/05/2026 17:26 - Lucas Conrado: #NC
+Área: Área de Lavra
+Equipamento: Praça de carregamento
+Não Conformidade: Drenagem obstruída acumulando água na praça
+Classificação: Média
+Responsável: Civil
+Prazo: 19/05
+Foto: (arquivo anexado)
+14/05/2026 14:21 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Cabo elétrico exposto próximo à correia
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+15/05/2026 12:20 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Drenagem obstruída acumulando água na praça
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+16/05/2026 13:02 - Tiago Santos: #NC
+Área: Portaria
+Equipamento: Guarita
+Não Conformidade: Iluminação externa queimada
+Classificação: Média
+Responsável: Elétrica
+Prazo: 20/05
+Foto: (arquivo anexado)
+17/05/2026 13:36 - Daniele Coutinho: #NC
+Área: Britagem 1
+Equipamento: Extintor P-12
+Não Conformidade: Extintor com lacre rompido
+Classificação: Média
+Responsável: Segurança
+Prazo: 25/05
+Foto: (arquivo anexado)
+17/05/2026 13:39 - Anderson Magalhães: #NC
+Área: Planta 4
+Equipamento: Plataforma
+Não Conformidade: Falta de rodapé de proteção na plataforma
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 21/05
+Foto: (arquivo anexado)
+18/05/2026 09:15 - Josiane Lima: #INSPECAO Concentração (Planta 3 + GX600) - área ok, sem pendências novas
+18/05/2026 09:43 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Portaria
+NC: Iluminação externa queimada
+Status: Em andamento
+Observação: Serviço programado com a equipe.
+19/05/2026 09:52 - Tiago Santos: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Poça de óleo sem contenção sob a bomba
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+19/05/2026 10:28 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Extintor com lacre rompido
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+19/05/2026 15:08 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Falta de rodapé de proteção na plataforma
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+20/05/2026 13:19 - Anderson Magalhães: #INSPECAO Planta 4 - sem NC, área ok
+20/05/2026 14:43 - Lucas Conrado: #INSPECAO Filtragem - tudo ok
+21/05/2026 16:31 - Wagner Rocha: #INSPECAO Banheiro/Vestiário Cedro Operacional - tudo certo, sem desvios
+22/05/2026 07:27 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Cabo elétrico exposto próximo à correia
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+22/05/2026 10:18 - Alberto Inácio: #INSPECAO Britagem 1 - sem NC, área ok
+22/05/2026 13:05 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Oficina MPC
+NC: Esmerilhadeira sem proteção do disco
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+23/05/2026 09:49 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Pátio Balança
+NC: Falta de faixa de pedestre na travessia
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+23/05/2026 15:32 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Drenagem obstruída acumulando água na praça
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+24/05/2026 08:10 - Lucas Conrado: #INSPECAO Planta 4 - sem NC, área ok
+24/05/2026 13:46 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Extintor com lacre rompido
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+24/05/2026 14:02 - Fabiana Mello: #INSPECAO Pátio Balança - sem NC, área ok
+25/05/2026 10:29 - Tiago Santos: #ACOMPANHAMENTO
+Área: Portaria
+NC: Iluminação externa queimada
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+25/05/2026 17:36 - Alberto Inácio: #INSPECAO Área de Lavra - área ok, sem pendências novas
+27/05/2026 08:59 - Alberto Inácio: #INSPECAO Britagem 1A - tudo ok
+28/05/2026 13:09 - Wagner Rocha: #INSPECAO Área de Lavra - tudo ok
+28/05/2026 15:29 - Tiago Santos: #INSPECAO Banheiro/Vestiário Cedro ADM - tudo ok
+31/05/2026 07:05 - Fabiana Mello: #INSPECAO Britagem 1 - sem NC, área ok
+31/05/2026 16:05 - Juscelino Santos: #INSPEÇÃO GERAL
+Área: Britagem 1
+Status: Inspecionada
+Área: Britagem 1A
+Status: Inspecionada
+Área: Concentração (Planta 3 + GX600)
+Status: Inspecionada
+Área: Filtragem
+Status: Inspecionada
+Área: Planta 4
+Status: Inspecionada
+Área: PEC
+Status: Inspecionada
+Área: Área de Lavra
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro ADM
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Operacional
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Contratadas
+Status: Inspecionada
+Área: Pátio Balança
+Status: Inspecionada
+Área: Balança
+Status: Inspecionada
+Área: Oficina AJPM
+Status: Inspecionada
+Área: Oficina MPC
+Status: Inspecionada
+Área: Restaurante
+Status: Inspecionada
+Área: Centro Administrativo
+Status: Inspecionada
+Área: Portaria
+Status: Inspecionada
+01/06/2026 13:33 - Fabiana Mello: #INSPECAO Britagem 1A - sem NC, área ok
+01/06/2026 17:41 - Phelippe Cerqueira: #INSPECAO Pátio Balança - área ok, sem pendências novas
+02/06/2026 08:58 - Juscelino Santos: #INSPECAO Banheiro/Vestiário Cedro ADM - tudo certo, sem desvios
+02/06/2026 09:36 - Wagner Rocha: #INSPECAO Planta 4 - tudo certo, sem desvios
+02/06/2026 12:18 - Daniele Coutinho: #NC
+Área: Filtragem
+Equipamento: Escada FP
+Não Conformidade: Escada de acesso com degrau corroído
+Classificação: Média
+Responsável: Civil
+Prazo: 10/06
+Foto: (arquivo anexado)
+02/06/2026 14:46 - Juscelino Santos: #INSPECAO Centro Administrativo - área ok, sem pendências novas
+04/06/2026 10:59 - Flavia Tanner: #NC
+Área: Britagem 1
+Equipamento: Painel CCM
+Não Conformidade: Cabo de alimentação com isolamento ressecado
+Classificação: Crítica
+Responsável: Elétrica
+Prazo: 10/06
+Foto: (arquivo anexado)
+04/06/2026 16:40 - Josiane Lima: #INSPECAO Portaria - área ok, sem pendências novas
+05/06/2026 11:09 - Alberto Inácio: #INSPECAO Britagem 1A - tudo ok
+06/06/2026 17:08 - Daniele Coutinho: #NC
+Área: Britagem 1A
+Equipamento: Escada
+Não Conformidade: Guarda-corpo com corrosão na escada de acesso
+Classificação: Alta
+Responsável: Civil
+Prazo: 10/06
+Foto: (arquivo anexado)
+06/06/2026 17:22 - Daniele Coutinho: #INSPECAO Britagem 1 - tudo ok
+07/06/2026 10:08 - Tiago Santos: #NC
+Área: Banheiro/Vestiário Cedro Operacional
+Equipamento: Vestiário operacional
+Não Conformidade: Armários com portas danificadas
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 16/06
+Foto: (arquivo anexado)
+07/06/2026 14:13 - Juscelino Santos: #INSPECAO Britagem 1 - sem NC, área ok
+07/06/2026 15:59 - Alberto Inácio: #NC
+Área: Banheiro/Vestiário Cedro ADM
+Equipamento: Banheiro ADM
+Não Conformidade: Piso do banheiro com infiltração
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 14/06
+Foto: (arquivo anexado)
+08/06/2026 07:13 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Escada de acesso com degrau corroído
+Status: Concluído
+Observação: Substituição realizada.
+08/06/2026 13:12 - Josiane Lima: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Guarda-corpo com corrosão na escada de acesso
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+08/06/2026 15:01 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Guarda-corpo com corrosão na escada de acesso
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+09/06/2026 10:36 - Wagner Rocha: #NC
+Área: Oficina MPC
+Equipamento: Oficina
+Não Conformidade: Óleo no piso sem contenção
+Classificação: Média
+Responsável: Operação
+Prazo: 17/06
+Foto: (arquivo anexado)
+09/06/2026 13:19 - Alberto Inácio: #INSPECAO Concentração (Planta 3 + GX600) - área ok, sem pendências novas
+09/06/2026 17:00 - Flavia Tanner: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro ADM
+NC: Piso do banheiro com infiltração
+Status: Em andamento
+Observação: Aguardando peça de reposição.
+10/06/2026 14:37 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Cabo de alimentação com isolamento ressecado
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+10/06/2026 15:33 - Wagner Rocha: #INSPECAO Filtragem - área ok, sem pendências novas
+10/06/2026 17:05 - Fabiana Mello: #INSPECAO Restaurante - tudo certo, sem desvios
+12/06/2026 10:11 - Alberto Inácio: #INSPECAO Banheiro/Vestiário Cedro Operacional - tudo certo, sem desvios
+12/06/2026 10:38 - Alberto Inácio: #NC
+Área: Planta 4
+Equipamento: Peneira PN-3
+Não Conformidade: Parafusos frouxos na estrutura da peneira
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 22/06
+Foto: (arquivo anexado)
+14/06/2026 07:51 - Tiago Santos: #NC
+Área: Área de Lavra
+Equipamento: Acesso à cava
+Não Conformidade: Acesso sem leira de proteção na borda
+Classificação: Alta
+Responsável: Operação
+Prazo: 19/06
+Foto: (arquivo anexado)
+14/06/2026 12:01 - Flavia Tanner: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Tambor magnético (TM)
+Não Conformidade: Proteção do tambor magnético removida
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 20/06
+Foto: (arquivo anexado)
+14/06/2026 12:51 - Tiago Santos: #INSPECAO Área de Lavra - sem NC, área ok
+14/06/2026 17:02 - Tiago Santos: #NC
+Área: Área de Lavra
+Equipamento: Frente de lavra
+Não Conformidade: Banco da lavra com trinca visível
+Classificação: Crítica
+Responsável: Operação
+Prazo: 22/06
+Foto: (arquivo anexado)
+15/06/2026 15:46 - Josiane Lima: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro Operacional
+NC: Armários com portas danificadas
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+16/06/2026 08:06 - Juscelino Santos: #NC
+Área: Centro Administrativo
+Equipamento: Sala de reunião
+Não Conformidade: Ar-condicionado pingando sobre tomada
+Classificação: Alta
+Responsável: Facilities
+Prazo: 26/06
+Foto: (arquivo anexado)
+16/06/2026 08:48 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Proteção do tambor magnético removida
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+16/06/2026 09:09 - Daniele Coutinho: #NC
+Área: Área de Lavra
+Equipamento: Frota
+Não Conformidade: Caminhão estacionado sem calço nas rodas
+Classificação: Média
+Responsável: Operação
+Prazo: 19/06
+Foto: (arquivo anexado)
+16/06/2026 13:46 - Josiane Lima: #INSPECAO Filtragem - tudo certo, sem desvios
+16/06/2026 16:38 - Tiago Santos: #ACOMPANHAMENTO
+Área: Oficina MPC
+NC: Óleo no piso sem contenção
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+17/06/2026 08:06 - Daniele Coutinho: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Acesso sem leira de proteção na borda
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+17/06/2026 12:32 - Phelippe Cerqueira: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Tanque de reagente
+Não Conformidade: Bacia de contenção com trinca
+Classificação: Crítica
+Responsável: Civil
+Prazo: 20/06
+Foto: (arquivo anexado)
+17/06/2026 15:26 - Alberto Inácio: #INSPECAO Balança - tudo ok
+18/06/2026 11:13 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Bacia de contenção com trinca
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+19/06/2026 07:08 - Alberto Inácio: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Bacia de contenção com trinca
+Status: Em andamento
+Observação: Equipe mobilizada, em execução.
+19/06/2026 17:33 - Josiane Lima: #ACOMPANHAMENTO
+Área: Banheiro/Vestiário Cedro ADM
+NC: Piso do banheiro com infiltração
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+20/06/2026 07:15 - Alberto Inácio: #INSPECAO Área de Lavra - tudo certo, sem desvios
+20/06/2026 11:52 - Josiane Lima: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Caminhão estacionado sem calço nas rodas
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+20/06/2026 13:28 - Alberto Inácio: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Parafusos frouxos na estrutura da peneira
+Status: Concluído
+Observação: Reparo concluído dentro do padrão.
+20/06/2026 14:59 - Josiane Lima: #NC
+Área: Britagem 1
+Equipamento: Escada de acesso
+Não Conformidade: Corrimão da escada com fixação solta
+Classificação: Média
+Responsável: Civil
+Prazo: 30/06
+Foto: (arquivo anexado)
+20/06/2026 16:28 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Área de Lavra
+NC: Banco da lavra com trinca visível
+Status: Concluído
+Observação: Item normalizado, evidência em foto.
+21/06/2026 17:20 - Tiago Santos: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Corrimão da escada com fixação solta
+Status: Em andamento
+Observação: Material solicitado ao almoxarifado.
+22/06/2026 11:44 - Tiago Santos: #NC
+Área: Britagem 1A
+Equipamento: Correia TC-05
+Não Conformidade: Rolete travado gerando atrito na correia
+Classificação: Média
+Responsável: Manutenção mecânica
+Prazo: 25/06
+Foto: (arquivo anexado)
+23/06/2026 08:05 - Josiane Lima: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Rolete travado gerando atrito na correia
+Status: Concluído
+Observação: Serviço executado e validado em campo.
+24/06/2026 10:49 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Proteção do tambor magnético removida
+Status: Concluído
+Observação: Substituição realizada.
+25/06/2026 09:11 - Juscelino Santos: #INSPECAO Banheiro/Vestiário Cedro Contratadas - tudo certo, sem desvios
+25/06/2026 09:52 - Lucas Conrado: #INSPECAO Concentração (Planta 3 + GX600) - tudo certo, sem desvios
+25/06/2026 12:11 - Flavia Tanner: #INSPECAO Oficina MPC - sem NC, área ok
+25/06/2026 13:20 - Juscelino Santos: #NC
+Área: Planta 4
+Equipamento: Passarela superior
+Não Conformidade: Guarda-corpo com corrosão avançada na passarela superior
+Classificação: Crítica
+Responsável: Manutenção
+Prazo: 10/07
+Foto: (arquivo anexado)
+27/06/2026 09:49 - Alberto Inácio: #INSPECAO Britagem 1A - tudo certo, sem desvios
+27/06/2026 09:52 - Tiago Santos: #INSPECAO PEC - tudo ok
+27/06/2026 11:57 - Flavia Tanner: #INSPECAO Oficina AJPM - área ok, sem pendências novas
+28/06/2026 10:50 - Juscelino Santos: #ACOMPANHAMENTO
+Área: Planta 4
+NC: Guarda-corpo com corrosão avançada na passarela superior
+Status: Sem atendimento
+Observação: Serviço ainda não iniciado pela manutenção.
+28/06/2026 16:32 - Flavia Tanner: #INSPECAO Área de Lavra - área ok, sem pendências novas
+30/06/2026 10:34 - Fabiana Mello: #ACOMPANHAMENTO
+Área: Centro Administrativo
+NC: Ar-condicionado pingando sobre tomada
+Status: Concluído
+Observação: Substituição realizada.
+30/06/2026 12:57 - Flavia Tanner: #INSPECAO Concentração (Planta 3 + GX600) - tudo certo, sem desvios
+30/06/2026 16:19 - Daniele Coutinho: #INSPEÇÃO GERAL
+Área: Britagem 1
+Status: Inspecionada
+Área: Britagem 1A
+Status: Inspecionada
+Área: Concentração (Planta 3 + GX600)
+Status: Inspecionada
+Área: Filtragem
+Status: Inspecionada
+Área: Planta 4
+Status: Inspecionada
+Área: PEC
+Status: Inspecionada
+Área: Área de Lavra
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro ADM
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Operacional
+Status: Inspecionada
+Área: Banheiro/Vestiário Cedro Contratadas
+Status: Inspecionada
+Área: Pátio Balança
+Status: Inspecionada
+Área: Balança
+Status: Inspecionada
+Área: Oficina AJPM
+Status: Inspecionada
+Área: Oficina MPC
+Status: Inspecionada
+Área: Restaurante
+Status: Inspecionada
+Área: Centro Administrativo
+Status: Inspecionada
+Área: Portaria
+Status: Inspecionada
+30/06/2026 17:22 - Anderson Magalhães: #INSPECAO Planta 4 - sem NC, área ok
+02/07/2026 08:45 - Fabiana Mello: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Guincho da ponte rolante
+Não Conformidade: Cabo de aço com fios desfiados no guincho
+Classificação: Crítica
+Responsável: Manutenção mecânica
+Prazo: 08/07
+Foto: (arquivo anexado)
+03/07/2026 10:15 - Lucas Conrado: #NC
+Área: Britagem 1A
+Equipamento: Lava-olhos
+Não Conformidade: Chuveiro lava-olhos com vazão baixa
+Classificação: Alta
+Responsável: Facilities
+Prazo: 07/07
+Foto: (arquivo anexado)
+03/07/2026 14:20 - Lucas Conrado: #INSPECAO PEC - tudo ok
+04/07/2026 11:10 - Josiane Lima: #NC
+Área: Restaurante
+Equipamento: Refeitório
+Não Conformidade: Lâmpada queimada no salão do refeitório
+Classificação: Baixa
+Responsável: Facilities
+Prazo: 09/07
+Foto: (arquivo anexado)
+04/07/2026 17:28 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Corrimão da escada com fixação solta
+Status: Concluído
+Observação: Corrigido pela equipe responsável.
+05/07/2026 08:10 - Juscelino Santos: #INSPECAO Britagem 1 - área ok, sem pendências novas
+05/07/2026 11:00 - Daniele Coutinho: #INSPECAO Balança - sem NC, área ok
+06/07/2026 11:30 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: Chuveiro lava-olhos com vazão baixa
+Status: Concluído
+Observação: Filtro trocado e vazão testada.
+07/07/2026 09:15 - Flavia Tanner: #INSPECAO Centro Administrativo - tudo certo, sem desvios
+08/07/2026 09:25 - Anderson Magalhães: #NC
+Área: Britagem 1
+Equipamento: Britador primário
+Não Conformidade: Vibração anormal no conjunto do britador primário
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 25/07
+Foto: (arquivo anexado)
+08/07/2026 09:55 - Josiane Lima: #ACOMPANHAMENTO
+Área: Restaurante
+NC: Lâmpada queimada no salão do refeitório
+Status: Concluído
+Observação: Lâmpada substituída.
+08/07/2026 10:30 - Wagner Rocha: #INSPECAO Portaria - tudo certo, sem desvios
+09/07/2026 07:45 - Alberto Inácio: #INSPECAO Área de Lavra - tudo ok
+09/07/2026 09:05 - Phelippe Cerqueira: #NC
+Área: Filtragem
+Equipamento: Linha de ar comprimido
+Não Conformidade: Vazamento na conexão da linha de ar comprimido
+Classificação: Média
+Responsável: Manutenção
+Prazo: 22/07
+Foto: (arquivo anexado)
+10/07/2026 08:50 - Fabiana Mello: #INSPECAO Banheiro/Vestiário Cedro Operacional - área ok, sem pendências novas
+10/07/2026 14:40 - Anderson Magalhães: #ACOMPANHAMENTO
+Área: Britagem 1
+NC: Vibração anormal no conjunto do britador primário
+Status: Em andamento
+Observação: Análise de vibração agendada com a preditiva.
+10/07/2026 15:05 - Flavia Tanner: #INSPECAO Britagem 1 - sem NC, área ok
+11/07/2026 09:05 - Fabiana Mello: #INSPECAO Banheiro/Vestiário Cedro ADM - tudo certo, sem desvios
+11/07/2026 10:20 - Tiago Santos: #INSPECAO Concentração (Planta 3 + GX600) - sem NC, área ok
+12/07/2026 09:40 - Wagner Rocha: #INSPECAO Britagem 1A - sem NC, área ok
+12/07/2026 14:15 - Phelippe Cerqueira: #ACOMPANHAMENTO
+Área: Filtragem
+NC: Vazamento na conexão da linha de ar comprimido
+Status: Em andamento
+Observação: Conexão nova comprada, troca programada.
+13/07/2026 08:30 - Daniele Coutinho: #INSPECAO Filtragem - tudo certo, sem desvios
+13/07/2026 09:35 - Fabiana Mello: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Peneira PN-01
+Não Conformidade: Sistema de lubrificação automática inoperante, mancal aquecendo
+Classificação: Alta
+Responsável: Manutenção mecânica
+Prazo: 20/07
+Foto: (arquivo anexado)
+14/07/2026 10:45 - Juscelino Santos: #INSPECAO Restaurante - tudo ok

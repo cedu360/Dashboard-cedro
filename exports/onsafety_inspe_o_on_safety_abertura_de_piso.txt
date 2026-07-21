@@ -1,0 +1,10 @@
+01/02/2026 08:44 - Alisson Castro: #NC
+Área: Concentração (Planta 3 + GX600)
+Equipamento: Tambor magnético (TM)
+Não Conformidade: abertura de piso no piso dos TM tambor magnético sem proteção, obs: situação se encontrava em risco também nos turnos anteriores (ON SAFETY · NR 31.12.21 "b")
+Classificação: Alta
+01/02/2026 15:51 - Alisson Castro: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: abertura de piso no piso dos TM tambor magnético sem proteção, obs: situação se encontrava
+Status: Concluído
+Observação: Realizado o fechamento do no piso, evitando quedas de pessoas. (evidência ON SAFETY)

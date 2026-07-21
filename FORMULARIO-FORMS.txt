@@ -1,0 +1,185 @@
+=====================================================================
+FORMULÁRIO DE INSPEÇÃO DE SEGURANÇA — CEDRO MINERAÇÃO
+Perguntas prontas para montar no Microsoft Forms (ou Google Forms)
+=====================================================================
+
+COMO MONTAR (Microsoft Forms):
+1. forms.microsoft.com > Novo formulário
+2. Título: "Inspeção de Segurança — CEDRO MINERAÇÃO"
+3. Crie as perguntas abaixo NA ORDEM e com ESTES TÍTULOS (o importador
+   do dashboard reconhece pelos títulos).
+4. Em cada pergunta marque "Obrigatória" onde indicado [OBRIGATÓRIA].
+5. Na pergunta 7, use "Adicionar ramificação": resposta "Não" pula
+   direto para o fim do formulário (registra só a visita).
+6. Compartilhe o link com os 11 responsáveis (funciona no celular).
+
+---------------------------------------------------------------------
+P1. Data da inspeção                       [Data] [OBRIGATÓRIA]
+
+P2. Hora aproximada da inspeção            [Texto curto]
+    Exemplo de resposta: 08:30
+
+P3. Responsável(is) pela inspeção          [Escolha - múltipla seleção]
+    [OBRIGATÓRIA]
+    ( ) Anderson Magalhães
+    ( ) Daniele Coutinho
+    ( ) Tiago Santos
+    ( ) Juscelino Santos
+    ( ) Lucas Conrado
+    ( ) Alberto Inácio
+    ( ) Josiane Lima
+    ( ) Fabiana Mello
+    ( ) Flavia Tanner
+    ( ) Wagner Rocha
+    ( ) Phelippe Cerqueira
+
+P4. Local / Ponto inspecionado             [Lista suspensa] [OBRIGATÓRIA]
+    ( ) Britagem 1
+    ( ) Britagem 1A
+    ( ) Concentração (Planta 3 + GX600)
+    ( ) Filtragem
+    ( ) PEC
+    ( ) Planta 4
+    ( ) Área de Lavra
+    ( ) Banheiro/Vestiário Cedro ADM
+    ( ) Banheiro/Vestiário Cedro Operacional
+    ( ) Banheiro/Vestiário Cedro Contratadas
+    ( ) Pátio Balança
+    ( ) Balança
+    ( ) Oficina AJPM
+    ( ) Oficina MPC
+    ( ) Restaurante
+    ( ) Centro Administrativo
+    ( ) Portaria
+    ( ) Outros
+
+P5. Se marcou "Outros", especifique o local   [Texto curto]
+
+P6. Tipo de inspeção                       [Escolha] [OBRIGATÓRIA]
+    ( ) Rotina
+    ( ) Programada
+    ( ) Não Programada
+    ( ) Auditoria
+
+P7. Houve não conformidade / desvio?       [Escolha] [OBRIGATÓRIA]
+    ( ) Sim
+    ( ) Não
+    >>> RAMIFICAÇÃO: "Não" -> Fim do formulário <<<
+    (responder "Não" também vale: comprova a visita e mantém a
+    área verde no controle de frequência)
+
+P8. Tipo de ocorrência                     [Escolha]
+    ( ) Condição Insegura
+    ( ) Ato Inseguro
+
+P9. Classificação de risco                 [Escolha] [OBRIGATÓRIA]
+    ( ) Baixo
+    ( ) Médio
+    ( ) Alto
+    ( ) Crítico
+
+P10. Potencial de gravidade                [Escolha]
+    ( ) Sem lesão
+    ( ) Leve
+    ( ) Grave
+    ( ) Fatal
+
+P11. Descrição da não conformidade / desvio   [Texto longo] [OBRIGATÓRIA]
+     Subtítulo: "Descreva de forma objetiva: local exato, equipamento
+     (use a TAG se souber, ex.: TC-01, BP-04), atividade em execução
+     e possíveis causas."
+
+P12. Ação imediata adotada                 [Texto longo]
+     Subtítulo: "Se não se aplica, deixe em branco."
+
+P13. Ação corretiva / plano de ação        [Texto longo]
+
+P14. Responsável pela tratativa            [Texto curto] [OBRIGATÓRIA]
+     Subtítulo: "Equipe ou pessoa que vai corrigir (ex.: Manutenção
+     mecânica, Elétrica, Civil, Facilities...)"
+
+P15. Empresa responsável                   [Escolha]
+    ( ) Cedro
+    ( ) AJPM
+    ( ) MPC
+    ( ) Outra contratada
+
+P16. Prazo para adequação                  [Data] [OBRIGATÓRIA]
+
+P17. Registro fotográfico                  [Carregar arquivo]
+     (disponível quando o Forms é da conta corporativa; as fotos
+     caem numa pasta do OneDrive)
+
+P18. Status da tratativa                   [Escolha] [OBRIGATÓRIA]
+    ( ) Aberto
+    ( ) Em andamento
+    ( ) Concluído
+
+P19. Data de conclusão                     [Data]
+     Subtítulo: "Preencha apenas se o status for Concluído."
+
+P20. Responsável pela verificação / validação   [Texto curto]
+
+--------- MAIS DE UMA NC NA MESMA INSPEÇÃO (ramificação) ------------
+O técnico viu 3 problemas na mesma visita? Uma resposta só resolve:
+
+P21. Registrar OUTRA não conformidade nesta mesma inspeção?  [Escolha]
+    ( ) Sim   ( ) Não
+    >>> RAMIFICAÇÃO: "Não" -> Fim do formulário <<<
+
+P22. NC 2 — Descrição da não conformidade      [Texto longo]
+P23. NC 2 — Classificação de risco             [Escolha: Baixo/Médio/Alto/Crítico]
+P24. NC 2 — Responsável pela tratativa         [Texto curto]
+P25. NC 2 — Prazo para adequação               [Data]
+P26. NC 2 — Status da tratativa                [Escolha: Aberto/Em andamento/Concluído]
+
+P27. Registrar mais uma (terceira) NC?         [Escolha]
+    ( ) Sim   ( ) Não
+    >>> RAMIFICAÇÃO: "Não" -> Fim do formulário <<<
+
+P28. NC 3 — Descrição da não conformidade      [Texto longo]
+P29. NC 3 — Classificação de risco             [Escolha: Baixo/Médio/Alto/Crítico]
+P30. NC 3 — Responsável pela tratativa         [Texto curto]
+P31. NC 3 — Prazo para adequação               [Data]
+P32. NC 3 — Status da tratativa                [Escolha: Aberto/Em andamento/Concluído]
+
+(Mais de 3 NCs na mesma visita? Envia o formulário de novo — as NCs
+ficam ligadas à mesma inspeção pela data + técnico + área.)
+
+=====================================================================
+FORMULÁRIO 2 — TRATATIVA DE NC (mudança de status pelo número)
+=====================================================================
+Crie um SEGUNDO formulário chamado "Tratativa de NC — CEDRO MINERAÇÃO".
+Serve para o usuário buscar a NC pelo número (que aparece no dashboard
+e na planilha) e mudar o status para Em andamento ou Concluído.
+
+T1. Número da NC                           [Texto curto] [OBRIGATÓRIA]
+    Subtítulo: "O número que aparece no dashboard (ex.: NC-0042)"
+
+T2. Novo status                            [Escolha] [OBRIGATÓRIA]
+    ( ) Em andamento
+    ( ) Concluído
+
+T3. Observação / evidência                 [Texto longo]
+    Subtítulo: "O que foi feito, quem executou, etc."
+
+T4. Responsável pela atualização           [Escolha] [OBRIGATÓRIA]
+    (mesma lista dos 11 responsáveis)
+
+T5. Data da atualização                    [Data] [OBRIGATÓRIA]
+
+As respostas desse formulário também baixam em Excel — salve na mesma
+pasta forms\ que o importador reconhece sozinho (pela coluna
+"Número da NC") e aplica na base.
+
+---------------------------------------------------------------------
+ROTINA DE ATUALIZAÇÃO DO DASHBOARD
+---------------------------------------------------------------------
+1. No Forms: aba "Respostas" > "Abrir no Excel" (baixa o .xlsx)
+2. Salve o arquivo na pasta:  forms\   (dentro da pasta nc-mina)
+3. Rode:  python extrai-forms.py
+4. Rode o rodar.bat
+Pode baixar a planilha completa toda vez — o sistema não duplica.
+O mesmo arquivo Excel é a planilha oficial de registro (fica em
+forms\ como histórico).
+=====================================================================

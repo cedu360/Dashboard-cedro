@@ -1,0 +1,186 @@
+=====================================================================
+CONTROLE DE INSPEÇÕES — ÁREAS DA MINA · PASSO A PASSO
+=====================================================================
+
+O QUE PRECISA (SÓ UMA VEZ, NO COMPUTADOR NOVO)
+---------------------------------------------------------------------
+1. Instalar o Node.js: entre em https://nodejs.org e baixe a versão
+   LTS para Windows. Instale clicando em Avançar até o fim.
+2. Copiar esta pasta inteira para qualquer lugar do computador
+   (ex.: C:\nc-mina). Pronto, não precisa de mais nada.
+
+
+MENSAGENS QUE OS TÉCNICOS MANDAM NO GRUPO (FIXE NO GRUPO!)
+---------------------------------------------------------------------
+>> Encontrou um problema (só Área e Não Conformidade são obrigatórios):
+
+#NC
+Área: Britagem 2
+Equipamento: Correia TC-01
+Não Conformidade: Cabo elétrico exposto
+Classificação: Alta
+Responsável: Elétrica
+Prazo: 20/07
+
+>> Dando andamento ou resolvendo um problema já lançado:
+
+#ACOMPANHAMENTO
+Área: Britagem 2
+NC: Cabo elétrico exposto
+Status: Concluído        (ou: Em andamento / Sem atendimento)
+Observação: Cabo isolado e fixado.
+
+   * Status "Concluído" ENCERRA a NC sozinho, com data e tudo.
+
+>> Inspecionou e estava tudo certo (IMPORTANTE! senão a área
+   fica vermelha por falta de inspeção):
+
+#INSPECAO Filtro Prensa - tudo ok
+
+>> Rodada geral em várias áreas de uma vez:
+
+#INSPEÇÃO GERAL
+Área: Britagem
+Área: Britagem 2
+Área: Concentração
+
+
+ROTINA DE ATUALIZAÇÃO (A CADA 15 DIAS OU 1 VEZ POR MÊS)
+---------------------------------------------------------------------
+1. No celular, abra o grupo no WhatsApp
+   Android: toque em ⋮ (3 pontinhos) > Mais > Exportar conversa
+            > SEM MÍDIA > mande para você mesmo (e-mail/WhatsApp Web)
+   iPhone:  nome do grupo > Exportar conversa > Sem mídia
+
+2. Passe o arquivo .txt exportado para o computador e cole ele
+   dentro da pasta:   exports\
+
+3. Dê DOIS CLIQUES no arquivo:   rodar.bat
+
+4. Pronto! O dashboard abre sozinho no navegador.
+   Quer em PDF? Com o dashboard aberto: Ctrl+P > Salvar como PDF.
+
+* Pode exportar a conversa INTEIRA toda vez — o programa não
+  duplica o que já foi lançado.
+* Não precisa apagar os .txt antigos da pasta exports\, mas se
+  quiser limpar, pode: os dados já ficaram salvos em data\.
+
+
+CORES DO DASHBOARD
+---------------------------------------------------------------------
+VERDE    = área inspecionada nos últimos 15 dias e sem NC aberta
+AMARELO  = tem NC aberta, mas dentro do prazo
+VERMELHO = SEM INSPEÇÃO há mais de 15 dias  OU  NC com prazo vencido
+
+
+ENCERRAR / CORRIGIR NC NA MÃO (SE PRECISAR)
+---------------------------------------------------------------------
+1. Abra no Excel:   data\nao_conformidades.csv
+2. Na linha da NC, mude a coluna Status para:  Encerrada
+   (pode anotar algo na coluna Observacao também)
+3. Salve e rode o rodar.bat de novo. Sua edição é respeitada.
+
+
+EQUIPAMENTOS (BASE DE MANUTENÇÃO)
+---------------------------------------------------------------------
+O dashboard carrega o cadastro de equipamentos do arquivo
+equipamentos.json (31 equipamentos extraídos da pasta
+MANUTENÇÃO GERENCIAL). Onde aparece:
+- Card "Radar de Equipamentos" na lateral direita.
+- Clicando numa área > aba "Equipamentos": lista com tag, modelo,
+  componentes mapeados, peças em atenção (meia vida/desgaste) e
+  NCs ligadas ao equipamento.
+- A ligação NC <-> equipamento é feita pela TAG no texto da NC.
+  Peça aos técnicos para usarem a tag no campo Equipamento
+  (ex.: "Equipamento: Correia TC-01") que o cruzamento é automático.
+- Base de manutenção mudou? Rode:  python extrai-equipamentos.py
+  (precisa do Python com openpyxl; só nesta máquina, o .json
+  gerado viaja junto com a pasta).
+
+FLUXO DE COMPRAS DA MANUTENÇÃO (solicitacoes.json)
+---------------------------------------------------------------------
+O dashboard também lê as planilhas ACOMPANHAMENTO DAS SOLICITAÇÕES
+(abas "OM em Tratamento" e "Processos Concluídos") e mostra:
+- Painel "Fluxo de Compras da Manutenção": quantas solicitações
+  estão em aberto, COM QUEM estão paradas (analista) e as mais
+  antigas (lead time em dias).
+- Clicando numa área > aba "Fluxo": as solicitações em aberto
+  daquele sector.
+- Se uma NC fala do mesmo assunto/equipamento de uma solicitação
+  em aberto, aparece um ALERTA AZUL no cartão da NC: "solicitação
+  em aberto na manutenção" com solicitante, analista e dias
+  aguardando — ou seja, dá pra saber se a NC está perto de ser
+  sanada sem ligar pra ninguém.
+- Planilhas de acompanhamento mudaram? Rode:
+      python extrai-solicitacoes.py
+
+FORMULÁRIO DE INSPEÇÃO (FORMS) — O CANAL OFICIAL
+---------------------------------------------------------------------
+As perguntas prontas para montar o formulário estão no arquivo
+FORMULARIO-FORMS.txt (é só seguir na ordem, com os mesmos títulos).
+Os 11 responsáveis preenchem pelo link (funciona no celular).
+
+Rotina de atualização:
+1. No Forms: Respostas > Abrir no Excel (baixa o .xlsx)
+2. Salve o arquivo na pasta:  forms\
+3. Rode:  python extrai-forms.py
+4. Rode o rodar.bat
+- Pode baixar a planilha completa toda vez, não duplica nada.
+- Resposta com "Houve não conformidade? = Não" registra a VISITA
+  (mantém a área verde no controle de frequência).
+- Status "Concluído" no formulário já encerra a NC com a data.
+- O de-para entre o local do formulário e a área do dashboard fica
+  no comecinho do extrai-forms.py (DE_PARA_AREAS) — ajuste lá.
+
+NÚMERO DA NC E TRATATIVA
+---------------------------------------------------------------------
+- Toda NC ganha um número sequencial (NC-0001, NC-0002...) e fica
+  ligada à inspeção que a gerou (INS-0001...). Os números aparecem
+  no dashboard, na busca da tabela e nas planilhas data\.
+- Para mudar o status de uma NC (Aberta > Em andamento > Concluída):
+  use o FORMULÁRIO 2 (Tratativa de NC): informa o número, o novo
+  status e a observação. Baixa o Excel na pasta forms\ e roda o
+  extrai-forms.py — ele reconhece a planilha de tratativa sozinho.
+- Também funciona por mensagem no formato do funil:
+      #ACOMPANHAMENTO
+      NC: NC-0042
+      Status: Concluído
+      Observação: ...
+  (pelo número nem precisa informar a área)
+- Várias NCs na mesma visita: o formulário tem os blocos "NC 2" e
+  "NC 3" (com ramificação). Todas ficam ligadas à mesma inspeção.
+
+RELATÓRIOS DO ON SAFETY (PDF)
+---------------------------------------------------------------------
+Inspeção feita pelo sistema ON SAFETY também entra no dashboard:
+1. Jogue o PDF do relatório na pasta:  onsafety\
+2. Rode:  python extrai-onsafety.py
+3. Rode o rodar.bat
+O importador extrai as NCs (com o item da NR e a severidade), o
+técnico e — se o relatório tiver a foto de fechamento "Conforme" —
+já encerra a NC sozinho com a evidência. Se ele não reconhecer a
+área, avisa no console: abra o .txt gerado em exports\ e preencha
+a linha "Área:". As palavras-chave de área ficam no comecinho do
+extrai-onsafety.py (AREA_KEYWORDS), fácil de ampliar.
+
+DASHBOARD ONLINE (GITHUB PAGES)
+---------------------------------------------------------------------
+O rodar.bat publica o dashboard sozinho na internet, no link:
+    https://cedu360.github.io/Dashboard-cedro/
+(repositório: github.com/cedu360/Dashboard-cedro — já configurado)
+Depois disso, TODA vez que rodar o rodar.bat o link é atualizado
+sozinho. O link é somente leitura (ninguém altera nada por ele) e
+só sobe a página do dashboard — planilhas e dados ficam no PC.
+Atenção: repositório público = quem tiver o link consegue ver.
+
+OUTRAS COISAS
+---------------------------------------------------------------------
+- Trocar a foto do mapa: substitua o arquivo planta.png e rode
+  de novo (as posições das áreas são ajustadas no nc-mina.js,
+  bloco MAPA, no topo do arquivo).
+- Mudar a janela de 15 dias: abra o nc-mina.js no Bloco de Notas
+  e mude o número em JANELA_DIAS (logo no comecinho do arquivo).
+- Começar do zero: apague a pasta data\ e os .txt de exports\.
+- Exemplos de conversa para testar: pasta exemplo\ (copie um
+  deles para exports\ e rode).
+=====================================================================

@@ -1,0 +1,42 @@
+14/07/2026 07:50 - Daniele Coutinho: #INSPECAO Filtragem - tudo ok (via Forms)
+15/07/2026 09:15 - Anderson Magalhães: #NC
+Área: Britagem 1
+Não Conformidade: Talude com trinca próximo ao acesso da correia TC-01, risco de desprendimento de material sobre a passagem de pedestres (via Forms)
+Classificação: Crítico
+Responsável: Civil
+Prazo: 28/07/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Ação imediata: Área isolada com fita zebrada | Plano de ação: Contenção e limpeza do talude pela equipe civil | Empresa: AJPM | Equipe: Anderson Magalhães, Wagner Rocha
+15/07/2026 13:40 - Josiane Lima: #NC
+Área: Restaurante
+Não Conformidade: Piso molhado sem sinalização na entrada do restaurante (via Forms)
+Classificação: Médio
+Responsável: Facilities
+Prazo: 16/07/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Leve | Ação imediata: Colocada placa de piso molhado | Plano de ação: Instalar tapete antiderrapante na entrada | Empresa: Cedro
+15/07/2026 17:00 - Josiane Lima: #ACOMPANHAMENTO
+Área: Restaurante
+NC: Piso molhado sem sinalização na entrada do restaurante
+Status: Concluído
+Observação: Concluída via Forms · verificado por Alberto Inácio
+16/07/2026 09:50 - Tiago Santos: #NC
+Área: Concentração (Planta 3 + GX600)
+Não Conformidade: Operador realizando limpeza da peneira PN-02 sem bloqueio do equipamento (via Forms)
+Classificação: Alto
+Responsável: Operação
+Prazo: 20/07/2026
+Observação: Tipo: Ato Inseguro | Gravidade potencial: Grave | Ação imediata: Atividade paralisada e DDS realizado na hora | Plano de ação: Reciclagem de bloqueio e etiquetagem para a equipe de operação | Empresa: Cedro
+16/07/2026 09:50 - Tiago Santos: #ACOMPANHAMENTO
+Área: Concentração (Planta 3 + GX600)
+NC: Operador realizando limpeza da peneira PN-02 sem bloqueio do equipamento
+Status: Em andamento
+Observação: Status informado no Forms
+16/07/2026 09:50 - Tiago Santos: #NC
+Área: Concentração (Planta 3 + GX600)
+Não Conformidade: Luminária de emergência da sala de controle queimada (via Forms)
+Classificação: Médio
+Responsável: Elétrica
+Prazo: 24/07/2026
+16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
+NC: NC-0099
+Status: Concluído
+Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)

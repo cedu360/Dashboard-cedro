@@ -1,0 +1,342 @@
+[
+ {
+  "tag": "BA-04 VERTICAL",
+  "nome": "BA-04 VERTICAL",
+  "modelo": "BOMBA DE POLPA 4\" X 3\" E-SHD",
+  "componentes": 15,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 15
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BOMBA DA CAVA",
+  "nome": "BOMBA DA CAVA",
+  "modelo": "BOMBA DE POLPA 6\" X 4\" E-SHD",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 21
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BOMBA DA CAVA VERTICAL",
+  "nome": "BOMBA DA CAVA VERTICAL",
+  "modelo": "BOMBA DE POLPA 4\" X 3\" E-SHD",
+  "componentes": 15,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 15
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 01 /BP- 01R",
+  "nome": "BP-01 & BP-01R",
+  "modelo": "BOMBA DE POLPA 8\" X 6\" R-SHD",
+  "componentes": 22,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 22
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 02 /BP- 02R",
+  "nome": "BP-02 & BP-02R",
+  "modelo": "BOMBA DE POLPA 8\" X 6\" R-SHD",
+  "componentes": 22,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 22
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 03",
+  "nome": "BP-03",
+  "modelo": "BOMBA DE POLPA 8\" X 6\" R-SHD",
+  "componentes": 22,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 22
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 04 /BP- 04R",
+  "nome": "BP-04 & BP-04R",
+  "modelo": "BOMBA DE POLPA 8\" X 6\" R-SHD",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 21
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 05",
+  "nome": "BP-05",
+  "modelo": "BOMBA DE POLPA 8\" X 6\" R-SHD",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 21
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 101",
+  "nome": "BP-101",
+  "modelo": "BOMBA DE POLPA 8\" X 6\" R-SHD",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 21
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-AL-01",
+  "nome": "ALIMENTADOR-01",
+  "modelo": "ALV-40120",
+  "componentes": 38,
+  "atencao": 0,
+  "condicoes": {},
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-01",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 72,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 72
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-02",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-02R",
+  "nome": "BRITADOR SECUNDARIO THESMITH 48S SEPARADO",
+  "modelo": "48S",
+  "componentes": 271,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 271
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-03",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-04",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-05",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-06",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-07",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-BR-08",
+  "nome": "BRITADOR DE MANDIBULA - 11080",
+  "modelo": "11080C",
+  "componentes": 1,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-TC-01",
+  "nome": "TC-01",
+  "modelo": "ALV-40120",
+  "componentes": 77,
+  "atencao": 30,
+  "condicoes": {
+   "BOM ESTADO": 20,
+   "MEIA VIDA": 19,
+   "RUIM": 11,
+   "NOVO": 12
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BR-TC-02",
+  "nome": "TC-01",
+  "modelo": "ALV-40120",
+  "componentes": 7,
+  "atencao": 6,
+  "condicoes": {
+   "BOM ESTADO": 1,
+   "MEIA VIDA": 5,
+   "RUIM": 1
+  },
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "PN-01-BR",
+  "nome": "PN-01 - PVI 5020 2 A 18°",
+  "modelo": "PVI 5020 2 A 18°",
+  "componentes": 20,
+  "atencao": 0,
+  "condicoes": {},
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "PN-02-BR",
+  "nome": "PN-02 - PVH 5020 2A",
+  "modelo": "PVH 5020 2 A",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {},
+  "area": "Britagem 1"
+ },
+ {
+  "tag": "BP - 06",
+  "nome": "BP-06",
+  "modelo": "BOMBA DE POLPA 4\" X 3\" R-SHD",
+  "componentes": 20,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 20
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "BP -07 & BP-07R",
+  "nome": "BP-07 & B07R",
+  "modelo": "BOMBA DE POLPA 6\" X 4\" R-SHD",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 21
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "BP-08",
+  "nome": "BP-08",
+  "modelo": "BOMBA DE POLPA 6\" X 4\" R-SHD",
+  "componentes": 21,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 21
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "PN-01  (AÇOITA)",
+  "nome": "PN-01  (AÇOITA)",
+  "modelo": "PVH 6024 3 A 3°",
+  "componentes": 32,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 32
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "PN-02   (IMIC)",
+  "nome": "PN-02   (IMIC)",
+  "modelo": "PVD 7'X16' 1D",
+  "componentes": 26,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 26
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "PN-03   (IMIC)",
+  "nome": "PN-03   (IMIC)",
+  "modelo": "PVD 7'X16' 1D",
+  "componentes": 28,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 28
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "PN-03A (AÇOITA)",
+  "nome": "PN-03 A  (IMIC)",
+  "modelo": "PVD 5020 1A",
+  "componentes": 27,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 27
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ },
+ {
+  "tag": "PN-04   (IMIC)",
+  "nome": "PN-04  (IMIC)",
+  "modelo": "PVD 7'X16' 1D",
+  "componentes": 32,
+  "atencao": 0,
+  "condicoes": {
+   "OPERACIONAL": 32
+  },
+  "area": "Concentração (Planta 3 + GX600)"
+ }
+]

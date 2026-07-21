@@ -1,0 +1,169 @@
+01/07/2026 07:00 - Mensagens e ligações são protegidas com a criptografia de ponta a ponta.
+02/07/2026 08:12 - João Silva: #NC
+Área: Britagem
+Equipamento: Correia Transportadora CT-01
+Não Conformidade: Guarda de proteção lateral danificada.
+Classificação: Alta
+Ação Imediata: Isolamento da área.
+Responsável: Manutenção
+Prazo: 05/07
+Imagem: IMG_001.jpg
+02/07/2026 10:45 - João Silva: #ACOMPANHAMENTO
+Área: Britagem
+NC: Guarda de proteção CT-01
+Status: Em andamento
+Observação: Material solicitado pela manutenção.
+03/07/2026 09:30 - Carlos Souza: #NC
+Área: Concentração
+Equipamento: Escada de acesso
+Não Conformidade: Corrimão solto.
+Classificação: Média
+Responsável: Civil
+Prazo: 08/07
+Imagem: IMG_002.jpg
+04/07/2026 14:20 - Rafael Lima: #NC
+Área: Britagem 2
+Equipamento: Plataforma
+Não Conformidade: Piso com acúmulo de minério causando risco de escorregamento.
+Classificação: Média
+Responsável: Operação
+Prazo: 04/07
+Imagem: IMG_003.jpg
+04/07/2026 17:10 - Rafael Lima: #ACOMPANHAMENTO
+Área: Britagem 2
+NC: Piso escorregadio
+Status: Concluído
+Observação: Limpeza executada.
+05/07/2026 08:50 - João Silva: #NC
+Área: Filtro Prensa
+Equipamento: Bomba de polpa
+Não Conformidade: Vazamento de óleo hidráulico.
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 06/07
+Imagem: IMG_004.jpg
+06/07/2026 11:20 - Carlos Souza: #NC
+Área: Área de Vivência
+Equipamento: Extintor
+Não Conformidade: Extintor vencido.
+Classificação: Alta
+Responsável: Facilities
+Prazo: 07/07
+Imagem: IMG_005.jpg
+07/07/2026 15:40 - Carlos Souza: #ACOMPANHAMENTO
+Área: Área de Vivência
+NC: Extintor vencido
+Status: Concluído
+Observação: Equipamento substituído.
+08/07/2026 09:15 - Rafael Lima: #NC
+Área: Britagem 3
+Equipamento: Passarela
+Não Conformidade: Guarda-corpo ausente em trecho da passarela.
+Classificação: Crítica
+Responsável: Manutenção
+Prazo: 09/07
+Imagem: IMG_006.jpg
+09/07/2026 16:30 - Rafael Lima: #ACOMPANHAMENTO
+Área: Britagem 3
+NC: Guarda-corpo
+Status: Sem atendimento
+Observação: Serviço ainda não iniciado.
+10/07/2026 13:10 - João Silva: #NC
+Área: Concentração
+Equipamento: Painel Elétrico
+Não Conformidade: Painel aberto sem bloqueio.
+Classificação: Crítica
+Responsável: Elétrica
+Prazo: Imediato
+Imagem: IMG_007.jpg
+10/07/2026 15:05 - João Silva: #ACOMPANHAMENTO
+Área: Concentração
+NC: Painel elétrico
+Status: Concluído
+Observação: Painel fechado e bloqueado.
+12/07/2026 09:40 - Carlos Souza: #NC
+Área: Britagem
+Equipamento: Escada fixa
+Não Conformidade: Degrau deformado.
+Classificação: Média
+Responsável: Manutenção
+Prazo: 16/07
+Imagem: IMG_008.jpg
+14/07/2026 10:30 - Rafael Lima: #NC
+Área: Filtro Prensa
+Equipamento: Tubulação
+Não Conformidade: Vazamento de água industrial.
+Classificação: Baixa
+Responsável: Manutenção
+Prazo: 18/07
+Imagem: IMG_009.jpg
+16/07/2026 08:45 - Carlos Souza: #ACOMPANHAMENTO
+Área: Britagem
+NC: Degrau deformado
+Status: Em andamento
+18/07/2026 14:00 - João Silva: #NC
+Área: Área de Vivência
+Equipamento: Refeitório
+Não Conformidade: Piso quebrado.
+Classificação: Média
+Responsável: Civil
+Prazo: 25/07
+Imagem: IMG_010.jpg
+20/07/2026 11:10 - Rafael Lima: #NC
+Área: Britagem 2
+Equipamento: Correia Transportadora
+Não Conformidade: Cabo elétrico exposto.
+Classificação: Alta
+Responsável: Elétrica
+Prazo: 21/07
+Imagem: IMG_011.jpg
+21/07/2026 16:20 - Rafael Lima: #ACOMPANHAMENTO
+Área: Britagem 2
+NC: Cabo elétrico exposto
+Status: Concluído
+22/07/2026 09:55 - Carlos Souza: #NC
+Área: Concentração
+Equipamento: Ponte Rolante
+Não Conformidade: Operador sem inspeção diária preenchida.
+Classificação: Média
+Responsável: Operação
+Prazo: 23/07
+Imagem: IMG_012.jpg
+24/07/2026 13:00 - João Silva: #NC
+Área: Britagem 3
+Equipamento: Plataforma
+Não Conformidade: Falta de rodapé de proteção.
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 29/07
+Imagem: IMG_013.jpg
+26/07/2026 15:30 - João Silva: #ACOMPANHAMENTO
+Área: Britagem 3
+NC: Rodapé de proteção
+Status: Em andamento
+27/07/2026 08:20 - Carlos Souza: #NC
+Área: Filtro Prensa
+Equipamento: Bomba
+Não Conformidade: Mangueira hidráulica desgastada.
+Classificação: Alta
+Responsável: Manutenção
+Prazo: 30/07
+Imagem: IMG_014.jpg
+29/07/2026 09:10 - Carlos Souza: #ACOMPANHAMENTO
+Área: Filtro Prensa
+NC: Mangueira hidráulica
+Status: Concluído
+30/07/2026 16:00 - João Silva: #INSPEÇÃO GERAL
+Área: Britagem
+Status: Inspecionada
+Área: Britagem 2
+Status: Inspecionada
+Área: Britagem 3
+Status: Inspecionada
+Área: Concentração
+Status: Inspecionada
+Área: Filtro Prensa
+Status: Inspecionada
+Área: Área de Vivência
+Status: Inspecionada
+Observação Geral: Permanecem pendentes guarda-corpo da Britagem 3, corrimão da Concentração e piso do refeitório da Área de Vivência.

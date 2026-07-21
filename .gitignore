@@ -1,0 +1,4 @@
+# documentos internos que NÃO devem ir para o repositório público
+onsafety/*.pdf
+*.zip
+site/
