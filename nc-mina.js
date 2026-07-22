@@ -1090,6 +1090,10 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
     border: 1px solid rgba(59,130,246,0.25); padding: 4px 10px; border-radius: 6px;
   }
   .nc-foto-link:hover { background: rgba(59,130,246,0.18); }
+  .nc-foto-thumb {
+    display: block; margin-top: 10px; max-width: 100%; max-height: 220px;
+    border-radius: 8px; border: 1px solid var(--border-color); cursor: zoom-in;
+  }
   .nc-pdf-btn {
     display: inline-flex; align-items: center; gap: 4px; margin-top: 10px; margin-left: 8px;
     font-family: var(--font-main); font-size: 12px; font-weight: 600; cursor: pointer;
@@ -2387,13 +2391,26 @@ ${LINKS_FORMS.tratativaEmbed ? `
   // ---- Exportar PDF de uma inspeção (com suas NCs e fotos) ----
   function esc(s) { return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
+  // Converte um link de foto em URL de imagem exibível.
+  // Aceita imagem direta (.jpg/.png...) ou arquivo do Google Drive (upload do Forms).
+  function fotoImg(foto) {
+    if (!foto) return '';
+    var s = String(foto);
+    if (/drive\\.google\\.com|docs\\.google\\.com/.test(s)) {
+      var m = s.match(/[-\\w]{25,}/);
+      if (m) return 'https://drive.google.com/thumbnail?id=' + m[0] + '&sz=w1200';
+    }
+    if (/\\.(jpg|jpeg|png|webp|gif)(\\?|$)/i.test(s)) return s;
+    return '';
+  }
+
   function riscoSlug(r) {
     var x = String(r||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
     return x.indexOf('crit')===0?'crit':x.indexOf('alt')===0?'alt':x.indexOf('med')===0?'med':'baix';
   }
   function relatorioNCsHtml(ncs) {
     return ncs.map((n, i) => {
-      const ehFoto = n.foto && /\\.(jpg|jpeg|png|webp|gif)(\\?|$)/i.test(n.foto);
+      const imgUrl = fotoImg(n.foto);
       return '<div class="r-nc">' +
         '<div class="r-nc-top"><b>' + esc(n.numero || ('NC ' + (i+1))) + '</b>' +
           '<span class="r-badge r-' + riscoSlug(n.risco) + '">' + esc(n.risco||'Médio') + '</span>' +
@@ -2404,7 +2421,7 @@ ${LINKS_FORMS.tratativaEmbed ? `
           '<tr><td>Prazo</td><td>' + esc(n.prazo||'—') + '</td>' +
           '<td>Registrado</td><td>' + esc(n.dataRegistro||'—') + '</td></tr></table>' +
         (n.obs ? '<div class="r-obs"><b>Observação:</b> ' + esc(n.obs) + '</div>' : '') +
-        (n.foto ? (ehFoto ? '<img class="r-foto" src="' + esc(n.foto) + '" alt="foto">' :
+        (n.foto ? (imgUrl ? '<img class="r-foto" src="' + esc(imgUrl) + '" alt="foto"><div class="r-obs">📷 <a href="' + esc(n.foto) + '">abrir foto original</a></div>' :
           '<div class="r-obs">📷 Foto: <a href="' + esc(n.foto) + '">' + esc(n.foto) + '</a></div>') : '') +
         '</div>';
     }).join('');
@@ -2609,7 +2626,9 @@ ${LINKS_FORMS.tratativaEmbed ? `
         (nc.inspecao ? '<div>Inspeção: <span>' + nc.inspecao + '</span></div>' : '') +
         '<div>Status: <span>' + (nc.status || '-') + '</span></div>' +
       '</div>' +
-      (nc.foto ? '<a class="nc-foto-link" href="' + nc.foto + '" target="_blank" rel="noopener">📷 Ver foto</a>' : '') +
+      (nc.foto ? (function(){ var iu=fotoImg(nc.foto); return iu
+        ? '<a href="' + nc.foto + '" target="_blank" rel="noopener"><img class="nc-foto-thumb" src="' + iu + '" alt="foto" loading="lazy"></a>'
+        : '<a class="nc-foto-link" href="' + nc.foto + '" target="_blank" rel="noopener">📷 Ver foto</a>'; })() : '') +
       '<button class="nc-pdf-btn" data-pdf="' + (nc.inspecao || nc.numero) + '" data-tipo="' + (nc.inspecao ? 'insp' : 'nc') + '">🖨️ Exportar PDF' + (nc.inspecao ? ' da inspeção' : '') + '</button>' +
       (nc.obs ? '<div class="nc-card-obs"><b>Nota:</b> ' + nc.obs + '</div>' : '') +
       alertasFluxo;
