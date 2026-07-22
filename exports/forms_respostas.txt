@@ -40,3 +40,19 @@ Prazo: 24/07/2026
 NC: NC-0099
 Status: Concluído
 Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)
+22/07/2026 12:00 - Lucas Conrado: #ACOMPANHAMENTO
+NC: NC-0041
+Status: Concluído
+Observação: Tratativa via Forms
+22/07/2026 14:16 - Lucas Conrado: #NC
+Área: Britagem 1A
+Não Conformidade: aaaaaaaaaaaaaaaaaa (via Forms)
+Classificação: Médio
+Responsável: aaaaaaaaaaaaaaaaaaa
+Prazo: 30/07/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Fatal | Ação imediata: aaaaaaaaaa | Plano de ação: aaaaaaaaaaaaaaa | Empresa: Outra contratada
+30/07/2026 17:00 - Lucas Conrado: #ACOMPANHAMENTO
+Área: Britagem 1A
+NC: aaaaaaaaaaaaaaaaaa
+Status: Concluído
+Observação: Concluída via Forms · verificado por Lucas
