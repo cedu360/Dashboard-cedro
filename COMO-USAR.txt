@@ -148,6 +148,28 @@ Editar os formulários (mudar perguntas, adicionar foto):
    https://docs.google.com/forms/d/1D0LMkkJRSDEUzKi0e4S3GHYmo0KkzOWp6hg37fzdGPk/edit
 =====================================================================
 
+FOTO ANEXADA NO FORMULÁRIO (upload de arquivo)
+---------------------------------------------------------------------
+Para guardar a FOTO de verdade (não só link), a pergunta precisa ser
+do tipo "Upload de arquivo" — que o Google só deixa adicionar na mão:
+
+1. Abra o formulário de Inspeção no EDITOR (link .../edit).
+2. Adicione uma pergunta nova > tipo "Upload de arquivo".
+3. Título EXATO:  Registro fotográfico
+   Config.: permitir imagens · 1 arquivo · 10 MB.
+4. Apague a pergunta antiga "Registro fotográfico (link)" (para não
+   ficar com dois campos de foto).
+5. IMPORTANTE (senão a foto fica privada e não aparece no painel):
+   No seu Google Drive, ache a pasta que o Google criou chamada
+   "Inspeção de Segurança — CEDRO MINERAÇÃO (File responses)" >
+   botão direito > Compartilhar > "Qualquer pessoa com o link" >
+   Leitor.
+
+Pronto. O dashboard converte o link do Drive em imagem sozinho:
+mostra a MINIATURA no cartão da NC e embute a foto no PDF exportado.
+Obs.: o técnico precisa estar logado numa conta Google para enviar
+a foto (regra do Google para upload).
+
 FORMULÁRIO DE INSPEÇÃO (FORMS) — O CANAL OFICIAL
 ---------------------------------------------------------------------
 As perguntas prontas para montar o formulário estão no arquivo
