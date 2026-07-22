@@ -77,6 +77,7 @@ COLUNAS = [
     ("status",      ["status da tratativa"]),
     ("dataConcl",   ["data de conclusao"]),
     ("validacao",   ["responsavel pela verificacao", "validacao"]),
+    ("foto",        ["registro fotografico", "foto", "anexo", "imagem"]),
 ]
 
 def mapear_colunas(header):
@@ -212,6 +213,9 @@ def processa_xlsx(caminho, linhas_saida):
         prazo = fdata(get("prazo"))
         if prazo: corpo.append(f"Prazo: {prazo}")
         if obs_partes: corpo.append("Observação: " + " | ".join(obs_partes))
+        foto = str(get("foto") or "").strip()
+        if foto.startswith("http"):
+            corpo.append(f"Foto: {foto}")
         linhas_saida.append("\n".join(corpo))
         n_nc += 1
 

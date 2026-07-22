@@ -31,7 +31,7 @@ var STATUS = ["Aberto", "Em andamento", "Concluído"];
 function criarFormularios() {
   // ================= FORMULÁRIO 1 — INSPEÇÃO =================
   var f = FormApp.create("Inspeção de Segurança — CEDRO MINERAÇÃO");
-  f.setDescription("Registro de inspeções e não conformidades do setor de Segurança do Trabalho.\nGerente: Alberto · Coordenadora: Josiane Lima");
+  f.setDescription("Registro de inspeções e não conformidades do setor de Segurança do Trabalho.\nGerente: Alberto · Engenheira: Josiane Lima");
   f.setAllowResponseEdits(false);
 
   f.addDateItem().setTitle("Data da inspeção").setRequired(true);
@@ -54,7 +54,7 @@ function criarFormularios() {
   ]);
 
   f.addMultipleChoiceItem().setTitle("Tipo de ocorrência")
-    .setChoiceValues(["Condição Insegura", "Ato Inseguro"]);
+    .setChoiceValues(["Condição Insegura", "Ato Inseguro", "Quase acidente"]);
   f.addMultipleChoiceItem().setTitle("Classificação de risco").setChoiceValues(RISCOS).setRequired(true);
   f.addMultipleChoiceItem().setTitle("Potencial de gravidade")
     .setChoiceValues(["Sem lesão", "Leve", "Grave", "Fatal"]);
@@ -63,15 +63,18 @@ function criarFormularios() {
     .setRequired(true);
   f.addParagraphTextItem().setTitle("Ação imediata adotada").setHelpText("Se não se aplica, deixe em branco.");
   f.addParagraphTextItem().setTitle("Ação corretiva / plano de ação");
-  f.addTextItem().setTitle("Responsável pela tratativa")
-    .setHelpText("Equipe ou pessoa que vai corrigir (ex.: Manutenção mecânica, Elétrica, Civil, Facilities...)")
-    .setRequired(true);
+  f.addTextItem().setTitle("Responsável pela tratativa").setRequired(true);
   f.addMultipleChoiceItem().setTitle("Empresa responsável")
     .setChoiceValues(["Cedro", "AJPM", "MPC", "Outra contratada"]);
   f.addDateItem().setTitle("Prazo para adequação").setRequired(true);
   f.addMultipleChoiceItem().setTitle("Status da tratativa").setChoiceValues(STATUS).setRequired(true);
   f.addDateItem().setTitle("Data de conclusão").setHelpText("Preencha apenas se o status for Concluído.");
   f.addTextItem().setTitle("Responsável pela verificação / validação");
+  // Campo de foto por LINK (o Apps Script não cria upload de arquivo).
+  // Para foto anexada de verdade, adicione manualmente uma pergunta
+  // "Enviar arquivo" no editor do formulário (veja o manual).
+  f.addTextItem().setTitle("Registro fotográfico (link)")
+    .setHelpText("Cole aqui o link da foto (Google Fotos, Drive ou WhatsApp Web). Opcional.");
 
   // P21 com ramificação: mais uma NC nesta mesma inspeção?
   var p21 = f.addMultipleChoiceItem()

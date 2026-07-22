@@ -71,6 +71,7 @@ P7. Houve não conformidade / desvio?       [Escolha] [OBRIGATÓRIA]
 P8. Tipo de ocorrência                     [Escolha]
     ( ) Condição Insegura
     ( ) Ato Inseguro
+    ( ) Quase acidente
 
 P9. Classificação de risco                 [Escolha] [OBRIGATÓRIA]
     ( ) Baixo
@@ -95,8 +96,6 @@ P12. Ação imediata adotada                 [Texto longo]
 P13. Ação corretiva / plano de ação        [Texto longo]
 
 P14. Responsável pela tratativa            [Texto curto] [OBRIGATÓRIA]
-     Subtítulo: "Equipe ou pessoa que vai corrigir (ex.: Manutenção
-     mecânica, Elétrica, Civil, Facilities...)"
 
 P15. Empresa responsável                   [Escolha]
     ( ) Cedro

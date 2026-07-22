@@ -19,7 +19,7 @@ const JANELA_DIAS = 15; // área sem inspeção há mais de X dias => vermelho
 const EMPRESA = {
   nome: "CEDRO MINERAÇÃO",
   gerente: "Alberto",
-  coordenadora: "Josiane Lima",
+  engenheira: "Josiane Lima",
 };
 
 // Links dos formulários online: ficam no config-forms.json (criados pelo
@@ -214,6 +214,7 @@ function extrairCampos(texto) {
     [/^status$/, "status"],
     [/^(?:observacao|obs)$/, "obs"],
     [/^acao imediata$/, "acaoImediata"],
+    [/^(?:foto|fotos|registro fotografico|anexo)$/, "foto"],
   ];
   for (const linha of texto.split("\n")) {
     const m = linha.match(/^\s*([^:]{2,25}?)\s*:\s*(.+)$/);
@@ -329,6 +330,8 @@ function processar(msgs) {
         prazo: campos.prazo ? fmtData(parseDataBR(campos.prazo, msg.data.getFullYear())) : "",
         status: "Aberta",
         obs: campos.acaoImediata ? `Ação imediata: ${campos.acaoImediata}` : (campos.obs || ""),
+        // só guarda foto se for link (WhatsApp manda "(arquivo anexado)", que ignoramos)
+        foto: /^https?:\/\//i.test(String(campos.foto || "").trim()) ? campos.foto.trim() : "",
       });
       inspecoes.push({ data: fmtData(msg.data), hora: msg.hora, tecnico: msg.autor, area, tipo: "NC" });
     } else if (ehInspecaoOK) {
@@ -387,7 +390,7 @@ function aplicarAcompanhamentos(todas, acomps) {
 }
 
 // ------------------------------------------------- merge com planilhas
-const CAB_NC = ["ID", "Numero", "DataRegistro", "Tecnico", "Area", "Equipamento", "Descricao", "Risco", "Responsavel", "Prazo", "Status", "Observacao", "Inspecao"];
+const CAB_NC = ["ID", "Numero", "DataRegistro", "Tecnico", "Area", "Equipamento", "Descricao", "Risco", "Responsavel", "Prazo", "Status", "Observacao", "Inspecao", "Foto"];
 const CAB_INSP = ["Numero", "Data", "Hora", "Tecnico", "Area", "Tipo"];
 
 function mergeNCs(novas) {
@@ -397,13 +400,13 @@ function mergeNCs(novas) {
       return {
         id: l[0], numero: l[1], dataRegistro: l[2], tecnico: l[3], area: l[4], equipamento: l[5],
         descricao: l[6], risco: l[7], responsavel: l[8], prazo: l[9],
-        status: l[10] || "Aberta", obs: l[11] || "", inspecao: l[12] || "",
+        status: l[10] || "Aberta", obs: l[11] || "", inspecao: l[12] || "", foto: l[13] || "",
       };
     }
     return {
       id: l[0], numero: "", dataRegistro: l[1], tecnico: l[2], area: l[3], equipamento: l[4],
       descricao: l[5], risco: l[6], responsavel: l[7], prazo: l[8],
-      status: l[9] || "Aberta", obs: l[10] || "", inspecao: "",
+      status: l[9] || "Aberta", obs: l[10] || "", inspecao: "", foto: "",
     };
   });
   const porId = new Map(existentes.map((n) => [n.id, n]));
@@ -419,7 +422,7 @@ function mergeNCs(novas) {
 }
 
 function gravarNCs(todas) {
-  csvWrite(ARQ_NC, CAB_NC, todas.map((n) => [n.id, n.numero || "", n.dataRegistro, n.tecnico, n.area, n.equipamento, n.descricao, n.risco, n.responsavel, n.prazo, n.status, n.obs, n.inspecao || ""]));
+  csvWrite(ARQ_NC, CAB_NC, todas.map((n) => [n.id, n.numero || "", n.dataRegistro, n.tecnico, n.area, n.equipamento, n.descricao, n.risco, n.responsavel, n.prazo, n.status, n.obs, n.inspecao || "", n.foto || ""]));
 }
 
 function mergeInspecoes(novas) {
@@ -1080,6 +1083,13 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
   .manual-box-dica { background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.25); border-left: 3px solid var(--bar); }
   .manual-box-final { background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.25); border-left: 3px solid var(--good); margin-top: 28px; }
   .ex-num { font-family: var(--font-mono); font-weight: 700; color: var(--bar); }
+  .nc-foto-link {
+    display: inline-flex; align-items: center; gap: 4px; margin-top: 10px;
+    font-size: 12px; font-weight: 600; text-decoration: none;
+    color: var(--bar); background: rgba(59,130,246,0.10);
+    border: 1px solid rgba(59,130,246,0.25); padding: 4px 10px; border-radius: 6px;
+  }
+  .nc-foto-link:hover { background: rgba(59,130,246,0.18); }
 
   /* KPI Cards */
   .kpis {
@@ -1909,7 +1919,7 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
   </div>
   <div class="topbar-people">
     <span class="cargo"><span class="cargo-icon">👷</span> Gerente: <b>${esc(EMPRESA.gerente)}</b></span>
-    <span class="cargo"><span class="cargo-icon">🦺</span> Coordenadora: <b>${esc(EMPRESA.coordenadora)}</b></span>
+    <span class="cargo"><span class="cargo-icon">🦺</span> Engenheira: <b>${esc(EMPRESA.engenheira)}</b></span>
   </div>
 </div>
 <header>
@@ -2510,6 +2520,7 @@ ${LINKS_FORMS.tratativaEmbed ? `
         (nc.inspecao ? '<div>Inspeção: <span>' + nc.inspecao + '</span></div>' : '') +
         '<div>Status: <span>' + (nc.status || '-') + '</span></div>' +
       '</div>' +
+      (nc.foto ? '<a class="nc-foto-link" href="' + nc.foto + '" target="_blank" rel="noopener">📷 Ver foto</a>' : '') +
       (nc.obs ? '<div class="nc-card-obs"><b>Nota:</b> ' + nc.obs + '</div>' : '') +
       alertasFluxo;
     return div;
