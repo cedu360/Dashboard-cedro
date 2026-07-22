@@ -28,6 +28,14 @@ var LOCAIS = [
 var RISCOS = ["Baixo", "Médio", "Alto", "Crítico"];
 var STATUS = ["Aberto", "Em andamento", "Concluído"];
 
+// Empresas responsáveis (Cedro = interno; demais são contratadas).
+// "Outro" é adicionado automaticamente com campo de escrita.
+var EMPRESAS = [
+  "Cedro", "Açofer", "AJPM", "Altto Engenharia", "Astec", "Dexplo", "DL",
+  "Fênix", "Foreza", "Genvolt", "LBS", "MPC", "MR Desentupidora",
+  "Rio Negro", "Sapore", "TTX", "Vordex",
+];
+
 function criarFormularios() {
   // ================= FORMULÁRIO 1 — INSPEÇÃO =================
   var f = FormApp.create("Inspeção de Segurança — CEDRO MINERAÇÃO");
@@ -64,8 +72,9 @@ function criarFormularios() {
   f.addParagraphTextItem().setTitle("Ação imediata adotada").setHelpText("Se não se aplica, deixe em branco.");
   f.addParagraphTextItem().setTitle("Ação corretiva / plano de ação");
   f.addTextItem().setTitle("Responsável pela tratativa").setRequired(true);
-  f.addMultipleChoiceItem().setTitle("Empresa responsável")
-    .setChoiceValues(["Cedro", "AJPM", "MPC", "Outra contratada"]);
+  // dropdown (seletor) com as empresas + "Outro"
+  f.addListItem().setTitle("Empresa responsável").setChoiceValues(EMPRESAS.concat(["Outro"]));
+  f.addTextItem().setTitle('Se marcou "Outro", qual empresa?');
   f.addDateItem().setTitle("Prazo para adequação").setRequired(true);
   f.addMultipleChoiceItem().setTitle("Status da tratativa").setChoiceValues(STATUS).setRequired(true);
   f.addDateItem().setTitle("Data de conclusão").setHelpText("Preencha apenas se o status for Concluído.");

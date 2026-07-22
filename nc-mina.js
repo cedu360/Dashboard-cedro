@@ -1090,6 +1090,13 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
     border: 1px solid rgba(59,130,246,0.25); padding: 4px 10px; border-radius: 6px;
   }
   .nc-foto-link:hover { background: rgba(59,130,246,0.18); }
+  .nc-pdf-btn {
+    display: inline-flex; align-items: center; gap: 4px; margin-top: 10px; margin-left: 8px;
+    font-family: var(--font-main); font-size: 12px; font-weight: 600; cursor: pointer;
+    color: var(--text-primary); background: var(--bg-surface);
+    border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 6px;
+  }
+  .nc-pdf-btn:hover { background: var(--bg-surface-hover); border-color: var(--border-color-hover); }
 
   /* KPI Cards */
   .kpis {
@@ -2311,6 +2318,7 @@ ${LINKS_FORMS.tratativaEmbed ? `
   window.DADOS_AREAS = ${JSON.stringify(areas)};
   window.DADOS_EQUIPAMENTOS = ${JSON.stringify(equipamentos || [])};
   window.DADOS_FLUXO = ${JSON.stringify(fluxoAbertas)};
+  window.EMPRESA = ${JSON.stringify(EMPRESA)};
   window.JANELA_DIAS = ${JANELA_DIAS};
 
   // Helper date parsing e comparacao no client
@@ -2374,6 +2382,87 @@ ${LINKS_FORMS.tratativaEmbed ? `
       document.querySelectorAll('.view').forEach(v => v.classList.toggle('active', v.id === alvo));
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+  });
+
+  // ---- Exportar PDF de uma inspeção (com suas NCs e fotos) ----
+  function esc(s) { return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function riscoSlug(r) {
+    var x = String(r||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
+    return x.indexOf('crit')===0?'crit':x.indexOf('alt')===0?'alt':x.indexOf('med')===0?'med':'baix';
+  }
+  function relatorioNCsHtml(ncs) {
+    return ncs.map((n, i) => {
+      const ehFoto = n.foto && /\\.(jpg|jpeg|png|webp|gif)(\\?|$)/i.test(n.foto);
+      return '<div class="r-nc">' +
+        '<div class="r-nc-top"><b>' + esc(n.numero || ('NC ' + (i+1))) + '</b>' +
+          '<span class="r-badge r-' + riscoSlug(n.risco) + '">' + esc(n.risco||'Médio') + '</span>' +
+          '<span class="r-status">' + esc(n.status||'Aberta') + '</span></div>' +
+        '<div class="r-desc">' + esc(n.descricao) + '</div>' +
+        '<table class="r-tab"><tr><td>Equipamento</td><td>' + esc(n.equipamento||'—') + '</td>' +
+          '<td>Responsável</td><td>' + esc(n.responsavel||'—') + '</td></tr>' +
+          '<tr><td>Prazo</td><td>' + esc(n.prazo||'—') + '</td>' +
+          '<td>Registrado</td><td>' + esc(n.dataRegistro||'—') + '</td></tr></table>' +
+        (n.obs ? '<div class="r-obs"><b>Observação:</b> ' + esc(n.obs) + '</div>' : '') +
+        (n.foto ? (ehFoto ? '<img class="r-foto" src="' + esc(n.foto) + '" alt="foto">' :
+          '<div class="r-obs">📷 Foto: <a href="' + esc(n.foto) + '">' + esc(n.foto) + '</a></div>') : '') +
+        '</div>';
+    }).join('');
+  }
+
+  function abrirRelatorio(titulo, subInfo, ncs) {
+    const E = window.EMPRESA || {};
+    var hoje = new Date();
+    var dataGer = String(hoje.getDate()).padStart(2,'0')+'/'+String(hoje.getMonth()+1).padStart(2,'0')+'/'+hoje.getFullYear();
+    var html = '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>' + esc(titulo) + '</title><style>' +
+      '*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}html,body{background:#fff}body{margin:0;padding:32px;color:#111;font-size:13px}' +
+      '.r-head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:3px solid #0b6b3a;padding-bottom:12px;margin-bottom:16px}' +
+      '.r-emp{font-size:20px;font-weight:800;color:#0b6b3a}.r-emp small{display:block;font-size:12px;color:#555;font-weight:600}' +
+      '.r-meta{text-align:right;font-size:12px;color:#555}h1{font-size:16px;margin:6px 0 2px}.r-sub{color:#555;font-size:12px;margin:0 0 16px}' +
+      '.r-nc{border:1px solid #ddd;border-radius:8px;padding:14px;margin-bottom:12px;page-break-inside:avoid}' +
+      '.r-nc-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}.r-nc-top b{color:#1a56c4;font-size:14px}' +
+      '.r-badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px;text-transform:uppercase}' +
+      '.r-crit{background:#fde8e8;color:#c0392b}.r-alt{background:#fef3d7;color:#a8720a}.r-med{background:#e5effd;color:#1a56c4}.r-baix{background:#e4f5ea;color:#1c8a4b}' +
+      '.r-status{margin-left:auto;font-size:11px;color:#555;font-weight:600}' +
+      '.r-desc{font-size:14px;font-weight:600;margin-bottom:10px;line-height:1.5}' +
+      '.r-tab{width:100%;border-collapse:collapse;margin-bottom:8px}.r-tab td{padding:5px 8px;border:1px solid #eee;font-size:12px}' +
+      '.r-tab td:nth-child(odd){background:#f7f7f7;color:#555;font-weight:600;width:110px}' +
+      '.r-obs{font-size:12px;background:#fafafa;border-left:3px solid #ccc;padding:8px;margin-top:6px}' +
+      '.r-foto{max-width:100%;max-height:340px;margin-top:10px;border:1px solid #ddd;border-radius:6px;display:block}' +
+      '.r-ass{display:flex;gap:60px;margin-top:48px}.r-ass div{flex:1;border-top:1px solid #333;padding-top:6px;text-align:center;font-size:12px}' +
+      '.r-foot{margin-top:24px;color:#888;font-size:11px;text-align:center;border-top:1px solid #eee;padding-top:10px}' +
+      '@media print{body{padding:0}.r-print{display:none}}' +
+      '</style></head><body>' +
+      '<div class="r-head"><div class="r-emp">⛏️ ' + esc(E.nome||'CEDRO MINERAÇÃO') + '<small>Segurança do Trabalho</small></div>' +
+        '<div class="r-meta">Gerente: <b>' + esc(E.gerente||'') + '</b><br>Engenheira: <b>' + esc(E.engenheira||'') + '</b><br>Emitido em ' + dataGer + '</div></div>' +
+      '<h1>' + esc(titulo) + '</h1><p class="r-sub">' + subInfo + '</p>' +
+      relatorioNCsHtml(ncs) +
+      '<div class="r-ass"><div>Responsável pela inspeção</div><div>Ciência da gestão</div></div>' +
+      '<div class="r-foot">Documento gerado pelo Controle de Inspeções — ' + esc(E.nome||'CEDRO MINERAÇÃO') + '. Para salvar como PDF: use "Salvar como PDF" na janela de impressão.</div>' +
+      '<div style="text-align:center;margin-top:16px" class="r-print"><button onclick="window.print()" style="padding:10px 20px;font-size:14px;cursor:pointer">🖨️ Salvar como PDF / Imprimir</button></div>' +
+      '</body></html>';
+    var w = window.open('', '_blank');
+    if (!w) { alert('Permita pop-ups para exportar o PDF.'); return; }
+    w.document.write(html); w.document.close();
+    setTimeout(function(){ try{ w.focus(); }catch(e){} }, 300);
+  }
+
+  document.addEventListener('click', function(ev) {
+    var btn = ev.target.closest('.nc-pdf-btn');
+    if (!btn) return;
+    var chave = btn.getAttribute('data-pdf');
+    var tipo = btn.getAttribute('data-tipo');
+    if (tipo === 'insp') {
+      var ncs = window.DADOS_NCS.filter(function(n){ return n.inspecao === chave; });
+      if (!ncs.length) return;
+      var ref = ncs[0];
+      var sub = 'Inspeção <b>' + esc(chave) + '</b> · Área: <b>' + esc(ref.area) + '</b> · Técnico: <b>' + esc(ref.tecnico) + '</b> · Data: <b>' + esc(ref.dataRegistro) + '</b> · ' + ncs.length + ' não conformidade(s)';
+      abrirRelatorio('Relatório de Inspeção — ' + chave, sub, ncs);
+    } else {
+      var n = window.DADOS_NCS.find(function(x){ return x.numero === chave; });
+      if (!n) return;
+      abrirRelatorio('Relatório de NC — ' + chave, 'Área: <b>' + esc(n.area) + '</b> · Técnico: <b>' + esc(n.tecnico) + '</b> · Data: <b>' + esc(n.dataRegistro) + '</b>', [n]);
+    }
   });
 
   // Inicializacao do Tema
@@ -2521,6 +2610,7 @@ ${LINKS_FORMS.tratativaEmbed ? `
         '<div>Status: <span>' + (nc.status || '-') + '</span></div>' +
       '</div>' +
       (nc.foto ? '<a class="nc-foto-link" href="' + nc.foto + '" target="_blank" rel="noopener">📷 Ver foto</a>' : '') +
+      '<button class="nc-pdf-btn" data-pdf="' + (nc.inspecao || nc.numero) + '" data-tipo="' + (nc.inspecao ? 'insp' : 'nc') + '">🖨️ Exportar PDF' + (nc.inspecao ? ' da inspeção' : '') + '</button>' +
       (nc.obs ? '<div class="nc-card-obs"><b>Nota:</b> ' + nc.obs + '</div>' : '') +
       alertasFluxo;
     return div;

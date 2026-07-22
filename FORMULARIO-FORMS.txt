@@ -97,11 +97,13 @@ P13. Ação corretiva / plano de ação        [Texto longo]
 
 P14. Responsável pela tratativa            [Texto curto] [OBRIGATÓRIA]
 
-P15. Empresa responsável                   [Escolha]
-    ( ) Cedro
-    ( ) AJPM
-    ( ) MPC
-    ( ) Outra contratada
+P15. Empresa responsável                   [Lista suspensa]
+    ( ) Cedro   ( ) Açofer   ( ) AJPM   ( ) Altto Engenharia
+    ( ) Astec   ( ) Dexplo   ( ) DL   ( ) Fênix   ( ) Foreza
+    ( ) Genvolt   ( ) LBS   ( ) MPC   ( ) MR Desentupidora
+    ( ) Rio Negro   ( ) Sapore   ( ) TTX   ( ) Vordex   ( ) Outro
+
+P15b. Se marcou "Outro", qual empresa?     [Texto curto]
 
 P16. Prazo para adequação                  [Data] [OBRIGATÓRIA]
 

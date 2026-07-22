@@ -77,6 +77,7 @@ COLUNAS = [
     ("status",      ["status da tratativa"]),
     ("dataConcl",   ["data de conclusao"]),
     ("validacao",   ["responsavel pela verificacao", "validacao"]),
+    ("empresaOutro",["qual empresa"]),
     ("foto",        ["registro fotografico", "foto", "anexo", "imagem"]),
 ]
 
@@ -202,7 +203,10 @@ def processa_xlsx(caminho, linhas_saida):
         if get("acaoImediata") and norm(get("acaoImediata")) not in ("", "nao aplicavel", "n/a", "na"):
             obs_partes.append(f"Ação imediata: {str(get('acaoImediata')).strip()}")
         if get("acaoCorretiva"): obs_partes.append(f"Plano de ação: {str(get('acaoCorretiva')).strip()}")
-        if get("empresa"): obs_partes.append(f"Empresa: {str(get('empresa')).strip()}")
+        empresa = str(get("empresa") or "").strip()
+        if norm(empresa) == "outro" and get("empresaOutro"):
+            empresa = str(get("empresaOutro")).strip()  # nome escrito quando marca "Outro"
+        if empresa: obs_partes.append(f"Empresa: {empresa}")
         if len(tecnicos) > 1: obs_partes.append(f"Equipe: {', '.join(tecnicos)}")
 
         corpo = [f"{data} {hora} - {tecnico}: #NC",
