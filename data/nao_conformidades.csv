@@ -1,4 +1,5 @@
 ﻿ID;Numero;DataRegistro;Tecnico;Area;Equipamento;Descricao;Risco;Responsavel;Prazo;Status;Observacao;Inspecao;Foto
+3623f56a;NC-0106;23/07/2026;Josiane Lima;Britagem 1;;Teste (via Forms);Alto;Thiago;23/07/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Teste | Empresa: Astec;INS-0505;
 6e94ca97;NC-0104;22/07/2026;Lucas Conrado;Britagem 1A;;aaaaaaaaaaaaaaaaaa (via Forms);Médio;aaaaaaaaaaaaaaaaaaa;30/07/2026;Encerrada em 30/07/2026;Tipo: Condição Insegura | Gravidade potencial: Fatal | Ação imediata: aaaaaaaaaa | Plano de ação: aaaaaaaaaaaaaaa | Empresa: Outra contratada | Concluída via Forms · verificado por Lucas;INS-0502;
 b502f9d5;NC-0105;22/07/2026;Josiane Lima;Britagem 1A;;TC 304 sem proteção (via Forms);Alto;Tassio;22/07/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Instalar Proteção | Empresa: Cedro;INS-0504;
 46c7064f;NC-0103;20/07/2026;Tiago Santos;Filtragem;Filtro FP-1;Teste de foto na NC;Alto;;;Aberta;;INS-0501;https://drive.google.com/file/d/EXEMPLO123/view

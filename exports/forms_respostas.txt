@@ -1,3 +1,21 @@
+16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
+NC: NC-0099
+Status: Concluído
+Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)
+22/07/2026 19:59 - Josiane Lima: #NC
+Área: Britagem 1A
+Não Conformidade: TC 304 sem proteção (via Forms)
+Classificação: Alto
+Responsável: Tassio
+Prazo: 22/07/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Instalar Proteção | Empresa: Cedro
+23/07/2026 08:12 - Josiane Lima: #NC
+Área: Britagem 1
+Não Conformidade: Teste (via Forms)
+Classificação: Alto
+Responsável: Thiago
+Prazo: 23/07/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Teste | Empresa: Astec
 14/07/2026 07:50 - Daniele Coutinho: #INSPECAO Filtragem - tudo ok (via Forms)
 15/07/2026 09:15 - Anderson Magalhães: #NC
 Área: Britagem 1
@@ -36,14 +54,3 @@ Não Conformidade: Luminária de emergência da sala de controle queimada (via F
 Classificação: Médio
 Responsável: Elétrica
 Prazo: 24/07/2026
-16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
-NC: NC-0099
-Status: Concluído
-Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)
-22/07/2026 19:59 - Josiane Lima: #NC
-Área: Britagem 1A
-Não Conformidade: TC 304 sem proteção (via Forms)
-Classificação: Alto
-Responsável: Tassio
-Prazo: 22/07/2026
-Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Instalar Proteção | Empresa: Cedro
