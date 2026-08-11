@@ -1037,6 +1037,19 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
   .form-card { max-width: 900px; margin: 0 auto; }
   .form-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   .form-dica { color: var(--text-secondary); font-size: 13px; margin: 8px 0 14px; }
+  .form-obs { color: var(--text-muted); font-size: 12px; margin: 14px 0 0; line-height: 1.5; }
+  .form-botao {
+    display: flex; align-items: center; gap: 14px; text-decoration: none;
+    background: linear-gradient(135deg, var(--bar), #60a5fa); color: #fff;
+    border-radius: 12px; padding: 18px 22px; box-shadow: 0 6px 18px rgba(59,130,246,0.25);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .form-botao:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(59,130,246,0.35); }
+  .form-botao-icone { font-size: 26px; }
+  .form-botao b { display: block; font-size: 16px; font-weight: 800; }
+  .form-botao small { display: block; font-size: 12px; opacity: 0.9; margin-top: 2px; }
+  .form-botao-seta { margin-left: auto; font-size: 20px; font-weight: 700; }
+  .form-frame { margin-top: 16px; }
   .form-frame {
     width: 100%;
     height: 78vh;
@@ -1091,6 +1104,30 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
     border: 1px solid rgba(59,130,246,0.25); padding: 4px 10px; border-radius: 6px;
   }
   .nc-foto-link:hover { background: rgba(59,130,246,0.18); }
+  /* Busca de NC pelo número */
+  .busca-nc-wrap {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    background: var(--bg-card); border: 1px solid var(--border-color);
+    border-radius: 12px; padding: 12px 16px; margin-bottom: 16px;
+    box-shadow: var(--card-shadow);
+  }
+  .busca-nc-icon { font-size: 16px; }
+  .busca-nc-input {
+    flex: 1; min-width: 240px; background: var(--bg-surface);
+    border: 1px solid var(--border-color); border-radius: 8px;
+    padding: 10px 14px; color: var(--text-primary); font-size: 14px;
+    font-family: var(--font-main);
+  }
+  .busca-nc-input:focus { outline: none; border-color: var(--bar); box-shadow: 0 0 0 2px rgba(59,130,246,0.2); }
+  .busca-nc-btn {
+    background: var(--bar); color: #fff; border: none; border-radius: 8px;
+    padding: 10px 18px; font-size: 13px; font-weight: 700; cursor: pointer;
+    font-family: var(--font-main);
+  }
+  .busca-nc-btn:hover { filter: brightness(1.1); }
+  .busca-nc-msg { font-size: 12px; font-weight: 600; color: var(--crit); }
+  @media print { .busca-nc-wrap { display: none; } }
+
   .nc-foto-thumb {
     display: block; margin-top: 10px; max-width: 100%; max-height: 220px;
     border-radius: 8px; border: 1px solid var(--border-color); cursor: zoom-in;
@@ -1959,6 +1996,14 @@ ${(LINKS_FORMS.inspecaoEmbed || LINKS_FORMS.tratativaEmbed) ? `
 </nav>`}
 
 <div id="view-painel" class="view active">
+
+<div class="busca-nc-wrap">
+  <span class="busca-nc-icon">🔎</span>
+  <input type="text" id="busca-nc" class="busca-nc-input" placeholder="Buscar NC pelo número (ex.: NC-0107) e pressionar Enter">
+  <button id="busca-nc-btn" class="busca-nc-btn">Abrir NC</button>
+  <span id="busca-nc-msg" class="busca-nc-msg"></span>
+</div>
+
 <div class="kpis">
   <div class="kpi kpi-total" id="kpi-saude">
     <div class="v">${emDia}/${AREAS.length}</div>
@@ -2080,24 +2125,35 @@ ${gargalosHtml}
 ${LINKS_FORMS.inspecaoEmbed ? `
 <div id="view-inspecao" class="view">
   <div class="card form-card">
-    <div class="form-head">
-      <h2 class="section-title" style="margin:0"><span>📝</span> Registrar Inspeção / Não Conformidade</h2>
-      <a class="btn-theme btn-form" href="${esc(LINKS_FORMS.inspecao)}" target="_blank" rel="noopener">Abrir em nova janela ↗</a>
-    </div>
-    <p class="form-dica">Preencha e envie. O dashboard se atualiza sozinho em poucos minutos — não precisa fazer mais nada.</p>
-    <iframe class="form-frame" src="${esc(LINKS_FORMS.inspecaoEmbed)}" loading="lazy" title="Formulário de Inspeção">Carregando…</iframe>
+    <h2 class="section-title"><span>📝</span> Registrar Inspeção / Não Conformidade</h2>
+    <p class="form-dica">Preencha e envie. O dashboard se atualiza sozinho em até 30 minutos — não precisa fazer mais nada.</p>
+    <a class="form-botao" href="${esc(LINKS_FORMS.inspecao)}" target="_blank" rel="noopener">
+      <span class="form-botao-icone">📝</span>
+      <span>
+        <b>Abrir formulário de inspeção</b>
+        <small>Abre em uma nova aba · funciona no celular</small>
+      </span>
+      <span class="form-botao-seta">↗</span>
+    </a>
+    <p class="form-obs">O formulário abre em nova aba porque o Google exige login para o envio de fotos — por segurança, ele não permite ser exibido dentro de outro site.</p>
   </div>
 </div>` : ""}
 
 ${LINKS_FORMS.tratativaEmbed ? `
 <div id="view-tratativa" class="view">
   <div class="card form-card">
-    <div class="form-head">
-      <h2 class="section-title" style="margin:0"><span>🔧</span> Tratar uma NC (mudar status)</h2>
-      <a class="btn-theme btn-form" href="${esc(LINKS_FORMS.tratativa)}" target="_blank" rel="noopener">Abrir em nova janela ↗</a>
-    </div>
-    <p class="form-dica">Informe o número da NC (ex.: NC-0042 — aparece na tabela do painel), o novo status e a evidência.</p>
+    <h2 class="section-title"><span>🔧</span> Tratar uma NC (mudar status)</h2>
+    <p class="form-dica">Informe o número da NC (ex.: NC-0107 — use a busca do painel para achar), o novo status e a evidência.</p>
+    <a class="form-botao" href="${esc(LINKS_FORMS.tratativa)}" target="_blank" rel="noopener">
+      <span class="form-botao-icone">🔧</span>
+      <span>
+        <b>Abrir formulário de tratativa</b>
+        <small>Abre em uma nova aba · funciona no celular</small>
+      </span>
+      <span class="form-botao-seta">↗</span>
+    </a>
     <iframe class="form-frame" src="${esc(LINKS_FORMS.tratativaEmbed)}" loading="lazy" title="Formulário de Tratativa">Carregando…</iframe>
+    <p class="form-obs">Se o formulário não aparecer acima, use o botão — alguns navegadores bloqueiam formulários dentro de outros sites.</p>
   </div>
 </div>` : ""}
 
@@ -2186,6 +2242,10 @@ ${LINKS_FORMS.tratativaEmbed ? `
 
     <h3 class="manual-h3">4. Os blocos do painel</h3>
     <div class="manual-grid">
+      <div class="manual-card"><h4>🔎 Busca de NC pelo número</h4><p>A barra no topo do painel. Digite o número
+      (<span class="ex-num">NC-0107</span>, ou só <span class="ex-num">107</span>) e pressione Enter: o sistema
+      <b>abre a área da NC e destaca o cartão dela</b>, com foto, fluxo de compras e o botão de exportar PDF.
+      É o caminho mais rápido para achar uma NC específica.</p></div>
       <div class="manual-card"><h4>🛰️ Mapa da mina</h4><p>Foto de satélite com as áreas pintadas
       na cor do status. <b>Passe o mouse</b> para ver o resumo e <b>clique</b> para abrir o detalhe
       da área. Áreas com contorno tracejado têm posição aproximada.</p></div>
@@ -2588,6 +2648,7 @@ ${LINKS_FORMS.tratativaEmbed ? `
 
     const div = document.createElement('div');
     div.className = 'nc-drawer-card ' + cardRiscoClass;
+    div.setAttribute('data-nc', nc.numero || '');
     if (ehFechada) div.style.opacity = '0.65';
 
     // chips dos equipamentos da base de manutenção citados na NC
@@ -2951,6 +3012,37 @@ ${LINKS_FORMS.tratativaEmbed ? `
   document.querySelectorAll('.tec-row').forEach(row => {
     row.addEventListener('click', () => selecionarTecnico(row.getAttribute('data-tec')));
   });
+
+  // ---- Busca de NC pelo número (aceita "NC-0107", "nc107", "107") ----
+  function buscarNC(termo) {
+    const msg = document.getElementById('busca-nc-msg');
+    msg.textContent = '';
+    const m = String(termo || '').match(/(\\d+)/);
+    if (!m) { msg.textContent = 'Digite o número da NC (ex.: NC-0107).'; return; }
+    const alvo = parseInt(m[1], 10);
+    const nc = window.DADOS_NCS.find(n => parseInt(String(n.numero).replace(/\\D/g, ''), 10) === alvo);
+    if (!nc) { msg.textContent = 'NC ' + alvo + ' não encontrada.'; return; }
+
+    // volta para o painel (se estiver em outra aba) e abre a área da NC
+    const abaPainel = document.querySelector('.aba-btn[data-view="view-painel"]');
+    if (abaPainel && !document.getElementById('view-painel').classList.contains('active')) abaPainel.click();
+    selecionarArea(nc.area);
+
+    setTimeout(() => {
+      const card = document.querySelector('#drawer-nc-list .nc-drawer-card[data-nc="' + CSS.escape(nc.numero) + '"]');
+      if (card) {
+        card.classList.add('equip-destaque');
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => card.classList.remove('equip-destaque'), 3000);
+      }
+    }, 150);
+  }
+
+  var inputBusca = document.getElementById('busca-nc');
+  if (inputBusca) {
+    inputBusca.addEventListener('keydown', e => { if (e.key === 'Enter') buscarNC(inputBusca.value); });
+    document.getElementById('busca-nc-btn').addEventListener('click', () => buscarNC(inputBusca.value));
+  }
 
   // Eventos nos Polígonos do Mapa e nos Cards
   document.querySelectorAll('.mapa-poly').forEach(poly => {

@@ -64,13 +64,20 @@ VIU 3 PROBLEMAS NA MESMA VISITA?
    Não precisa preencher o formulário três vezes.
 
 ---------------------------------------------------------------------
+ACHAR UMA NC RÁPIDO
+---------------------------------------------------------------------
+No painel, use a barra de busca no topo: digite o número da NC
+(ex.: NC-0107, ou só 107) e pressione Enter. O sistema abre a área
+e destaca a NC, com foto e o botão de exportar o PDF.
+
+---------------------------------------------------------------------
 JÁ RESOLVEU (OU ESTÁ RESOLVENDO) UMA NC?
 ---------------------------------------------------------------------
 Use o FORMULÁRIO DE TRATATIVA — nunca abra uma NC nova para dizer
 que a antiga foi resolvida.
 
    1. Pegue o NÚMERO da NC (ex.: NC-0042). Ele aparece na primeira
-      coluna da tabela do painel.
+      coluna da tabela do painel e na busca.
    2. Escolha o novo status:
         Em andamento = já está sendo resolvido
         Concluído    = resolvido e verificado
