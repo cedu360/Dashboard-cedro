@@ -10,6 +10,7 @@ Fluxo: Forms > Respostas > Abrir no Excel > salvar em forms/ >
 Precisa de: pip install openpyxl
 """
 import os, re, sys, unicodedata, datetime
+import urllib.request
 import openpyxl
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -17,6 +18,42 @@ sys.stdout.reconfigure(encoding="utf-8")
 DIR = os.path.dirname(os.path.abspath(__file__))
 DIR_FORMS = os.path.join(DIR, "forms")
 DIR_EXPORTS = os.path.join(DIR, "exports")
+DIR_FOTOS = os.path.join(DIR, "fotos")
+
+# Baixa a foto anexada no Forms (que fica no Drive) e salva DENTRO do projeto,
+# em fotos/<id>.jpg — assim a imagem viaja junto do relatório e não depende do
+# link do Drive. Retorna o caminho relativo (fotos/<id>.jpg) ou "" se falhar.
+# Requer a pasta de respostas do Drive compartilhada como "qualquer um com link".
+def baixar_foto(link):
+    m = re.search(r"[-\w]{25,}", str(link or ""))
+    if not m:
+        return ""
+    fid = m.group(0)
+    os.makedirs(DIR_FOTOS, exist_ok=True)
+    rel = "fotos/" + fid + ".jpg"
+    destino = os.path.join(DIR_FOTOS, fid + ".jpg")
+    if os.path.exists(destino) and os.path.getsize(destino) > 0:
+        return rel
+    # o endpoint de thumbnail devolve um JPEG pronto (resolução boa p/ relatório)
+    urls = [
+        "https://drive.google.com/thumbnail?id=" + fid + "&sz=w2000",
+        "https://drive.google.com/uc?export=download&id=" + fid + "&confirm=t",
+    ]
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=40) as r:
+                data = r.read()
+            # confere se é imagem de verdade (não página de erro/HTML)
+            eh_img = (data[:2] == b"\xff\xd8" or data[:8] == b"\x89PNG\r\n\x1a\n"
+                      or data[:6] in (b"GIF87a", b"GIF89a") or data[:4] == b"RIFF")
+            if eh_img and len(data) > 1000:
+                with open(destino, "wb") as f:
+                    f.write(data)
+                return rel
+        except Exception:
+            continue
+    return ""  # não conseguiu (pasta não compartilhada?) — cai no link original
 
 # O dashboard usa os MESMOS nomes oficiais do formulário — aqui só
 # garantimos a grafia canônica (acentos/maiúsculas). Um local novo no
@@ -219,7 +256,8 @@ def processa_xlsx(caminho, linhas_saida):
         if obs_partes: corpo.append("Observação: " + " | ".join(obs_partes))
         foto = str(get("foto") or "").strip()
         if foto.startswith("http"):
-            corpo.append(f"Foto: {foto}")
+            local = baixar_foto(foto) if "google.com" in foto else ""
+            corpo.append(f"Foto: {local or foto}")  # imagem local se conseguiu baixar, senão o link
         linhas_saida.append("\n".join(corpo))
         n_nc += 1
 

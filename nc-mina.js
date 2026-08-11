@@ -330,8 +330,9 @@ function processar(msgs) {
         prazo: campos.prazo ? fmtData(parseDataBR(campos.prazo, msg.data.getFullYear())) : "",
         status: "Aberta",
         obs: campos.acaoImediata ? `Ação imediata: ${campos.acaoImediata}` : (campos.obs || ""),
-        // só guarda foto se for link (WhatsApp manda "(arquivo anexado)", que ignoramos)
-        foto: /^https?:\/\//i.test(String(campos.foto || "").trim()) ? campos.foto.trim() : "",
+        // guarda foto: caminho local (fotos/...) ou link http (WhatsApp manda
+        // "(arquivo anexado)", que ignoramos por não ser nem um nem outro)
+        foto: /^(https?:\/\/|fotos\/)/i.test(String(campos.foto || "").trim()) ? campos.foto.trim() : "",
       });
       inspecoes.push({ data: fmtData(msg.data), hora: msg.hora, tecnico: msg.autor, area, tipo: "NC" });
     } else if (ehInspecaoOK) {
