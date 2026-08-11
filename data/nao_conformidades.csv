@@ -1,4 +1,5 @@
 ﻿ID;Numero;DataRegistro;Tecnico;Area;Equipamento;Descricao;Risco;Responsavel;Prazo;Status;Observacao;Inspecao;Foto
+3623f56a;NC-0108;23/07/2026;Josiane Lima;Britagem 1;;Teste (via Forms);Alto;Thiago;23/07/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Teste | Empresa: Astec;INS-0507;
 6e94ca97;NC-0104;22/07/2026;Lucas Conrado;Britagem 1A;;aaaaaaaaaaaaaaaaaa (via Forms);Médio;aaaaaaaaaaaaaaaaaaa;30/07/2026;Encerrada em 30/07/2026;Tipo: Condição Insegura | Gravidade potencial: Fatal | Ação imediata: aaaaaaaaaa | Plano de ação: aaaaaaaaaaaaaaa | Empresa: Outra contratada | Concluída via Forms · verificado por Lucas;INS-0502;
 b502f9d5;NC-0105;22/07/2026;Josiane Lima;Britagem 1A;;TC 304 sem proteção (via Forms);Alto;Tassio;22/07/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Instalar Proteção | Empresa: Cedro;INS-0504;
 af1d84a6;NC-0106;21/07/2026;Tiago Santos;Filtragem;Filtro FP-1;Teste de foto local embutida;Alto;;;Aberta;;INS-0505;fotos/TESTID123.jpg
@@ -10,6 +11,7 @@ a281341c;NC-0102;16/07/2026;Tiago Santos;Concentração (Planta 3 + GX600);;Lumi
 763f0a57;NC-0098;13/07/2026;Fabiana Mello;Concentração (Planta 3 + GX600);Peneira PN-01;Sistema de lubrificação automática inoperante, mancal aquecendo;Alto;Manutenção mecânica;20/07/2026;Aberta;;INS-0494;
 4ee5d601;NC-0097;09/07/2026;Phelippe Cerqueira;Filtragem;Linha de ar comprimido;Vazamento na conexão da linha de ar comprimido;Médio;Manutenção;22/07/2026;Em andamento;Conexão nova comprada, troca programada.;INS-0485;
 0889497b;NC-0096;08/07/2026;Anderson Magalhães;Britagem 1;Britador primário;Vibração anormal no conjunto do britador primário;Alto;Manutenção mecânica;25/07/2026;Em andamento;Análise de vibração agendada com a preditiva.;INS-0481;
+874fd4bb;NC-0107;06/07/2026;Daniele Coutinho;Banheiro/Vestiário Cedro ADM;;TC-01 (via Forms);Alto;PREVENÇÃO;18/08/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Grave | Empresa: Açofer;INS-0506;fotos/1P6Ie3gMEloE1a-gbXD4d24efIKHQ8oqt.jpg
 2540602d;NC-0095;04/07/2026;Josiane Lima;Restaurante;Refeitório;Lâmpada queimada no salão do refeitório;Baixo;Facilities;09/07/2026;Encerrada em 08/07/2026;Lâmpada substituída.;INS-0475;
 1701708c;NC-0094;03/07/2026;Lucas Conrado;Britagem 1A;Lava-olhos;Chuveiro lava-olhos com vazão baixa;Alto;Facilities;07/07/2026;Encerrada em 06/07/2026;Filtro trocado e vazão testada.;INS-0473;
 cbab73a5;NC-0093;02/07/2026;Fabiana Mello;Concentração (Planta 3 + GX600);Guincho da ponte rolante;Cabo de aço com fios desfiados no guincho;Crítica;Manutenção mecânica;08/07/2026;Aberta;;INS-0472;

@@ -204,12 +204,22 @@ def processa_xlsx(caminho, linhas_saida):
                 header = list(row)
                 idx = mapear_colunas(header)
                 blocos_extra = mapear_blocos_extra(header)
+                # colunas candidatas a FOTO (qualquer nome com foto/upload/anexo/imagem)
+                fotos_cols = [j for j, h in enumerate([norm(x) for x in header])
+                              if any(k in h for k in ["registro fotografico", "foto", "anexo", "imagem", "upload de arquivo"])]
                 if "local" not in idx or "data" not in idx:
                     print(f"  aviso: {os.path.basename(caminho)} não parece ser a planilha do Forms (faltam colunas Data/Local)")
                     wb.close()
                     return 0, 0
             continue
         get = lambda c: (row[idx[c]] if c in idx and idx[c] < len(row) else None)
+        # foto: primeira coluna candidata cujo valor é um link (Drive/http)
+        def get_foto():
+            for j in fotos_cols:
+                v = str(row[j]).strip() if j < len(row) and row[j] else ""
+                if v.startswith("http"):
+                    return v
+            return ""
         data = fdata(get("data"))
         if not data:
             continue
@@ -254,7 +264,7 @@ def processa_xlsx(caminho, linhas_saida):
         prazo = fdata(get("prazo"))
         if prazo: corpo.append(f"Prazo: {prazo}")
         if obs_partes: corpo.append("Observação: " + " | ".join(obs_partes))
-        foto = str(get("foto") or "").strip()
+        foto = get_foto()
         if foto.startswith("http"):
             local = baixar_foto(foto) if "google.com" in foto else ""
             corpo.append(f"Foto: {local or foto}")  # imagem local se conseguiu baixar, senão o link

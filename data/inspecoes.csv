@@ -1,5 +1,6 @@
 ﻿Numero;Data;Hora;Tecnico;Area;Tipo
 INS-0503;30/07/2026;17:00;Lucas Conrado;Britagem 1A;Acompanhamento
+INS-0507;23/07/2026;08:12;Josiane Lima;Britagem 1;NC
 INS-0502;22/07/2026;14:16;Lucas Conrado;Britagem 1A;NC
 INS-0504;22/07/2026;19:59;Josiane Lima;Britagem 1A;NC
 INS-0505;21/07/2026;10:00;Tiago Santos;Filtragem;NC
@@ -26,6 +27,7 @@ INS-0482;08/07/2026;09:55;Josiane Lima;Restaurante;Acompanhamento
 INS-0483;08/07/2026;10:30;Wagner Rocha;Portaria;Rotina
 INS-0480;07/07/2026;09:15;Flavia Tanner;Centro Administrativo;Rotina
 INS-0479;06/07/2026;11:30;Lucas Conrado;Britagem 1A;Acompanhamento
+INS-0506;06/07/2026;10:00;Daniele Coutinho;Banheiro/Vestiário Cedro ADM;NC
 INS-0477;05/07/2026;08:10;Juscelino Santos;Britagem 1;Rotina
 INS-0478;05/07/2026;11:00;Daniele Coutinho;Balança;Rotina
 INS-0475;04/07/2026;11:10;Josiane Lima;Restaurante;NC
