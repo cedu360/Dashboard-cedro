@@ -9,6 +9,21 @@ Classificação: Alto
 Responsável: Tassio
 Prazo: 22/07/2026
 Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Instalar Proteção | Empresa: Cedro
+23/07/2026 08:12 - Josiane Lima: #NC
+Área: Britagem 1
+Não Conformidade: Teste (via Forms)
+Classificação: Alto
+Responsável: Thiago
+Prazo: 23/07/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Teste | Empresa: Astec
+06/07/2026 10:00 - Daniele Coutinho: #NC
+Área: Banheiro/Vestiário Cedro ADM
+Não Conformidade: TC-01 (via Forms)
+Classificação: Alto
+Responsável: PREVENÇÃO
+Prazo: 18/08/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Empresa: Açofer
+Foto: fotos/1P6Ie3gMEloE1a-gbXD4d24efIKHQ8oqt.jpg
 14/07/2026 07:50 - Daniele Coutinho: #INSPECAO Filtragem - tudo ok (via Forms)
 15/07/2026 09:15 - Anderson Magalhães: #NC
 Área: Britagem 1
