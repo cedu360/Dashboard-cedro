@@ -94,7 +94,7 @@ function criarFormularios() {
     p21.createChoice("Não", FormApp.PageNavigationType.SUBMIT),
   ]);
 
-  f.addParagraphTextItem().setTitle("NC 2 — Descrição da não conformidade").setRequired(true);
+  f.addParagraphTextItem().setTitle("NC 2 — Descrição da não conformidade");
   f.addMultipleChoiceItem().setTitle("NC 2 — Classificação de risco").setChoiceValues(RISCOS);
   f.addTextItem().setTitle("NC 2 — Responsável pela tratativa");
   f.addDateItem().setTitle("NC 2 — Prazo para adequação");
@@ -108,7 +108,7 @@ function criarFormularios() {
     p27.createChoice("Não", FormApp.PageNavigationType.SUBMIT),
   ]);
 
-  f.addParagraphTextItem().setTitle("NC 3 — Descrição da não conformidade").setRequired(true);
+  f.addParagraphTextItem().setTitle("NC 3 — Descrição da não conformidade");
   f.addMultipleChoiceItem().setTitle("NC 3 — Classificação de risco").setChoiceValues(RISCOS);
   f.addTextItem().setTitle("NC 3 — Responsável pela tratativa");
   f.addDateItem().setTitle("NC 3 — Prazo para adequação");
