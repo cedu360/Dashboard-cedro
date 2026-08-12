@@ -20,6 +20,14 @@ Responsável: PREVENÇÃO
 Prazo: 18/08/2026
 Observação: Tipo: Condição Insegura | Gravidade potencial: Grave | Empresa: Açofer
 Foto: fotos/1P6Ie3gMEloE1a-gbXD4d24efIKHQ8oqt.jpg
+12/08/2026 10:00 - Tiago Santos: #NC
+Área: Concentração (Planta 3 + GX600)
+Não Conformidade: TC-01 (via Forms)
+Classificação: Baixo
+Responsável: LUCAS
+Prazo: 13/08/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Sem lesão | Empresa: LBS
+Foto: fotos/13n4nrlkJMIHPCEmRp9NnFECZantJS_uY.jpg
 14/07/2026 07:50 - Daniele Coutinho: #INSPECAO Filtragem - tudo ok (via Forms)
 15/07/2026 09:15 - Anderson Magalhães: #NC
 Área: Britagem 1

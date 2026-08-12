@@ -64,11 +64,16 @@ VIU 3 PROBLEMAS NA MESMA VISITA?
    Não precisa preencher o formulário três vezes.
 
 ---------------------------------------------------------------------
-ACHAR UMA NC RÁPIDO
+ACHAR UMA NC RÁPIDO (2 jeitos)
 ---------------------------------------------------------------------
-No painel, use a barra de busca no topo: digite o número da NC
-(ex.: NC-0107, ou só 107) e pressione Enter. O sistema abre a área
-e destaca a NC, com foto e o botão de exportar o PDF.
+1) ACABOU DE REGISTRAR E NÃO SABE O NÚMERO?
+   Olhe a janela "ÚLTIMAS INSPEÇÕES", no topo da coluna da direita
+   do painel. O que você acabou de lançar aparece em primeiro.
+   Clique na linha para abrir a NC (com foto e botão de PDF).
+
+2) JÁ SABE O NÚMERO?
+   Use a barra de busca no topo do painel: digite o número
+   (ex.: NC-0107, ou só 107) e pressione Enter.
 
 ---------------------------------------------------------------------
 JÁ RESOLVEU (OU ESTÁ RESOLVENDO) UMA NC?

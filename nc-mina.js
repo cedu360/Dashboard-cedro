@@ -813,6 +813,33 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
 </div>`;
   }
 
+  // --- últimos lançamentos (as NCs registradas mais recentemente)
+  const recentes = [...ncs]
+    .sort((a, b) => {
+      const da = parseDataBR(a.dataRegistro) || 0, db = parseDataBR(b.dataRegistro) || 0;
+      if (db - da !== 0) return db - da;
+      return (parseInt(String(b.numero).replace(/\D/g, ""), 10) || 0) - (parseInt(String(a.numero).replace(/\D/g, ""), 10) || 0);
+    })
+    .slice(0, 10);
+  const recentesHtml = `
+    <div class="card">
+      <h2 class="section-title"><span>🆕</span> Últimas Inspeções</h2>
+      <p style="color:var(--text-muted);font-size:11px;margin:2px 0 0;">Os registros mais recentes — clique em qualquer linha para abrir a NC.</p>
+      <div style="margin-top:10px" class="table-container">
+        <table>
+          <thead><tr><th>Nº</th><th>Data</th><th>Sector</th><th>Ocorrência</th><th>Técnico</th><th>Status</th></tr></thead>
+          <tbody>${recentes.map((n) => `<tr class="nc-row" data-nc="${esc(n.numero)}" style="cursor:pointer">
+            <td class="tabular bold" style="color:var(--bar)">${esc(n.numero)}${n.foto ? ' 📷' : ''}</td>
+            <td class="tabular">${esc(n.dataRegistro)}</td>
+            <td>${esc(n.area)}</td>
+            <td>${esc(String(n.descricao).slice(0, 45))}</td>
+            <td>${esc(n.tecnico)}</td>
+            <td><span class="status-pill">${esc(n.status)}</span></td>
+          </tr>`).join("") || '<tr><td colspan="6">Nenhuma NC registrada ainda</td></tr>'}</tbody>
+        </table>
+      </div>
+    </div>`;
+
   // --- radar de equipamentos (base de manutenção)
   let radarEquip = "";
   if (equipamentos && equipamentos.length) {
@@ -1936,7 +1963,7 @@ function gerarDashboard(areas, ncs, inspecoes, equipamentos, fluxoAbertas) {
     white-space: nowrap;
   }
 
-  .equip-row:hover td { background: var(--bg-surface-hover); }
+  .equip-row:hover td, .nc-row:hover td { background: var(--bg-surface-hover); }
   .equip-destaque {
     outline: 2px solid var(--bar);
     box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.25);
@@ -2042,6 +2069,7 @@ ${(LINKS_FORMS.inspecaoEmbed || LINKS_FORMS.tratativaEmbed) ? `
 
   <!-- Right Side: Analytics Charts -->
   <div class="sidebar-column">
+    ${recentesHtml}
     <div class="card">
       <h2 class="section-title"><span>📊</span> NCs por Sector (Total Histórico)</h2>
       <div style="margin-top: 10px;">${barras}</div>
@@ -2242,6 +2270,10 @@ ${LINKS_FORMS.tratativaEmbed ? `
 
     <h3 class="manual-h3">4. Os blocos do painel</h3>
     <div class="manual-grid">
+      <div class="manual-card"><h4>🆕 Últimas Inspeções</h4><p>A janela no topo da coluna da direita.
+      Mostra <b>os registros mais recentes</b> (número, data, área, ocorrência, técnico e status) —
+      o 📷 indica que tem foto. <b>Clique em qualquer linha</b> para abrir a NC.
+      É o jeito mais rápido de conferir o que acabou de ser lançado, sem saber o número.</p></div>
       <div class="manual-card"><h4>🔎 Busca de NC pelo número</h4><p>A barra no topo do painel. Digite o número
       (<span class="ex-num">NC-0107</span>, ou só <span class="ex-num">107</span>) e pressione Enter: o sistema
       <b>abre a área da NC e destaca o cartão dela</b>, com foto, fluxo de compras e o botão de exportar PDF.
@@ -3013,6 +3045,29 @@ ${LINKS_FORMS.tratativaEmbed ? `
     row.addEventListener('click', () => selecionarTecnico(row.getAttribute('data-tec')));
   });
 
+  // ---- Abre uma NC pelo número: acende a área e destaca o cartão ----
+  function abrirNC(numero) {
+    const nc = window.DADOS_NCS.find(n => n.numero === numero);
+    if (!nc) return false;
+    const abaPainel = document.querySelector('.aba-btn[data-view="view-painel"]');
+    if (abaPainel && !document.getElementById('view-painel').classList.contains('active')) abaPainel.click();
+    selecionarArea(nc.area);
+    setTimeout(() => {
+      const card = document.querySelector('#drawer-nc-list .nc-drawer-card[data-nc="' + CSS.escape(nc.numero) + '"]');
+      if (card) {
+        card.classList.add('equip-destaque');
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => card.classList.remove('equip-destaque'), 3000);
+      }
+    }, 150);
+    return true;
+  }
+
+  // clique nas linhas de "Últimas Inspeções"
+  document.querySelectorAll('.nc-row').forEach(row => {
+    row.addEventListener('click', () => abrirNC(row.getAttribute('data-nc')));
+  });
+
   // ---- Busca de NC pelo número (aceita "NC-0107", "nc107", "107") ----
   function buscarNC(termo) {
     const msg = document.getElementById('busca-nc-msg');
@@ -3022,20 +3077,7 @@ ${LINKS_FORMS.tratativaEmbed ? `
     const alvo = parseInt(m[1], 10);
     const nc = window.DADOS_NCS.find(n => parseInt(String(n.numero).replace(/\\D/g, ''), 10) === alvo);
     if (!nc) { msg.textContent = 'NC ' + alvo + ' não encontrada.'; return; }
-
-    // volta para o painel (se estiver em outra aba) e abre a área da NC
-    const abaPainel = document.querySelector('.aba-btn[data-view="view-painel"]');
-    if (abaPainel && !document.getElementById('view-painel').classList.contains('active')) abaPainel.click();
-    selecionarArea(nc.area);
-
-    setTimeout(() => {
-      const card = document.querySelector('#drawer-nc-list .nc-drawer-card[data-nc="' + CSS.escape(nc.numero) + '"]');
-      if (card) {
-        card.classList.add('equip-destaque');
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        setTimeout(() => card.classList.remove('equip-destaque'), 3000);
-      }
-    }, 150);
+    abrirNC(nc.numero);
   }
 
   var inputBusca = document.getElementById('busca-nc');
