@@ -1,7 +1,3 @@
-16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
-NC: NC-0099
-Status: Concluído
-Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)
 22/07/2026 19:59 - Josiane Lima: #NC
 Área: Britagem 1A
 Não Conformidade: TC 304 sem proteção (via Forms)
@@ -32,6 +28,14 @@ Responsável: LUCAS
 Prazo: 13/08/2026
 Observação: Tipo: Condição Insegura | Gravidade potencial: Sem lesão | Empresa: LBS
 Foto: fotos/13n4nrlkJMIHPCEmRp9NnFECZantJS_uY.jpg
+13/08/2026 11:00 - Juscelino Santos: #NC
+Área: Planta 4
+Não Conformidade: tc-01 (via Forms)
+Classificação: Baixo
+Responsável: josiane
+Prazo: 13/08/2026
+Observação: Tipo: Condição Insegura | Gravidade potencial: Sem lesão
+Foto: fotos/18L9RCv3QIM9uce01TRh0QT_alIjsA_P_.jpg
 14/07/2026 07:50 - Daniele Coutinho: #INSPECAO Filtragem - tudo ok (via Forms)
 15/07/2026 09:15 - Anderson Magalhães: #NC
 Área: Britagem 1
@@ -70,3 +74,7 @@ Não Conformidade: Luminária de emergência da sala de controle queimada (via F
 Classificação: Médio
 Responsável: Elétrica
 Prazo: 24/07/2026
+16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
+NC: NC-0099
+Status: Concluído
+Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)

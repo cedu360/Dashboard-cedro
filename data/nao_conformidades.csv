@@ -1,4 +1,5 @@
 ﻿ID;Numero;DataRegistro;Tecnico;Area;Equipamento;Descricao;Risco;Responsavel;Prazo;Status;Observacao;Inspecao;Foto
+821ecb62;NC-0110;13/08/2026;Juscelino Santos;Planta 4;;tc-01 (via Forms);Baixo;josiane;13/08/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Sem lesão;INS-0509;fotos/18L9RCv3QIM9uce01TRh0QT_alIjsA_P_.jpg
 257b4547;NC-0109;12/08/2026;Tiago Santos;Concentração (Planta 3 + GX600);;TC-01 (via Forms);Baixo;LUCAS;13/08/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Sem lesão | Empresa: LBS;INS-0508;fotos/13n4nrlkJMIHPCEmRp9NnFECZantJS_uY.jpg
 3623f56a;NC-0108;23/07/2026;Josiane Lima;Britagem 1;;Teste (via Forms);Alto;Thiago;23/07/2026;Aberta;Tipo: Condição Insegura | Gravidade potencial: Grave | Plano de ação: Teste | Empresa: Astec;INS-0507;
 6e94ca97;NC-0104;22/07/2026;Lucas Conrado;Britagem 1A;;aaaaaaaaaaaaaaaaaa (via Forms);Médio;aaaaaaaaaaaaaaaaaaa;30/07/2026;Encerrada em 30/07/2026;Tipo: Condição Insegura | Gravidade potencial: Fatal | Ação imediata: aaaaaaaaaa | Plano de ação: aaaaaaaaaaaaaaa | Empresa: Outra contratada | Concluída via Forms · verificado por Lucas;INS-0502;
