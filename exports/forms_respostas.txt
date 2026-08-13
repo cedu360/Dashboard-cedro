@@ -1,3 +1,7 @@
+16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
+NC: NC-0099
+Status: Concluído
+Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)
 22/07/2026 19:59 - Josiane Lima: #NC
 Área: Britagem 1A
 Não Conformidade: TC 304 sem proteção (via Forms)
@@ -74,7 +78,3 @@ Não Conformidade: Luminária de emergência da sala de controle queimada (via F
 Classificação: Médio
 Responsável: Elétrica
 Prazo: 24/07/2026
-16/07/2026 12:00 - Anderson Magalhães: #ACOMPANHAMENTO
-NC: NC-0099
-Status: Concluído
-Observação: Talude contido e limpo pela equipe civil da AJPM, área liberada. (tratativa via Forms)
