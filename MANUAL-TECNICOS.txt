@@ -97,6 +97,35 @@ AS CORES DO PAINEL
             OU tem NC com prazo vencido
 
 ---------------------------------------------------------------------
+PROBLEMAS AO ANEXAR A FOTO (leia se der erro)
+---------------------------------------------------------------------
+>> Deu "Servidor rejeitado" ou "Falha no upload"?
+   NÃO é o tamanho da foto nem a internet. É a CONTA GOOGLE do
+   celular. Se você está logado numa conta ESCOLAR ou de EMPRESA
+   (Workspace), o administrador dela bloqueia enviar arquivos para
+   fora da organização — e o envio falha.
+
+   COMO RESOLVER:
+   1. Abra o formulário no CHROME, em uma janela ANÔNIMA
+      (menu ⋮ > Nova guia anônima) e cole o link.
+   2. Faça login com sua conta PESSOAL do Gmail.
+   3. Anexe a foto e envie.
+   Se preferir resolver de vez: saia da conta escolar/empresa no
+   navegador, ou deixe a pessoal como conta principal.
+
+>> Está com pressa e a foto não vai?
+   Clique no "X" para remover o arquivo e ENVIE assim mesmo — a foto
+   é opcional e a NC entra normalmente no sistema.
+
+>> IMPORTANTE: anexar a foto NÃO envia o formulário.
+   Você precisa chegar até o fim e clicar em ENVIAR. Só está
+   registrado quando aparecer "Sua resposta foi registrada".
+
+>> Marcou "Sim" em "Registrar OUTRA não conformidade" sem querer?
+   O formulário vai pedir a NC 2. Volte e marque "Não" para
+   conseguir enviar.
+
+---------------------------------------------------------------------
 DÚVIDAS RÁPIDAS
 ---------------------------------------------------------------------
 Preenchi e não apareceu no painel?

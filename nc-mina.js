@@ -2322,7 +2322,18 @@ ${LINKS_FORMS.tratativaEmbed ? `
       fica vermelha por falta de inspeção. Responda "Não" em "Houve não conformidade" — leva 30 segundos.</p></div>
       <div class="manual-card"><h4>Preenchi o formulário e não apareceu no painel</h4>
       <p>O painel atualiza sozinho a cada <b>30 minutos</b>. Espere e atualize a página
-      (no celular, puxe a tela para baixo).</p></div>
+      (no celular, puxe a tela para baixo). <b>Atenção:</b> só conta como enviado se você
+      viu a tela <b>"Sua resposta foi registrada"</b> — anexar a foto não envia o formulário,
+      é preciso chegar ao fim e clicar em <b>Enviar</b>.</p></div>
+      <div class="manual-card"><h4>Deu "Servidor rejeitado" ao anexar a foto</h4>
+      <p>Não é o tamanho da foto nem a internet: é a <b>conta Google do celular</b>. Contas
+      <b>escolares ou de empresa</b> bloqueiam o envio de arquivos para fora da organização.
+      Abra o formulário no <b>Chrome, em janela anônima</b>, e entre com sua <b>conta pessoal</b>.
+      Com pressa? Remova a foto (X) e envie assim mesmo — ela é opcional.</p></div>
+      <div class="manual-card"><h4>O formulário não deixa enviar</h4>
+      <p>Provavelmente está marcado <b>"Sim"</b> em <i>"Registrar OUTRA não conformidade nesta
+      mesma inspeção"</i>, e a descrição da NC 2 está esperando resposta. Volte e marque
+      <b>"Não"</b> se você tem só uma NC.</p></div>
       <div class="manual-card"><h4>Errei um dado no formulário</h4>
       <p>Não dá para editar o envio. Registre a correção usando a aba <b>Tratar NC</b>
       (com o número da NC) e escreva na observação o que estava errado.</p></div>
