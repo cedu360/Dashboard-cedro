@@ -40,6 +40,7 @@ Responsável: josiane
 Prazo: 13/08/2026
 Observação: Tipo: Condição Insegura | Gravidade potencial: Sem lesão
 Foto: fotos/18L9RCv3QIM9uce01TRh0QT_alIjsA_P_.jpg
+12/09/2026 08:00 - Anderson Magalhães: #INSPECAO Britagem 1 - tudo ok (via Forms)
 14/07/2026 07:50 - Daniele Coutinho: #INSPECAO Filtragem - tudo ok (via Forms)
 15/07/2026 09:15 - Anderson Magalhães: #NC
 Área: Britagem 1
